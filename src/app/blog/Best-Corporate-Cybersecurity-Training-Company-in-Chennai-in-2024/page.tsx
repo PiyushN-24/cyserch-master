@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import AI_ML_Pentest_Image from "../../../../public/images/card1.png";
-import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 
 export const metadata = {
@@ -11,8 +10,7 @@ export const metadata = {
 
 export default function CybersecurityTrainingChennaiPage() {
   return (
-    <>
-      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Best Corporate Cybersecurity Training Company in Chennai in 2024
         </h1>
@@ -191,6 +189,5 @@ export default function CybersecurityTrainingChennaiPage() {
         </p>
         <ContactUs />
       </div>
-    </>
   );
 }
