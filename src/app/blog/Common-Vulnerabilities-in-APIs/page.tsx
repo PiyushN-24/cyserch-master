@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import APIImage from "../../../../public/images/API.jpeg";
 
@@ -210,7 +209,6 @@ export default function APISecurityPage() {
           <li>Offer Developer Training: Provide training and resources for developers to securely implement and use APIs.</li>
           <li>Regularly Update Documentation: Keep API documentation up-to-date with the latest security practices and changes.</li>
         </ul>
-
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 mt-10">
           Best Practices for API Security
         </h2>
@@ -218,36 +216,36 @@ export default function APISecurityPage() {
           Regular Security Audits
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Regular security audits are essential for identifying and mitigating vulnerabilities in APIs. At Cyserch.com, we offer comprehensive security audit services to help you secure your APIs.
-          <Link href="/security-audits" legacyBehavior><a className="text-cyan-500">Learn more about our security audits here.</a></Link>
+          Regular security audits are essential for identifying and mitigating vulnerabilities in APIs. At Cyserch.com, we offer comprehensive security audit services to help you secure your APIs. 
+          <a href="/security-audits" className="text-cyan-500">Learn more about our security audits here.</a>
         </p>
         <h3 className="text-white text-lg sm:text-xl md:text-2xl font-semibold mb-2">
           Implementing Secure Authentication
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           Secure authentication is crucial for protecting API endpoints. Implementing multi-factor authentication, strong password policies, and secure session management practices can significantly enhance API security.
-          <Link href="/authentication-solutions" legacyBehavior><a className="text-cyan-500">Explore Cyserch’s authentication solutions here.</a></Link>
+          <a href="/authentication-solutions" className="text-cyan-500">Explore Cyserchs authentication solutions here.</a>
         </p>
         <h3 className="text-white text-lg sm:text-xl md:text-2xl font-semibold mb-2">
           Data Encryption and Masking
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           Encrypting sensitive data at rest and in transit is vital for protecting user information. Cyserch.com provides advanced encryption solutions to safeguard your data against unauthorized access.
-          <Link href="/encryption-services" legacyBehavior><a className="text-cyan-500">Discover more about our encryption services here.</a></Link>
+          <a href="/encryption-services" className="text-cyan-500">Discover more about our encryption services here.</a>
         </p>
         <h3 className="text-white text-lg sm:text-xl md:text-2xl font-semibold mb-2">
           Logging and Monitoring Enhancements
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           Enhancing logging and monitoring capabilities allows you to detect and respond to security incidents promptly. Cyserch.com offers state-of-the-art logging and monitoring solutions to keep your APIs secure.
-          <Link href="/monitoring-solutions" legacyBehavior><a className="text-cyan-500">Check out our monitoring solutions here.</a></Link>
+          <a href="/monitoring-solutions" className="text-cyan-500">Check out our monitoring solutions here.</a>
         </p>
         <h3 className="text-white text-lg sm:text-xl md:text-2xl font-semibold mb-2">
           Regular Patch Management
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           Keeping software and dependencies updated with the latest security patches is crucial for protecting against known vulnerabilities. Cyserch.com provides patch management services to ensure your APIs are always up to date.
-          <Link href="/patch-management" legacyBehavior><a className="text-cyan-500">Learn more about our patch management services here.</a></Link>
+          <a href="/patch-management" className="text-cyan-500">Learn more about our patch management services here.</a>
         </p>
 
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 mt-10">
@@ -258,14 +256,14 @@ export default function APISecurityPage() {
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           At Cyserch.com, we offer a range of API security solutions tailored to meet your specific needs. From security audits and penetration testing to implementation of secure authentication and encryption, we have you covered.
-          <Link href="/api-security-solutions" legacyBehavior><a className="text-cyan-500">Explore our API security solutions here.</a></Link>
+          <a href="/api-security-solutions" className="text-cyan-500">Explore our API security solutions here.</a>
         </p>
         <h3 className="text-white text-lg sm:text-xl md:text-2xl font-semibold mb-2">
           Tailored Security Audits and Testing
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           Our expert team at Cyserch.com conducts thorough security audits and penetration testing to identify and remediate vulnerabilities in your APIs. With our comprehensive testing, you can be confident in the security of your applications.
-          <Link href="/security-audits" legacyBehavior><a className="text-cyan-500">Get started with our security audits here.</a></Link>
+          <a href="/security-audits" className="text-cyan-500">Get started with our security audits here.</a>
         </p>
 
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 mt-10">
@@ -300,7 +298,7 @@ export default function APISecurityPage() {
           By understanding and addressing these common vulnerabilities, organizations can significantly enhance the security of their APIs and protect their applications from potential threats. Implementing these best practices and leveraging the expertise of cybersecurity professionals, like those at <a className="text-blue-500 hover:underline" href="https://www.cyserch.com/">Cyserch.com</a>, can help organizations stay ahead of the evolving threat landscape.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          For more information on API security and how Cyserch.com can help secure your applications, <Link href="/contact" legacyBehavior><a className="text-cyan-500">contact us today</a></Link>.
+          For more information on API security and how Cyserch.com can help secure your applications, <a href="/contact" className="text-cyan-500">contact us today</a>.
         </p>
       </div>
       <ContactUs />

@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import AI_ML_Pentest_Image from "../../../../public/images/card1.png";
-import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 
 export const metadata = {
@@ -35,9 +34,7 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         Cyserch.com has been a trusted name in cybersecurity solutions, known for its innovative approach and extensive experience in the field. With years of providing top-notch services and training, Cyserch.com is recognized for its excellence.
         <br/>
-        <Link legacyBehavior href="https://www.forbes.com/article-on-reputation-in-cybersecurity-training">
-        <a className="text-blue-500">Forbes article on the importance of reputation in cybersecurity training</a>
-      </Link>
+        <a href="https://www.forbes.com/article-on-reputation-in-cybersecurity-training" className="text-blue-500">Forbes article on the importance of reputation in cybersecurity training</a>
       </p>
       <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">Quality of Training Programs</h3>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -45,9 +42,7 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         According to a report by Global Knowledge, 82% of cybersecurity professionals believe that high-quality training directly enhances their job performance (Global Knowledge Cybersecurity Report).
         <br/>
-        <Link href="/training">
-        <a className="text-blue-500">Explore Cyserchs training programs</a>
-      </Link>      
+        <a href="/training" className="text-blue-500">Explore Cyserchs training programs</a>      
       </p>
 
       <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">Customer Reviews and Testimonials</h3>
@@ -151,9 +146,7 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         According to a client survey, 90% of organizations reported a significant improvement in their cybersecurity posture after training with Cyserch.com (Client Survey Report).
         <br/>
-        <Link href="/about">
-          <a className="text-blue-500">Read Cyserch's success stories</a>
-        </Link>
+          <a href="/about" className="text-blue-500">Read Cyserch's success stories</a>
       </p>
       </div><br/>
       <div className="bg-gray-800 rounded-lg p-4 text-white">
@@ -163,9 +156,7 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         A study found that organizations offering comprehensive training programs saw a 50% reduction in security incidents (Cybersecurity Training Study).
         <br/>
-        <Link href="/training">
-        <a className="text-blue-500">Browse Cyserchs comprehensive training programs</a>
-      </Link>
+        <a href="/training" className="text-blue-500">Browse Cyserchs comprehensive training programs</a>
       </p>
       </div><br/>
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">Conclusion</h2>

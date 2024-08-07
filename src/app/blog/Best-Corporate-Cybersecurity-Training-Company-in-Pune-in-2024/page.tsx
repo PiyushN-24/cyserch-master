@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import GraphImage from "../../../../public/images/Increase-in-Cyberattacks-Over-the-Past-5-Years.png";
 import SecImage from "../../../../public/images/security.png";
-import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 
 export const metadata = {
@@ -191,9 +190,7 @@ export default function CybersecurityTrainingPage() {
 
 
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          <Link href="https://www.cyserch.com/contactus" legacyBehavior>
-            <a className="text-blue-500 underline">Contact us</a>
-          </Link> today to learn more about our offerings and how we can help your organization stay secure.
+            <a href="https://www.cyserch.com/contactus" className="text-blue-500 underline">Contact us</a> today to learn more about our offerings and how we can help your organization stay secure.
         </p>
         <div className="mb-4">
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
