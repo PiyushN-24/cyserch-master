@@ -1,0 +1,67 @@
+import Image from "next/image";
+import Protection from "../../../../public/icons/Management.png";
+import CyberSecurity from "../../../../public/icons/Cyber Security.png";
+import Code from "../../../../public/icons/Code.png";
+import SourceCode from "../../../../public/icons/Source Code.png";
+import Website from "../../../../public/icons/Website.png";
+import HIPS from "../../../../public/icons/HIPS.png";
+
+export default function Industrys() {
+  return (
+    <div className="text-center mt-10 Industrys">
+      <h2 className="text-white text-[2.10rem] font-semibold fadeInUp2">
+        Trusted Across More Than <span className="text-[#19FFDB]">10 </span>
+        Industries Worldwide
+      </h2>
+      <div className="Industrys-boxs bg-[#011C3C] gap-20 flex container p-7 rounded-xl items-center justify-center mt-10 fadeInUp2">
+        <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
+          <Image width={60} height={60} src={Protection} alt="industry1" />
+          <span className="text-[white] text-[2rem] font-bold ">50+</span>
+          <span className="text-[#D9D9D9] text-[1rem] font-light">
+            Clients Protection
+          </span>
+        </div>
+
+        <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
+          <Image width={60} height={60} src={CyberSecurity} alt="industry1" />
+          <span className="text-[white] text-[2rem] font-bold ">500+</span>
+          <span className="text-[#D9D9D9] text-[1rem] font-light">
+            Pentests Done
+          </span>
+        </div>
+
+        <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
+          <Image width={60} height={60} src={Code} alt="industry1" />
+          <span className="text-[white] text-[2rem] font-bold ">300+</span>
+          <span className="text-[#D9D9D9] text-[1rem] font-light">
+            SAST Review
+          </span>
+        </div>
+
+        <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
+          <Image width={60} height={60} src={Website} alt="industry1" />
+          <span className="text-[white] text-[2rem] font-bold ">400+</span>
+          <span className="text-[#D9D9D9] text-[1rem] font-light">
+            DAST Review
+          </span>
+        </div>
+
+        <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
+          <Image width={60} height={60} src={HIPS} alt="industry1" />
+          <span className="text-[white] text-[2rem] font-bold ">200+</span>
+          <span className="text-[#D9D9D9] text-[1rem] font-light">
+            IAM Review
+          </span>
+        </div>
+
+        <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
+          <Image width={60} height={60} src={SourceCode} alt="industry1" />
+          <span className="text-[white] text-[2rem] font-bold ">100+</span>
+          <span className="text-[#D9D9D9] text-[1rem] font-light">
+            Manual Source Code Review
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}

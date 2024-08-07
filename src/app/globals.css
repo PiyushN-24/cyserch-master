@@ -1,0 +1,654 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fadeInUp {
+  animation: fadeInUp 2s;
+}
+
+.fadeInUp2 {
+  animation: fadeInUp 6s;
+}
+
+.fadeLeft {
+  animation: fadeInLeft 2s;
+}
+
+.fadeRight {
+  animation: fadeInRight 2s;
+}
+
+.fadeLeft2 {
+  animation: fadeInLeft 5s;
+}
+
+.fadeRight2 {
+  animation: fadeInRight 5s;
+}
+
+body {
+  background-color: #011631;
+  font-family: Inter;
+  overflow-x: hidden;
+}
+
+.div-boxs {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 90vh;
+  flex-direction: row;
+  width: 100%;
+  padding: 9rem;
+  gap: 100px;
+}
+
+.div-box1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+}
+
+.title {
+  color: #fff;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title-services {
+  color: #19ffdb;
+}
+
+.discription {
+  color: #a39d9d;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 3%;
+}
+
+.discription2 {
+  color: #a39d9d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 3%;
+}
+
+.btn {
+  border-radius: 0.3125rem;
+  background: #19ffdb;
+
+  width: 15rem;
+  height: 4rem;
+  flex-shrink: 0;
+
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-top: 8%;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #19ffdb;
+  border: 2px solid #19ffdb;
+}
+
+.div-box2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 90vh;
+  flex-direction: row;
+  width: 61%;
+  margin-right: -10rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .div-boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+    margin-top: 7%;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .discription {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  .div-box1 {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .div-box2 {
+    width: 100%;
+  }
+}
+
+/* Secend cards */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 2rem;
+  padding: 3rem 9rem;
+}
+
+.card {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 23.375rem;
+  min-height: 19rem;
+  border-radius: 0.625rem;
+  background: #011c3c;
+  padding: 3%;
+}
+
+.card-discription {
+  color: #a39d9d;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 7%;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 2rem;
+    margin-top: 40%;
+  }
+
+  .card {
+    width: 100%;
+    padding: 7%;
+    height: auto;
+    margin-top: -0.5rem;
+  }
+
+  .card-discription {
+    font-size: 1rem;
+  }
+}
+
+/* Why Choose Us */
+
+.WhyChooseUs {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  width: 100%;
+  padding: 3rem 9rem;
+}
+
+.div-1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 60%;
+}
+
+.div-2 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .WhyChooseUs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .div-1 {
+    width: 100%;
+    padding: 7%;
+    margin-top: -0.5rem;
+  }
+}
+
+/* Industrys */
+
+.Industrys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem 9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Industrys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .Industrys-boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    width: 80%;
+  }
+}
+
+/* Services */
+
+.Services {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Services-cards {
+  display: flex;
+  justify-content: space-between; /* Distributes items evenly in the line */
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 100%;
+  padding: 3rem 9rem;
+}
+
+.services-card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 0 25%;
+  width: 35rem;
+  height: auto;
+  border-radius: 0.625rem;
+  background: #011c3c;
+  padding: 1%;
+  text-align: center;
+}
+
+.read-more:hover {
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .Services {
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .Services-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .services-card {
+    width: 100%;
+    padding: 7%;
+    height: auto;
+    margin-top: -0.5rem;
+  }
+}
+
+/* Certifications */
+
+.Certifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 3rem 9rem;
+
+  background-color: #011c3c;
+}
+
+/* .certifications-img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.certifications-img:hover {
+  filter: grayscale(0%);
+} */
+
+.Certifications-div2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 15%;
+  }
+
+  .Certifications-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Certifications-div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 10%;
+  }
+
+  .certifications-img {
+    width: 30%;
+    /* padding: 7%; */
+    height: auto;
+    margin-top: -0.5rem;
+  }
+}
+
+/* Blogs */
+
+.Blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 9rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-between; /* Distributes items evenly in the line */
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 1rem;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  flex: 1 0 30%;
+  max-width: 25rem;
+  border-radius: 0.625rem;
+  padding: 2%;
+  background: #011c3c;
+  text-align: start;
+}
+
+.blog-image {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+@media screen and (max-width: 768px) {
+  .Blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .blog-card {
+    width: 100%;
+    padding: 7%;
+    height: auto;
+    margin-top: -0.5rem;
+  }
+
+  .blog-image {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+}
+
+/* Testimonials */
+
+.Testimonials {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding: 3rem 9rem;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.testimonial-card {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  min-height: 29rem;
+  border-radius: 0.625rem;
+  background: #011c3c;
+  padding: 3%;
+}
+
+.student-testimonial-card{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  min-height: 19rem;
+  border-radius: 0.625rem;
+  background: #011c3c;
+  padding: 3%;
+
+}
+
+@media screen and (max-width: 768px) {
+  .Testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .testimonial-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    padding: 7%;
+    height: auto;
+    margin-top: -0.5rem;
+  }
+}
+
+/* trainig   */
+
+.trainig-div-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainig-img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.TraningCourse {
+  text-align: center;
+  margin-top: 3%;
+}
+
+/* home clients */
+
+.clients {
+  margin-top: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .clients {
+    margin-top: 18%;
+    margin-bottom: -25%;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+/* Service  Cloud */
+
+.cloud-hero-img {
+  position: relative;
+  padding: 3rem 9rem;
+  height: 70vh;
+  z-index: -1;
+  background-image: url("../../public/images/cloud-security.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloud-hero-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cloud-hero__content {
+  color: white;
+  padding: 2rem 3rem;
+
+  position: absolute;
+  z-index: 1;
+  top: 15rem;
+  right: 7rem;
+
+  width: 50rem;
+  background-color: #011c3c;
+}
+
+.cloud-hero__title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 9rem;
+}
+
+.btn-2 {
+  border-radius: 0.3125rem;
+  background: #19ffdb;
+
+  width: 15rem;
+  height: 3rem;
+  flex-shrink: 0;
+
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-top: 8%;
+}
+
+.btn-2:hover {
+  background: transparent;
+  color: #19ffdb;
+  border: 2px solid #19ffdb;
+}
+
+/* Service  Cloud */
+
+.clintCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}

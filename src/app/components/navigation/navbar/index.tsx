@@ -1,0 +1,219 @@
+import React, { useState } from "react";
+import Link from "next/link";
+import Logo from "./Logo";
+
+const Navbar = ({ toggle }: { toggle: () => void }) => {
+  const [activeLink, setActiveLink] = useState<string | null>(null);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(false);
+
+  const handleLinkClick = (link: string) => {
+    setActiveLink(link);
+    if (link.includes("/services")) {
+      setActiveDropdown(true);
+    } else {
+      setActiveDropdown(false);
+    }
+    setShowDropdown(false);
+  };
+
+  const toggleDropdown = () => {
+    setShowDropdown(!showDropdown);
+  };
+
+  return (
+    <>
+      <div className="w-full h-20">
+        <div className="container mx-auto px-8 h-full">
+          <div className="flex justify-between justify-items-center items-center h-full">
+            <Logo />
+            <button
+              type="button"
+              className="inline-flex items-center md:hidden"
+              onClick={toggle}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#fff"
+                  d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"
+                />
+              </svg>
+            </button>
+            <ul className="hidden md:flex gap-x-8 text-white text-[1.1rem]">
+              <li>
+                <Link href="/">
+                  <p
+                    className={
+                      activeLink === "/" ? "text-[#19FFDB]" : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/")}
+                  >
+                    Home
+                  </p>
+                </Link>
+              </li>
+              <li>
+                <div className="relative">
+                  <p
+                    className={`cursor-pointer ${
+                      activeDropdown ? "text-[#19FFD8]" : ""
+                    }`}
+                    onClick={toggleDropdown}
+                  >
+                    Services
+                  </p>
+                  {showDropdown && (
+                    <ul className="absolute top-full w-[13rem] pl-4 left-0 opacity-95 bg-gray-800 text-white py-2 rounded">
+                      <li className="mb-2">
+                        <Link href="/services/cloud-security">
+                          <p
+                            className="hover:text-[#19FFDB]"
+                            onClick={() =>
+                              handleLinkClick("/services/cloud-security")
+                            }
+                          >
+                            Cloud Security
+                          </p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/web-security">
+                          <p
+                            className="hover:text-[#19FFDB]"
+                            onClick={() =>
+                              handleLinkClick("/services/web-security")
+                            }
+                          >
+                            Web Security
+                          </p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/api-security">
+                          <p
+                            className="hover:text-[#19FFDB]"
+                            onClick={() =>
+                              handleLinkClick("/services/api-security")
+                            }
+                          >
+                            API Security
+                          </p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/mobile-security">
+                          <p
+                            className="hover:text-[#19FFDB]"
+                            onClick={() =>
+                              handleLinkClick("/services/mobile-security")
+                            }
+                          >
+                            Mobile Security
+                          </p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/network-security">
+                          <p
+                            className="hover:text-[#19FFDB]"
+                            onClick={() =>
+                              handleLinkClick("/services/network-security")
+                            }
+                          >
+                            Network Security
+                          </p>
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
+                </div>
+              </li>
+              <li>
+                <Link href="/training">
+                  <p
+                    className={
+                      activeLink === "/training"
+                        ? "text-[#19FFDB]"
+                        : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/training")}
+                  >
+                    Training
+                  </p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/about">
+                  <p
+                    className={
+                      activeLink === "/about" ? "text-[#19FFDB]" : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/about")}
+                  >
+                    About Us
+                  </p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog">
+                  <p
+                    className={
+                      activeLink === "/blog" ? "text-[#19FFDB]" : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/blog")}
+                  >
+                    Blog
+                  </p>
+                </Link>
+              </li>
+              {/* <li>
+                <Link href="/contactus">
+                  <p
+                    className={
+                      activeLink === "/contactus"
+                        ? "text-[#19FFDB]"
+                        : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/contactus")}
+                  >
+                    Contacts
+                  </p>
+                </Link>
+              </li> */}
+
+{/*  */}
+
+
+<li>
+                <Link href="/contactus">
+                  <p
+                    className={
+                      activeLink === "/contactus" ? "text-[#19FFDB]" : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/contactus")}
+                  >
+                    Contact Us
+                  </p>
+                </Link>
+              </li>
+
+
+
+
+
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Navbar;
