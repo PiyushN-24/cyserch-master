@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import CyserchImage from "../../../../public/images/blog1-topimgge.png";
-import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Fin1 from "../../../../public/images/Fintech_1.png";
 import Fin2 from "../../../../public/images/Fintech_2.png";
@@ -13,8 +11,7 @@ export const metadata = {
 
 export default function FintechCybersecurityPage() {
   return (
-    <>
-      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Best Cybersecurity Company for Fintech: Why Cyserch Security Stands Out
         </h1>
@@ -613,7 +610,6 @@ export default function FintechCybersecurityPage() {
 
         <ContactUs />
       </div>
-    </>
   );
 }
 

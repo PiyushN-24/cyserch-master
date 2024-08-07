@@ -11,8 +11,7 @@ export const metadata = {
 
 export default function CybersecurityTrainingPage() {
   return (
-    <>
-      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Best Corporate Cybersecurity Training Company in Hyderabad in 2024
         </h1>
@@ -172,6 +171,5 @@ export default function CybersecurityTrainingPage() {
         
         <ContactUs />
       </div>
-    </>
   );
 }
