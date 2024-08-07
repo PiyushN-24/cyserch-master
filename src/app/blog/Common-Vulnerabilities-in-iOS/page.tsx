@@ -11,8 +11,7 @@ export const metadata = {
 
 export default function CommonIOSVulnerabilitiesPage() {
   return (
-    <>
-      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Common Vulnerabilities in iOS
         </h1>
@@ -26,7 +25,7 @@ export default function CommonIOSVulnerabilitiesPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          In today’s fast-paced digital world, securing mobile devices is more crucial than ever. iOS, Apple's mobile operating system, is renowned for its robust security features. However, like any system, it is not immune to vulnerabilities. In this blog, I’ll explore common vulnerabilities in iOS, how they impact users, and how you can protect yourself with the help of Cyserch.com’s cutting-edge solutions.
+          In todays fast-paced digital world, securing mobile devices is more crucial than ever. iOS, Apple's mobile operating system, is renowned for its robust security features. However, like any system, it is not immune to vulnerabilities. In this blog, Ill explore common vulnerabilities in iOS, how they impact users, and how you can protect yourself with the help of Cyserch.coms cutting-edge solutions.
         </p>
         <div className="bg-gray-800 rounded-lg p-4">
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -87,7 +86,7 @@ export default function CommonIOSVulnerabilitiesPage() {
           Phishing and Social Engineering Attacks
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Phishing attacks often target iOS users through deceptive emails or messages, tricking them into revealing personal information. Social engineering tactics can further exploit users’ trust.
+          Phishing attacks often target iOS users through deceptive emails or messages, tricking them into revealing personal information. Social engineering tactics can further exploit users trust.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           To protect against phishing, consider reading this comprehensive guide on phishing prevention.
@@ -99,7 +98,7 @@ export default function CommonIOSVulnerabilitiesPage() {
           Older iOS versions may lack the latest security patches, leaving devices vulnerable to known exploits. Regular updates are crucial for maintaining security.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Apple frequently releases updates to address security issues. For information on the latest updates, refer to <Link href="https://support.apple.com/en-us/HT201222"><span className="text-blue-500">Apple’s security updates page</span></Link>.
+          Apple frequently releases updates to address security issues. For information on the latest updates, refer to <Link href="https://support.apple.com/en-us/HT201222"><span className="text-blue-500">Apples security updates page</span></Link>.
         </p>
         <div className="bg-gray-800 rounded-lg p-4">       
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -137,7 +136,7 @@ export default function CommonIOSVulnerabilitiesPage() {
           Case Study 1: The XcodeGhost Incident
         </h4>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          In 2015, malicious code embedded in XcodeGhost, a compromised version of Apple’s development tool, led to a widespread attack affecting many iOS apps. This incident highlighted the risks associated with third-party tools and the importance of vetting development resources.
+          In 2015, malicious code embedded in XcodeGhost, a compromised version of Apples development tool, led to a widespread attack affecting many iOS apps. This incident highlighted the risks associated with third-party tools and the importance of vetting development resources.
         </p>
         <h4 className="text-white text-lg sm:text-xl md:text-xl font-semibold mb-2">
           Case Study 2: The Pegasus Spyware
@@ -152,7 +151,7 @@ export default function CommonIOSVulnerabilitiesPage() {
           Cyserch.com has been at the forefront of addressing iOS security challenges. Our solutions have helped numerous organizations fortify their mobile security posture and prevent breaches.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Read about our success stories and how we’ve helped clients protect their iOS environments on our <Link href="https://www.cyserch.com/about"><span className="text-blue-500">case studies page</span></Link>.
+          Read about our success stories and how weve helped clients protect their iOS environments on our <Link href="https://www.cyserch.com/about"><span className="text-blue-500">case studies page</span></Link>.
         </p>
         <div className="bg-gray-800 rounded-lg p-4">
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -174,7 +173,7 @@ export default function CommonIOSVulnerabilitiesPage() {
           Apple continuously innovates to enhance iOS security. Features like improved biometric authentication and enhanced encryption protocols are examples of ongoing advancements.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Stay updated on the latest innovations by visiting <Link href="https://www.apple.com/business/docs/iOS_Security_Guide.pdf"><span className="text-blue-500">Apple’s security page</span></Link>.
+          Stay updated on the latest innovations by visiting <Link href="https://www.apple.com/business/docs/iOS_Security_Guide.pdf"><span className="text-blue-500">Apples security page</span></Link>.
         </p>
         </div>
         <br />
@@ -207,6 +206,5 @@ export default function CommonIOSVulnerabilitiesPage() {
         </p>
         <ContactUs />
       </div>
-    </>
   );
 }

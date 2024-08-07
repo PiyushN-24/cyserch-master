@@ -11,8 +11,7 @@ export const metadata = {
 
 export default function WebVulnerabilitiesPage() {
   return (
-    <>
-      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Common Vulnerabilities in Web Applications
         </h1>
@@ -198,7 +197,7 @@ export default function WebVulnerabilitiesPage() {
           Regular Security Audits
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Conduct regular security audits to identify and address vulnerabilities in your web applications. Use automated tools like <Link href="https://cyserch.com/services/web-security" legacyBehavior><a className="text-blue-500">Cyserch.com’s security Web-audit services</a></Link> for comprehensive assessments.
+          Conduct regular security audits to identify and address vulnerabilities in your web applications. Use automated tools like <Link href="https://cyserch.com/services/web-security" className="text-blue-500" legacyBehavior>Cyserch.com security Web-audit services</Link> for comprehensive assessments.
         </p>
         <h2 className="text-white text-xl sm:text-xl md:text-2xl font-bold mb-4">
           Implementing Strong Access Controls
@@ -231,7 +230,7 @@ export default function WebVulnerabilitiesPage() {
               <strong>Background:</strong> A leading e-commerce platform faced frequent security threats.
             </p>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-              <strong>Solution:</strong> <Link href="https://cyserch.com" legacyBehavior><a className="text-blue-500">Cyserch.com</a></Link> conducted a comprehensive security audit and implemented robust security measures.
+              <strong>Solution:</strong> <Link href="https://cyserch.com" className="text-blue-500" legacyBehavior>Cyserch.com</Link> conducted a comprehensive security audit and implemented robust security measures.
             </p>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               <strong>Outcome:</strong> The company saw a 90% reduction in security incidents and increased customer trust.
@@ -245,7 +244,7 @@ export default function WebVulnerabilitiesPage() {
               <strong>Background:</strong> A financial institution needed to enhance data protection.
             </p>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-              <strong>Solution:</strong> <Link href="https://cyserch.com" legacyBehavior><a className="text-blue-500">Cyserch.com</a></Link> provided encryption solutions and conducted regular security assessments.
+              <strong>Solution:</strong> <Link href="https://cyserch.com" className="text-blue-500" legacyBehavior>Cyserch.com</Link> provided encryption solutions and conducted regular security assessments.
             </p>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               <strong>Outcome:</strong> Data breaches were eliminated, and compliance with industry standards was achieved.
@@ -258,11 +257,11 @@ export default function WebVulnerabilitiesPage() {
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           At Cyserch Security, we are dedicated to helping businesses secure their web applications against common vulnerabilities. Our comprehensive security solutions, including{" "}
-          <Link href="/services/cloud-security" legacyBehavior><a className="text-blue-500">Cloud Security</a></Link>,{" "}
-          <Link href="/services/web-security" legacyBehavior><a className="text-blue-500">Web Security</a></Link>,{" "}
-          <Link href="/services/api-security" legacyBehavior><a className="text-blue-500">API Security</a></Link>,{" "}
-          <Link href="/services/network-security" legacyBehavior><a className="text-blue-500">Network Security</a></Link>,{" "}
-          <Link href="/services/mobile-security" legacyBehavior><a className="text-blue-500">Mobile Security</a></Link>, are designed to protect your digital assets and ensure the safety of your users.
+          <Link href="/services/cloud-security" className="text-blue-500" legacyBehavior>Cloud Security</Link>,
+          <Link href="/services/web-security" className="text-blue-500" legacyBehavior>Web Security</Link>,
+          <Link href="/services/api-security" className="text-blue-500" legacyBehavior>API Security</Link>,
+          <Link href="/services/network-security" className="text-blue-500" legacyBehavior>Network Security</Link>,
+          <Link href="/services/mobile-security" className="text-blue-500" legacyBehavior>Mobile Security</Link>, are designed to protect your digital assets and ensure the safety of your users.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           Contact us today to learn more about how we can help you secure your web applications and stay ahead of evolving threats.
@@ -272,7 +271,7 @@ export default function WebVulnerabilitiesPage() {
           Conclusion
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Securing web applications is a continuous process that requires vigilance and the right tools. The common vulnerabilities highlighted in this blog can have severe consequences if left unaddressed. At <Link href="https://cyserch.com" legacyBehavior><a className="text-blue-500">Cyserch.com</a></Link>, we provide top-tier security solutions to help you safeguard your web applications.
+          Securing web applications is a continuous process that requires vigilance and the right tools. The common vulnerabilities highlighted in this blog can have severe consequences if left unaddressed. At <Link href="https://cyserch.com" className="text-blue-500" legacyBehavior>Cyserch.com</Link>, we provide top-tier security solutions to help you safeguard your web applications.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           FAQs
@@ -302,6 +301,5 @@ export default function WebVulnerabilitiesPage() {
           </p>
         </div>
       </div>
-    </>
   );
 }
