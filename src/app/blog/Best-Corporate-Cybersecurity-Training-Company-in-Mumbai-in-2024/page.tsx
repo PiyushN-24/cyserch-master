@@ -45,7 +45,7 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         According to a report by Global Knowledge, 82% of cybersecurity professionals believe that high-quality training directly enhances their job performance (Global Knowledge Cybersecurity Report).
         <br/>
-        <Link legacyBehavior href="https://www.cyserch.com/training">
+        <Link href="/training">
         <a className="text-blue-500">Explore Cyserchs training programs</a>
       </Link>      
       </p>
@@ -56,9 +56,13 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         A recent survey found that companies with high customer satisfaction ratings in training programs experience a 40% increase in employee engagement (Training Magazine Survey).
         <br/>
-        <Link legacyBehavior href="https://www.cyserch.com/about">
-        <a className="text-blue-500">Read Cyserchs customer testimonials</a>
-      </Link>
+        <button 
+          onClick={() => window.location.href='/about'} 
+          className="text-blue-500 underline"
+          >
+          Read Cyserch's customer testimonials
+        </button>
+
       </p>
 
       <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">Support and Resources</h3>
@@ -147,9 +151,9 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         According to a client survey, 90% of organizations reported a significant improvement in their cybersecurity posture after training with Cyserch.com (Client Survey Report).
         <br/>
-        <Link legacyBehavior href="https://www.cyserch.com/about">
-        <a className="text-blue-500">Read Cyserchs success stories</a>
-      </Link>
+        <Link href="/about">
+          <a className="text-blue-500">Read Cyserch's success stories</a>
+        </Link>
       </p>
       </div><br/>
       <div className="bg-gray-800 rounded-lg p-4 text-white">
@@ -159,7 +163,7 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         A study found that organizations offering comprehensive training programs saw a 50% reduction in security incidents (Cybersecurity Training Study).
         <br/>
-        <Link legacyBehavior href="https://www.cyserch.com/training">
+        <Link href="/training">
         <a className="text-blue-500">Browse Cyserchs comprehensive training programs</a>
       </Link>
       </p>
