@@ -459,4 +459,24 @@ export const blogData = [
     description: "Blog description here.",
     link: "Best-Corporate-Cybersecurity-Training-Company-in-Hyderabad-in-2024",
   },
+
+  {
+    id: 52,
+    title: "Safe & Secure Coding Best Practices 2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/card2.png",
+    description: "Blog description here.",
+    link: "Safe-&-Secure-Coding-Best-Practices-2024",
+  },
+
+  {
+    id: 53,
+    title: "Java-Safe-&-Secure-Coding-Best-Practices-2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/card2.png",
+    description: "Blog description here.",
+    link: "Java-Safe-&-Secure-Coding-Best-Practices-2024",
+  },
 ];
+
+

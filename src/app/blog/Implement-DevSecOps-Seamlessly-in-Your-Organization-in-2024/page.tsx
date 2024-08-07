@@ -93,8 +93,8 @@ export default function DevSecOpsPage() {
           significant cost savings. Identifying and addressing security
           vulnerabilities early in the development process helps avoid costly
           fixes and penalties associated with data breaches and compliance
-          failures. Implementing our <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Cloud Security</a>, <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Web Security</a>, <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">API Security</a>,
-          <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Mobile Security</a>, and <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Network Security</a> services can significantly.
+          failures. Implementing our <Link href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Cloud Security</Link>, <Link href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Web Security</Link>, <Link href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">API Security</Link>,
+          <Link href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Mobile Security</Link>, and <Link href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Network Security</Link> services can significantly.
           reduce costs.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
