@@ -1,8 +1,6 @@
 
 import React from "react";
 import Image from "next/image";
-import CyserchImage from "../../../../public/images/blog1-topimgge.png";
-import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Card1 from "../../../../public/images/Comparative Analysis of Company.png";
 
