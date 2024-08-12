@@ -12,8 +12,7 @@ export const metadata = {
 
 export default function CEHInstitutesPage() {
   return (
-    <>
-      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 Institutes for CEH in Hyderabad
         </h1>
@@ -180,7 +179,5 @@ export default function CEHInstitutesPage() {
         </p>
         <ContactUs />
       </div>
-      
-    </>
   );
 }

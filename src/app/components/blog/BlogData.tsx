@@ -477,6 +477,36 @@ export const blogData = [
     description: "Blog description here.",
     link: "Java-Safe-&-Secure-Coding-Best-Practices-2024",
   },
+
+  {
+    id: 54,
+    title: "Secure Code Best Practices for React 2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/card2.png",
+    description: "Blog description here.",
+    link: "Secure-Code-Best-Practices-for-React-2024",
+  },
+
+  {
+    id: 55,
+    title: "Best Corporate Cybersecurity Training Companies in the USA in 2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/card2.png",
+    description: "Blog description here.",
+    link: "Best-Corporate-Cybersecurity-Training-Companies-in-the-USA-in-2024",
+  },
+
+  {
+    id: 55,
+    title: "Best Corporate Cybersecurity Training Companies in the Australia in 2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/card2.png",
+    description: "Blog description here.",
+    link: "Best-Corporate-Cybersecurity-Training-Companies-in-the-Australia-in-2024",
+  },
+
+   
+  
 ];
 
 

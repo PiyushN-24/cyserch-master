@@ -12,8 +12,7 @@ export const metadata = {
 
 export default function CybersecurityCompaniesPage() {
   return (
-    <>
-      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4 bg-gray-900 text-white">
+    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4 bg-gray-900 text-white">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 Cybersecurity Companies in Canada: Your Guide to Secure Solutions in 2024
         </h1>
@@ -288,6 +287,5 @@ export default function CybersecurityCompaniesPage() {
         </p>
         <ContactUs />
       </div>
-    </>
   );
 }
