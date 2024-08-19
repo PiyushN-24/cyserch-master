@@ -1,8 +1,7 @@
 
 import React from "react";
 import Image from "next/image";
-import CyserchImage from "../../../../public/images/blog1-topimgge.png";
-import Link from "next/link";
+import Card1 from "../../../../public/images/blog1-topimgge.png";
 import ContactUs from "@/app/components/home/contactus";
 import Sin1 from "../../../../public/images/Singapore.png";
 import Sin2 from "../../../../public/images/Singapore_2.png";
@@ -14,13 +13,11 @@ export const metadata = {
 
 export default function CybersecurityCompaniesPage() {
   return (
-    <>
-      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 Cybersecurity Companies in Singapore in 2024
         </h1>
-
-          {/* <div className="flex justify-center mb-4 w-full">
+        <div className="flex justify-center mb-4 w-full">
             <Image
               src={Card1}
               width={600}
@@ -28,54 +25,50 @@ export default function CybersecurityCompaniesPage() {
               alt="Top 10 Cybersecurity Companies in Singapore in 2024"
               className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
             />
-          </div> */}
-
+        </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          In todays digital age, cybersecurity has become paramount. As businesses in Singapore continue to digitize, the threat landscape has evolved, necessitating robust cybersecurity measures. Singapores commitment to becoming a global cybersecurity hub is evident, and the role of top cybersecurity companies is crucial in safeguarding enterprises from cyber threats.
+        In an era where digital transformation is both a blessing and a challenge, the need for robust cybersecurity has never been more critical. Singapore, a global financial and technological powerhouse, stands at the forefront of this digital age. With its ambitious goal to be a global cybersecurity hub, the city-state has seen a surge in the demand for top-tier cybersecurity solutions. This post highlights the top 10 cybersecurity companies in Singapore in 2024, each playing a vital role in protecting businesses from the ever-evolving threat landscape.
         </p>
-
         <br />
-
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-          Overview of Singapore’s Cybersecurity Landscape
+          Understanding Singapore’s Cybersecurity Landscape
         </h2>
-
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          Singapore is a leading financial and technological hub, making it a prime target for cybercriminals. The government has implemented stringent regulations and initiatives, such as the Cybersecurity Act, to enhance the nation’s cybersecurity posture. Businesses must align with these regulations to protect their assets and data. For more details on Singapores cybersecurity strategies, you can visit the <a href="https://www.csa.gov.sg" className="text-blue-500">CSA website</a>.
+        Singapore's position as a leading financial center and technology hub makes it a prime target for cyberattacks. The government's proactive stance on cybersecurity, demonstrated by initiatives like the Cybersecurity Act, reflects the country's commitment to securing its digital infrastructure. Businesses in Singapore are expected to adhere to stringent regulations, ensuring that they not only protect their own assets but also contribute to the broader cybersecurity ecosystem. 
+        <br/>
+        For more details on Singapores cybersecurity strategies, you can visit the <a href="https://www.csa.gov.sg" className="text-blue-500">CSA website</a>.
         </p>
-
         <br />
-
+        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+         As a decision-maker in your organization, staying informed about the top players in the cybersecurity industry is essential. These companies not only offer advanced protection but also ensure compliance with local regulations, making them invaluable partners in your cybersecurity journey.
+        </p>
+        <br/>
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           Criteria for Selecting Top Cybersecurity Companies
         </h2>
-
+        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+        Choosing the right cybersecurity partner is crucial. Here are the key criteria that guided the selection of the top 10 companies:
+        </p>
         <ul className="list-disc list-inside space-y-2 mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          <li>Market Presence and Reputation: How established the company is in the industry.</li>
-          <li>Range of Services Offered: The variety of cybersecurity solutions provided.</li>
-          <li>Innovation and Technology: Adoption of cutting-edge technologies.</li>
-          <li>Customer Reviews and Testimonials: Feedback from clients.</li>
-          <li>Industry Recognition and Awards: Accolades and certifications from reputable bodies.</li>
+          <li>Market Presence and Reputation: Established track record and industry recognition.</li>
+          <li>Range of Services Offered: Comprehensive cybersecurity solutions tailored to various needs.</li>
+          <li>Innovation and Technology: Adoption of cutting-edge technologies like AI and machine learning.</li>
+          <li>Customer Reviews and Testimonials: Positive feedback and case studies from clients.</li>
+          <li>Industry Recognition and Awards: Certifications and accolades from reputable bodies.</li>
         </ul>
-
-        <br />
-
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           The Top 10 Cybersecurity Companies in Singapore in 2024
         </h2>
-
-        <ol className="list-decimal text-2xl space-y-6 mb-6 text-white">
-          <li>
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              Cyserch Security
+              1. Cyserch Security
             </h3>
-            <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
               Services Offered
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
-                <p className="text-sm font-light mb-2">
+                <h3 className="text-xl font-semibold mb-2 text-white">Cloud Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
                   Comprehensive protection for cloud infrastructures to prevent unauthorized access and data breaches.
                 </p>
                 <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">
@@ -83,8 +76,8 @@ export default function CybersecurityCompaniesPage() {
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Web Security</h3>
-                <p className="text-sm font-light mb-2">
+                <h3 className="text-xl font-semibold mb-2 text-white">Web Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
                   Protect your web applications from common threats like SQL injection, cross-site scripting, and more.
                 </p>
                 <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">
@@ -92,8 +85,8 @@ export default function CybersecurityCompaniesPage() {
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">API Security</h3>
-                <p className="text-sm font-light mb-2">
+                <h3 className="text-xl font-semibold mb-2 text-white">API Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
                   Secure your APIs from malicious attacks and ensure safe communication between services.
                 </p>
                 <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">
@@ -101,8 +94,8 @@ export default function CybersecurityCompaniesPage() {
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Network Security</h3>
-                <p className="text-sm font-light mb-2">
+                <h3 className="text-xl font-semibold mb-2 text-white">Network Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
                   Protect your network infrastructure from intrusions and ensure secure data transmission.
                 </p>
                 <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">
@@ -110,8 +103,8 @@ export default function CybersecurityCompaniesPage() {
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
-                <p className="text-sm font-light mb-2">
+                <h3 className="text-xl font-semibold mb-2 text-white">Mobile Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
                   Ensure the security of mobile applications and protect against threats on mobile devices.
                 </p>
                 <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">
@@ -119,8 +112,8 @@ export default function CybersecurityCompaniesPage() {
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">DevSecOps</h3>
-                <p className="text-sm font-light mb-2">
+                <h3 className="text-xl font-semibold mb-2 text-white">DevSecOps</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
                   Integrate security into your DevOps process to ensure continuous security throughout the development lifecycle.
                 </p>
                 <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
@@ -128,299 +121,266 @@ export default function CybersecurityCompaniesPage() {
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Cybersecurity Training</h3>
-                <p className="text-sm font-light mb-2">
-                  Provide comprehensive training programs to enhance your teams cybersecurity skills.
+                <h3 className="text-xl font-semibold mb-2 text-white">Cybersecurity Training</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Provide comprehensive training programs to enhance your team’s cybersecurity skills.
                 </p>
                 <a href="https://www.cyserch.com/training" className="text-blue-500 hover:underline">
                   Learn more
                 </a>
               </div>
             </div>
-            <ContactUs />
-          </li>
-          <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              Ensign InfoSecurity
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 mt-6 text-white">
+              Why They Stand Out ?
             </h3>
-            <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              Cyserch Security is known for its comprehensive approach to cybersecurity, integrating advanced technologies into every aspect of their service offerings. Their customer-centric focus and commitment to continuous improvement have earned them a reputation as the go-to cybersecurity provider in Singapore.
+            </p>
+            <ContactUs />
+            <br/> 
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              2. Ensign InfoSecurity
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              As one of Asia’s largest cybersecurity firms, Ensign InfoSecurity offers unparalleled threat intelligence services. Their expertise in incident response ensures that businesses can swiftly recover from breaches, minimizing downtime and financial losses.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
               Services Offered
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Threat Intelligence</h3>
-                <p className="text-sm font-light mb-2">
-                  Provide real-time threat intelligence to identify and mitigate potential threats.
+                <h3 className="text-xl font-semibold mb-2 text-white">Threat Intelligence</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  In-depth analysis and insights to identify and mitigate potential threats.
                 </p>
-                <a href="https://www.ensigninfosecurity.com/services/threat-intelligence" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Incident Response</h3>
-                <p className="text-sm font-light mb-2">
-                  Offer rapid incident response services to contain and resolve security incidents.
+                <h3 className="text-xl font-semibold mb-2 text-white">Incident Response</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Swift recovery from breaches to minimize downtime and financial losses.
                 </p>
-                <a href="https://www.ensigninfosecurity.com/services/incident-response" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
               </div>
-              
-          </div>
-        </li>
-        <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            ST Engineering
-          </h3>
-          <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-            Services Offered
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Managed Security Services</h3>
-              <p className="text-sm font-light mb-2">
-                Provide comprehensive managed security services to protect your business from cyber threats.
-              </p>
-              <a href="https://www.stengg.com/cybersecurity/managed-security-services" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Managed Security Services</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Comprehensive management of security operations to protect your business.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Cybersecurity Consulting</h3>
-              <p className="text-sm font-light mb-2">
-                Offer expert consulting services to help you develop and implement effective cybersecurity strategies.
-              </p>
-              <a href="https://www.stengg.com/cybersecurity/consulting" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+            <br/>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              3. ST Engineering
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              With a strong focus on compliance and regulation, ST Engineering helps businesses navigate the complex cybersecurity landscape. Their managed services offer peace of mind, ensuring that your security infrastructure is always up to date.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
+              Services Offered
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Managed Security Services</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Comprehensive management of security infrastructure to ensure up-to-date protection.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Cybersecurity Consulting</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Expert advice and strategies to navigate the complex cybersecurity landscape.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Compliance Services</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Assistance with meeting regulatory requirements and maintaining compliance.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Compliance Services</h3>
-              <p className="text-sm font-light mb-2">
-                Ensure compliance with local and international cybersecurity regulations.
-              </p>
-              <a href="https://www.stengg.com/cybersecurity/compliance-services" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+            <br/>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              4. Horangi Cyber Security
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              Horangi is renowned for its penetration testing services, helping businesses identify vulnerabilities before they can be exploited. Their hands-on approach to cybersecurity training empowers teams to handle threats proactively.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
+              Services Offered
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Penetration Testing</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Identify and address vulnerabilities before they can be exploited.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Cybersecurity Training</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Hands-on training to empower teams to handle threats proactively.
+                </p>
+              </div>
             </div>
-          </div>
-        </li>
-        <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            Horangi Cyber Security
-          </h3>
-          <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-            Services Offered
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Penetration Testing</h3>
-              <p className="text-sm font-light mb-2">
-                Conduct thorough penetration testing to identify and address vulnerabilities.
-              </p>
-              <a href="https://www.horangi.com/services/penetration-testing" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+            <br/>        
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              5. Palo Alto Networks
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              Palo Alto Networks is a global leader in network security, offering advanced firewall and endpoint protection solutions that are trusted by businesses worldwide.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
+              Services Offered
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Firewall Solutions</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Advanced firewall solutions to protect your network from unauthorized access.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Endpoint Protection</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Comprehensive protection for endpoints to prevent malware and data breaches.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Cybersecurity Training</h3>
-              <p className="text-sm font-light mb-2">
-                Provide training programs to enhance your team’s cybersecurity skills.
-              </p>
-              <a href="https://www.horangi.com/services/cybersecurity-training" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+            <br/>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              6. Check Point Software Technologies
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              Check Point is known for its innovative threat prevention technologies, which help businesses stay ahead of emerging threats. Their mobile security solutions are particularly popular in today’s increasingly mobile-driven world.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
+              Services Offered
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Threat Prevention</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Innovative technologies to stay ahead of emerging threats.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Mobile Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Protect mobile devices and applications from various threats.
+                </p>
+              </div>
             </div>
-          </div>
-        </li>
-        <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            Palo Alto Networks
-          </h3>
-          <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-            Services Offered
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Firewall Solutions</h3>
-              <p className="text-sm font-light mb-2">
-                Offer advanced firewall solutions to protect your network from threats.
-              </p>
-              <a href="https://www.paloaltonetworks.com/network-security" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+            <br/>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              7. Trend Micro
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              Trend Micro offers robust cloud security solutions that protect businesses as they scale their cloud operations. Their network defense capabilities ensure that your entire IT environment is secure.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
+              Services Offered
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Cloud Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Robust solutions to protect businesses as they scale their cloud operations.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Network Defense</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Comprehensive defense strategies to secure your entire IT environment.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Endpoint Protection</h3>
-              <p className="text-sm font-light mb-2">
-                Ensure comprehensive endpoint protection to secure your devices.
-              </p>
-              <a href="https://www.paloaltonetworks.com/cybersecurity" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+            <br/>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              8. FireEye
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              FireEye’s expertise in managed defense services makes them a trusted partner for businesses that require constant monitoring and quick responses to threats.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
+              Services Offered
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Managed Defense</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Constant monitoring and quick responses to emerging threats.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Threat Intelligence</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  In-depth threat intelligence to help prevent and respond to attacks.
+                </p>
+              </div>
             </div>
-          </div>
-        </li>
-        <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            Check Point Software Technologies
-          </h3>
-          <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-            Services Offered
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Threat Prevention</h3>
-              <p className="text-sm font-light mb-2">
-                Provide advanced threat prevention solutions to detect and stop attacks.
-              </p>
-              <a href="https://www.checkpoint.com/threat-prevention" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+            <br/>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              9. Symantec
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              Symantec provides comprehensive endpoint and web security solutions that protect businesses from a wide range of cyber threats.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
+              Services Offered
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Endpoint Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Comprehensive protection for endpoints to prevent malware and data breaches.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Web Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Protect your web applications from a wide range of cyber threats.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
-              <p className="text-sm font-light mb-2">
-                Secure mobile devices with comprehensive mobile security solutions.
-              </p>
-              <a href="https://www.checkpoint.com/mobile-security" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
+            <br/>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+              10. IBM Security
+            </h3>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+              IBM Security leverages its extensive experience in security intelligence to offer solutions that are both powerful and scalable, making them a preferred choice for large enterprises.
+            </p>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
+              Services Offered
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Security Intelligence</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Powerful solutions leveraging extensive experience in security intelligence.
+                </p>
+              </div>
+              <div className="bg-gray-800 rounded-lg p-4">
+                <h3 className="text-xl font-semibold mb-2 text-white">Cloud Security</h3>
+                <p className="text-sm font-light mb-2 text-gray-300">
+                  Scalable cloud security solutions for large enterprises.
+                </p>
+              </div>
             </div>
-          </div>
-        </li>
-        <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            Trend Micro
-          </h3>
-          <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-            Services Offered
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Cloud One</h3>
-              <p className="text-sm font-light mb-2">
-                Provide integrated cloud security services to protect your cloud environments.
-              </p>
-              <a href="https://www.trendmicro.com/cloud-one" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Network Defense</h3>
-              <p className="text-sm font-light mb-2">
-                Offer advanced network defense solutions to protect your network from threats.
-              </p>
-              <a href="https://www.trendmicro.com/network-defense" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            FireEye
-          </h3>
-          <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-            Services Offered
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Managed Defense</h3>
-              <p className="text-sm font-light mb-2">
-                Provide managed defense services to detect and respond to threats.
-              </p>
-              <a href="https://www.fireeye.com/managed-defense" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Threat Intelligence</h3>
-              <p className="text-sm font-light mb-2">
-                Offer threat intelligence services to identify and mitigate potential threats.
-              </p>
-              <a href="https://www.fireeye.com/threat-intelligence" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            Symantec
-          </h3>
-          <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-            Services Offered
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Endpoint Security</h3>
-              <p className="text-sm font-light mb-2">
-                Provide comprehensive endpoint security solutions to protect your devices.
-              </p>
-              <a href="https://www.symantec.com/endpoint-security" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Web Security</h3>
-              <p className="text-sm font-light mb-2">
-                Offer advanced web security solutions to protect your web applications.
-              </p>
-              <a href="https://www.symantec.com/web-security" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            IBM Security
-          </h3>
-          <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-            Services Offered
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Security Intelligence</h3>
-              <p className="text-sm font-light mb-2">
-                Provide security intelligence solutions to detect and respond to threats.
-              </p>
-              <a href="https://www.ibm.com/security-intelligence" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-            <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
-              <p className="text-sm font-light mb-2">
-                Offer advanced cloud security solutions to protect your cloud environments.
-              </p>
-              <a href="https://www.ibm.com/cloud-security" className="text-blue-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-          </div>
-        </li>
-      </ol>
-    
-
-    <br />
-   
-        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-          Comparative Analysis of Top Companies
-        </h2>
-        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          To provide a clearer picture, lets compare these companies based on their market positioning,
-          strengths, and pricing packages. The following charts highlight how Cyserch Security stands out
-          among its peers.
-        </p>
-        <Image
-              src={Sin1}
-              width={600}
-              height={400}
-              alt="Top 10 CybserSecurity Companies in the Singapore in 2024"
-              className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
-            />
+            <br/>
+                  <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+                    Comparative Analysis of Top Companies
+                  </h2>
+                  <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+                      To provide a clearer picture, lets compare these companies based on their market positioning,
+                      strengths, and pricing packages. The following charts highlight how Cyserch Security stands out
+                      among its peers.
+                  </p>
+                <Image
+                      src={Sin1}
+                      width={600}
+                      height={400}
+                      alt="Top 10 CybserSecurity Companies in the Singapore in 2024"
+                      className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
+                    />
         <br />
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           Chart Comparison
@@ -445,11 +405,8 @@ export default function CybersecurityCompaniesPage() {
           When it comes to pricing and packages, Cyserch Security offers the most comprehensive and
           customizable solutions. Our basic, advanced, and enterprise packages are designed to meet
           the diverse needs of businesses, ensuring maximum protection at competitive rates.
-          <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
-            Click here to learn more about our packages.
-          </a>
         </p>
-        <br />
+        <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline"> Click here to learn more about our packages</a>.
         <h3 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">
           Pricing and Packages Details:
         </h3>
@@ -523,76 +480,57 @@ export default function CybersecurityCompaniesPage() {
           Conclusion
         </h2>
         <p className="text-white mb-4 text-sm sm:text-base md:text-lg font-light">
-          Choosing the right cybersecurity partner is critical in safeguarding your business. The
-          companies listed above have demonstrated excellence in providing top-notch cybersecurity
-          solutions. As a business in Singapore, staying updated with the latest trends and technologies
-          in cybersecurity is essential.
+          Choosing the right cybersecurity partner is a critical decision that can significantly impact your business’s future. The companies listed above have demonstrated excellence in providing top-notch cybersecurity solutions. By staying informed and selecting a partner that aligns with your specific needs, you can ensure that your business remains secure in the face of emerging threats.
           <br />
-          For tailored cybersecurity solutions, consider partnering with Cyserch Security. Our
-          comprehensive services are designed to protect your business from emerging threats.
+          For tailored cybersecurity solutions, consider partnering with Cyserch Security. Our comprehensive services are designed to protect your business from emerging threats.
         </p>
         <br />
-        <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-          Call to Action
-        </h2>
-        <p className="text-white mb-4 text-sm sm:text-base md:text-lg font-light">
-          Share your experiences with these companies and let us know how they have helped secure
-          your business. For personalized cybersecurity consultations, visit{" "}
-          <a href="https://www.cyserch.com" className="text-blue-500 hover:underline">
-            Cyserch Security
-          </a>.
-        </p>
-        
-        <br />
-      
           <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
             FAQs
           </h2>
           <div className="space-y-4">
             <div>
               <h3 className="text-white text-xl font-semibold">
-                What makes Cyserch Security stand out among other cybersecurity firms?
+                Q1. What makes Cyserch Security stand out among other cybersecurity firms?
               </h3>
               <p className="text-white text-sm sm:text-base md:text-lg font-light">
-                At Cyserch Security, we offer a comprehensive range of services, innovative solutions, and a customer-centric approach that sets us apart. Our commitment to excellence and industry-leading expertise ensure that our clients receive the best possible protection against cyber threats.
+                ANS: At Cyserch Security, we offer a comprehensive range of services, innovative solutions, and a customer-centric approach that sets us apart. Our commitment to excellence and industry-leading expertise ensure that our clients receive the best possible protection against cyber threats.
               </p>
             </div>
             <div>
               <h3 className="text-white text-xl font-semibold">
-                How do I choose the right cybersecurity firm for my business?
+                Q2. How do I choose the right cybersecurity firm for my business?
               </h3>
               <p className="text-white text-sm sm:text-base md:text-lg font-light">
-                When selecting a cybersecurity firm, consider factors such as the range of services offered, the firms reputation, customer reviews, and their expertise in your industry. Its important to choose a partner that understands your specific needs and can provide tailored solutions.
+                ANS: When selecting a cybersecurity firm, consider factors such as the range of services offered, the firms reputation, customer reviews, and their expertise in your industry. Its important to choose a partner that understands your specific needs and can provide tailored solutions.
               </p>
             </div>
             <div>
               <h3 className="text-white text-xl font-semibold">
-                What are the key features of top cybersecurity companies?
+                Q3. What are the key features of top cybersecurity companies?
               </h3>
               <p className="text-white text-sm sm:text-base md:text-lg font-light">
-                Top cybersecurity companies offer comprehensive service offerings, innovative technology, a customer-focused approach, industry expertise, and a proactive stance on threat identification and mitigation.
+                ANS: Top cybersecurity companies offer comprehensive service offerings, innovative technology, a customer-focused approach, industry expertise, and a proactive stance on threat identification and mitigation.
               </p>
             </div>
             <div>
               <h3 className="text-white text-xl font-semibold">
-                How does Cyserch Security approach cybersecurity for small businesses?
+                Q4. How does Cyserch Security approach cybersecurity for small businesses?
               </h3>
               <p className="text-white text-sm sm:text-base md:text-lg font-light">
-                We understand the unique challenges faced by small businesses and offer tailored solutions to meet their needs. Our services include risk assessments, threat detection, and managed security services to ensure that small businesses are well-protected against cyber threats.
+                ANS: We understand the unique challenges faced by small businesses and offer tailored solutions to meet their needs. Our services include risk assessments, threat detection, and managed security services to ensure that small businesses are well-protected against cyber threats.
               </p>
             </div>
             <div>
               <h3 className="text-white text-xl font-semibold">
-                Can Cyserch Security help with compliance and regulatory requirements?
+                Q5. Can Cyserch Security help with compliance and regulatory requirements?
               </h3>
               <p className="text-white text-sm sm:text-base md:text-lg font-light">
-                Yes, we offer compliance consulting services to help businesses navigate complex regulatory requirements and ensure that their cybersecurity practices meet industry standards.
+                ANS: Yes, we offer compliance consulting services to help businesses navigate complex regulatory requirements and ensure that their cybersecurity practices meet industry standards.
               </p>
             </div>
           </div>
+          <ContactUs />
           </div>
-        
-        <ContactUs />
-  </>
 );
 }

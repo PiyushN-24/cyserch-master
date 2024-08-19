@@ -1,11 +1,11 @@
 
 import React from "react";
 import Image from "next/image";
-import CyserchImage from "../../../../public/images/blog1-topimgge.png";
-import Link from "next/link";
+import Card1 from "../../../../public/images/blog1-topimgge.png";
 import ContactUs from "@/app/components/home/contactus";
 import share from "../../../../public/images/Malasiya_1.png";
 import cusoter from "../../../../public/images/Malasiya_2.png";
+import Link from "next/link";
 
 
 export const metadata = {
@@ -20,8 +20,7 @@ export default function CybersecurityCompaniesPage() {
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 Cybersecurity Companies in Malaysia in 2024
         </h1>
-
-        {/* <div className="flex justify-center mb-4 w-full">
+        <div className="flex justify-center mb-4 w-full">
           <Image
             src={Card1}
             width={600}
@@ -29,79 +28,81 @@ export default function CybersecurityCompaniesPage() {
             alt="Top 10 Cybersecurity Companies in Malaysia in 2024"
             className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
           />
-        </div> */}
-
+        </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          As Malaysia continues to embrace digital transformation, the importance of robust cybersecurity measures has never been more critical. With increasing cyber threats, businesses need to ensure they have the best protection possible. In this blog, we explore the top 10 cybersecurity companies in Malaysia for 2024, comparing them based on their service diversity and technological innovation. The aim is to help you find the perfect cybersecurity partner to protect your business.
+        In today's fast-paced digital landscape, ensuring the security of your business is more crucial than ever. As Malaysia continues its journey towards digital transformation, the threat of cyberattacks looms larger, making robust cybersecurity measures essential. In this guide, we dive into the top 10 cybersecurity companies in Malaysia for 2024. Whether you're a small business, an SME, or a large enterprise, finding the right cybersecurity partner can make all the difference.
         </p>
-
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          The Malaysian government has implemented several initiatives, such as the National Cyber Security Policy (NCSP), to strengthen the nations cybersecurity framework. Businesses must align with these regulations to safeguard their assets and data. For more information on Malaysias cybersecurity landscape, you can visit the <a href="https://www.cybersecurity.my" className="text-blue-500">CyberSecurity Malaysia website</a>.
+        Malaysia's digital evolution has brought incredible opportunities, but it has also introduced new vulnerabilities. The Malaysian government, through initiatives like the National Cyber Security Policy (NCSP), aims to fortify the nation's cybersecurity framework. For businesses, aligning with these regulations is vital for protecting sensitive data and maintaining operational integrity. To stay informed about Malaysia's cybersecurity landscape, CyberSecurity Malaysia is an invaluable resource.
         </p>
-
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           Criteria for Selecting Top Cybersecurity Companies
         </h2>
 
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          When evaluating the top cybersecurity companies, several factors come into play:
+          When evaluating the top cybersecurity firms, it's essential to consider the following factors:
           <ul className="list-disc list-inside space-y-2">
-            <li>Service Diversity: The range of cybersecurity solutions offered.</li>
-            <li>Technological Innovation: Adoption of cutting-edge technologies and innovation in service delivery.</li>
-            <li>Customer Reviews and Testimonials: Feedback from clients.</li>
-            <li>Industry Recognition and Awards: Accolades and certifications from reputable bodies.</li>
+            <li>Service Diversity:  What range of cybersecurity solutions do they offer?</li>
+            <li>Technological Innovation: Are they leveraging the latest technologies and innovations?</li>
+            <li>Customer Reviews and Testimonials:  What do their clients say about them?</li>
+            <li>Industry Recognition and Awards: Have they received accolades from reputable bodies?</li>
           </ul>
         </p>
 
-        <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-3xl md:text-4xl font-bold mb-4">
           The Top 10 Cybersecurity Companies in Malaysia in 2024
         </h2>
-
-        <ol className="list-decimal text-2xl space-y-6 mb-6 text-white">
+        <ol className="text-2xl space-y-6 mb-6 text-white">
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              Cyserch Security
+            <h3 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+              1. Cyserch
             </h3>
-            <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-              Services Offered
+            <p className="text-white text-sm sm:text-base md:text-lg font-light">
+              Cyserch is at the forefront of cybersecurity in Belgium. Our services are designed to provide comprehensive security solutions tailored to your needs. Our team of experts ensures that your systems are impenetrable, safeguarding your data from potential threats. We pride ourselves on our customer-centric approach and cutting-edge technology.
+              <br />
+              Learn more about our services on the <Link href="https://www.cyserch.com/services/web-security" legacyBehavior><a className="text-blue-400 hover:underline">Cyserch pentesting service page</a></Link>.
+            </p>
+            <br/>
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
+              Services Offered by Cyserch are,
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
-                <p className="text-sm font-light mb-2">
-                  We provide advanced cloud security solutions to ensure your data is protected in the cloud.
-                </p>
-                <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500">Learn more</a>
-              </div>
-              <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Web Security</h3>
-                <p className="text-sm font-light mb-2">
-                  Our web security services protect your online presence from various threats.
-                </p>
-                <a href="https://www.cyserch.com/services/web-security" className="text-blue-500">Learn more</a>
-              </div>
-              <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">API Security</h3>
-                <p className="text-sm font-light mb-2">
-                  Secure your APIs with our comprehensive security solutions.
-                </p>
-                <a href="https://www.cyserch.com/services/api-security" className="text-blue-500">Learn more</a>
-              </div>
-              <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Network Security</h3>
-                <p className="text-sm font-light mb-2">
-                  We offer robust network security solutions to protect your business infrastructure.
-                </p>
-                <a href="https://www.cyserch.com/services/network-security" className="text-blue-500">Learn more</a>
-              </div>
-              <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
-                <p className="text-sm font-light mb-2">
-                  Ensure the security of your mobile devices with our expert solutions.
-                </p>
-                <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500">Learn more</a>
-              </div>
+            <div className="bg-gray-800 rounded-lg p-4">
+              <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
+              <p className="text-sm font-light mb-2">
+                At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
+              </p>
+              <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
             </div>
+            <div className="bg-gray-800 rounded-lg p-4">
+              <h3 className="text-xl font-semibold mb-2">Web Security</h3>
+              <p className="text-sm font-light mb-2">
+                Our web security services ensure comprehensive protection for your web applications and platforms.
+              </p>
+              <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
+            </div>
+            <div className="bg-gray-800 rounded-lg p-4">
+              <h3 className="text-xl font-semibold mb-2">API Security</h3>
+              <p className="text-sm font-light mb-2">
+                Protect your APIs from potential threats with our advanced API security solutions.
+              </p>
+              <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
+            </div>
+            <div className="bg-gray-800 rounded-lg p-4">
+              <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
+              <p className="text-sm font-light mb-2">
+                Ensure the security of your mobile applications and devices with our tailored mobile security services.
+              </p>
+              <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
+            </div>
+            <div className="bg-gray-800 rounded-lg p-4">
+              <h3 className="text-xl font-semibold mb-2">Network Security</h3>
+              <p className="text-sm font-light mb-2">
+                Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
+              </p>
+              <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
+            </div>
+          </div>
             <ContactUs />
           </li>
           <li>
