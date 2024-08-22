@@ -366,21 +366,21 @@ export default function CybersecurityCompaniesPage() {
               </div>
             </div>
             <br/>
-                  <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-                    Comparative Analysis of Top Companies
-                  </h2>
-                  <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-                      To provide a clearer picture, lets compare these companies based on their market positioning,
-                      strengths, and pricing packages. The following charts highlight how Cyserch Security stands out
-                      among its peers.
-                  </p>
-                <Image
-                      src={Sin1}
-                      width={600}
-                      height={400}
-                      alt="Top 10 CybserSecurity Companies in the Singapore in 2024"
-                      className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
-                    />
+            <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+                Comparative Analysis of Top Companies
+            </h2>
+            <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
+               To provide a clearer picture, lets compare these companies based on their market positioning, strengths, and pricing packages. The following charts highlight how Cyserch Security stands out among its peers.
+            </p>
+        <div className="flex justify-center mb-4 w-full">
+        <Image
+          src={Sin1}
+          width={600}
+          height={600}
+          alt="Top 10 Cybersecurity Companies in Singapore in 2024"
+          className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
+        />
+        </div>
         <br />
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           Chart Comparison
@@ -394,13 +394,15 @@ export default function CybersecurityCompaniesPage() {
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           Pricing and Packages
         </h2>
+        <div className="flex justify-center mb-4 w-full">
         <Image
               src={Sin2}
               width={600}
               height={400}
               alt="Top 10 CybserSecurity Companies in the Singapore in 2024"
               className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
-            />
+        />
+        </div>    
         <p className="text-white text-sm sm:text-base md:text-lg font-light mt-2">
           When it comes to pricing and packages, Cyserch Security offers the most comprehensive and
           customizable solutions. Our basic, advanced, and enterprise packages are designed to meet
@@ -420,7 +422,7 @@ export default function CybersecurityCompaniesPage() {
               <li>
                 <a href="https://www.cyserch.com/contactus" className="text-blue-500 hover:underline">
                   Contact Us
-                </a>{" "}
+                </a>
                 for detailed pricing information and to get a quote tailored to your needs.
               </li>
             </ul>

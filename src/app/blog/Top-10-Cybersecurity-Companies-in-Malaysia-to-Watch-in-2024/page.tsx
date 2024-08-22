@@ -1,7 +1,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Card1 from "../../../../public/images/blog1-topimgge.png";
+import Card1 from "../../../../public/images/Top 10 Cybersecurity Companies in Malaysia to Watch in 2024_11zon.png";
 import ContactUs from "@/app/components/home/contactus";
 import share from "../../../../public/images/Malasiya_1.png";
 import cusoter from "../../../../public/images/Malasiya_2.png";
@@ -107,80 +107,83 @@ export default function CybersecurityCompaniesPage() {
           </li>
           <li>
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              LGMS
+              2. LGMS
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-2">
-              LGMS is renowned for its expertise in penetration testing and security assessments. Their investment in technological innovation and research has set them apart, making them a trusted name in the industry.
+            LGMS is a leading cybersecurity firm in Malaysia, recognized for its deep expertise in penetration testing and security assessments. They have a reputation for delivering high-quality services, backed by a team of skilled professionals who are constantly updating their knowledge base. LGMS also invests heavily in research and development, which allows them to stay ahead of emerging threats and provide cutting-edge solutions to their clients. Their commitment to technological innovation has made them a trusted partner for businesses seeking robust security solutions.
             </p>
           </li>
           <li>
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              CyberSecurity Malaysia
+              3. CyberSecurity Malaysia
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-2">
-              As a government agency, CyberSecurity Malaysia plays a vital role in enhancing the nation’s cybersecurity landscape. Their services include threat intelligence, incident response, and cybersecurity training.
+            CyberSecurity Malaysia is a government agency under the Ministry of Communications and Multimedia Malaysia, tasked with improving the country's cybersecurity landscape. They offer a wide range of services that include threat intelligence, incident response, and cybersecurity training. As a national agency, they play a crucial role in shaping Malaysia's cybersecurity policies and standards. They also collaborate with international bodies to ensure that Malaysia is aligned with global cybersecurity best practices. CyberSecurity Malaysia is essential in fostering a secure digital environment for the nation.
             </p>
           </li>
           <li>
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              TecForte
+              4. TecForte
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-2">
-              TecForte offers comprehensive cybersecurity solutions with a focus on risk management and security monitoring. Their investment in technological innovation and their efficient incident response times make them a preferred choice for many businesses.
+            TecForte is known for its comprehensive cybersecurity solutions, particularly in risk management and security monitoring. They have built a strong reputation for their efficient incident response times and their ability to manage complex security challenges. TecForte’s solutions are tailored to meet the specific needs of various industries, making them a preferred choice for businesses looking to enhance their cybersecurity posture. Their focus on technological innovation ensures that their clients are protected against the latest threats.
             </p>
           </li>
           <li>
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              NEXG
+              5. NEXG
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-2">
-              NEXG specializes in cybersecurity solutions for critical infrastructure. Their focus on advanced threat detection and compliance with industry standards has earned them a solid reputation.
+            NEXG specializes in providing cybersecurity solutions for critical infrastructure, such as energy, utilities, and transportation sectors. Their expertise lies in advanced threat detection and ensuring compliance with industry standards. NEXG is known for its robust and reliable solutions, which are essential for protecting vital national infrastructure from cyber threats. Their ability to tailor their services to meet the unique needs of critical sectors has earned them a solid reputation in the industry.
             </p>
           </li>
           <li>
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              TIME dotCom
+              6. TIME dotCom
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-2">
-              TIME dotCom’s cybersecurity division provides a range of services, including network security and data protection. Their technological innovation and customer support are noteworthy.
+            TIME dotCom is a major telecommunications provider in Malaysia with a dedicated cybersecurity division that offers a wide range of services, including network security and data protection. They are known for their technological innovation, which is reflected in their advanced security solutions. TIME dotCom also places a strong emphasis on customer support, ensuring that their clients receive the best possible service. Their cybersecurity services are designed to meet the needs of both large enterprises and small businesses, making them a versatile player in the market.
             </p>
           </li>
           <li>
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-              Securemetric
+              7. Securemetric
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-2">
-              Securemetric provides solutions for digital security, including multi-factor authentication, encryption, and PKI solutions. Their innovative products and strong market presence make them a key player in Malaysia’s cybersecurity industry.
+            Securemetric is a leading provider of digital security solutions in Malaysia, offering services such as multi-factor authentication, encryption, and Public Key Infrastructure (PKI) solutions. Their innovative products are widely used in the financial services industry and government sectors, where security is paramount. Securemetric’s commitment to innovation and compliance with international standards has helped them build a strong market presence. They are recognized as a key player in Malaysia’s cybersecurity industry, with a focus on providing secure and reliable digital solutions.
             </p>
           </li>
           <li>
-          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Securemetric</h3>
-
-<p className="text-sm sm:text-base md:text-lg font-light mb-2">
-            Securemetric specializes in digital security solutions like multi-factor authentication and encryption. Their commitment to innovation and compliance with international standards sets them apart.   </p>
-         
-            </li>
-
-
-            <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Microland</h3>
-
+          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+            8. Firmus
+          </h3>
+          <p className="text-sm sm:text-base md:text-lg font-light mb-2">
+          Firmus is a leading cybersecurity company in Malaysia, offering a comprehensive range of services, including cybersecurity consulting, penetration testing, and governance, risk, and compliance (GRC) solutions. With a strong focus on managed security services, Firmus helps organizations enhance their security posture by providing continuous monitoring and threat intelligence. The company is well-regarded for its expertise in aligning cybersecurity strategies with business objectives, ensuring that clients not only meet regulatory requirements but also protect their critical assets from cyber threats. Firmus’s dedication to excellence and customer-centric approach has made them a key player in Malaysia’s cybersecurity landscape.
+          </p>
+          </li>
+          <li>
+          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+            9. Microland
+          </h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-2">
-            Microland offers a wide range of cybersecurity services, including threat management and compliance consulting. Their global presence and extensive experience make them a reliable choice for businesses looking to enhance their cybersecurity posture.
-</p>
-            </li>
-
-            <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">SCAN Associates</h3>
-
-            <p className="text-sm sm:text-base md:text-lg font-light mb-2">
-            SCAN Associates focuses on providing cybersecurity solutions for government agencies and large enterprises. Their expertise in threat intelligence and incident response is highly valued by their clients.
+            Microland is a global digital transformation company that offers a wide range of cybersecurity services, including threat management and compliance consulting. Their extensive experience and global presence make them a reliable choice for businesses looking to enhance their cybersecurity posture. Microland’s services are designed to help organizations manage risk, ensure compliance, and protect against cyber threats. Their focus on delivering high-quality services has made them a trusted partner for businesses across various industries.
             </p>
-            </li>
-            </ol>
-            <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+          </li>
+          <li>
+          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
+            10. SCAN Associates
+          </h3>
+          <p className="text-sm sm:text-base md:text-lg font-light mb-2">
+          SCAN Associates is a cybersecurity firm that specializes in providing solutions for government agencies and large enterprises. They are highly valued for their expertise in threat intelligence and incident response, which are critical components of any robust cybersecurity strategy. SCAN Associates has a long-standing reputation for delivering high-quality services that help their clients mitigate risks and protect their critical assets. Their ability to handle complex cybersecurity challenges makes them a preferred partner for government and defense sectors.
+          </p>
+          </li>
+          </ol>
+          <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
             Comparative Analysis of Top Companies
           </h2>
+          <p className="text-white text-sm sm:text-base md:text-lg font-light mt-2">
+          To offer a comprehensive view of the leading cybersecurity companies in Malaysia, we’ve conducted a comparative analysis based on key factors: service diversity, technological innovation, security features, support services, and overall performance. The following chart provides a detailed comparison, highlighting how Cyserch Security distinguishes itself among its competitors.
+          </p>
           <div className="flex justify-center mb-4 w-full">
           <Image
             src={cusoter}
@@ -191,13 +194,15 @@ export default function CybersecurityCompaniesPage() {
           />
         </div>
           <p className="text-white text-sm sm:text-base md:text-lg font-light mt-2">
-            To provide a clearer picture, lets compare these companies based on their service diversity and technological innovation. The following charts highlight how Cyserch Security stands out among its peers.
+          Each company is evaluated on a scale, with bars representing their performance in security features, support services, and the overall total score. The distinct color coding in the graph makes it easy to identify which companies excel in specific areas and how Cyserch Security leads in providing a balanced and comprehensive cybersecurity solution.
           </p>
-      
+          <br/>
           <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
             Market Share of Top Cybersecurity Companies in Malaysia
           </h2>
-      
+          <p className="text-white mb-4 text-sm sm:text-base md:text-lg font-light">
+          To understand the competitive landscape of cybersecurity in Malaysia, it’s essential to analyze the market share of the top players in the industry. The following chart provides a visual representation of the market share held by leading cybersecurity companies in Malaysia as of 2024.
+          </p>
           <div className="flex justify-center mb-4 w-full">
           <Image
             src={share}
@@ -208,25 +213,8 @@ export default function CybersecurityCompaniesPage() {
           />
         </div>
           <p className="text-white mb-4 text-sm sm:text-base md:text-lg font-light">
-            As illustrated below, Cyserch Security holds the largest market share, reflecting our dominant presence in the Malaysian cybersecurity market.
-          </p>
-      
-          <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            Customer Satisfaction Scores
-          </h2>
-      
-          <p className="text-white mb-4 text-sm sm:text-base md:text-lg font-light">
-            Our high customer satisfaction score is a testament to the quality and reliability of our services. Know more about how we ensure client satisfaction through our innovative solutions.
-          </p>
-      
-          <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-            Security Features and Support Services
-          </h2>
-      
-          <p className="text-white mb-4 text-sm sm:text-base md:text-lg font-light">
-            When it comes to security features and support services, Cyserch Security offers the most comprehensive and tailored solutions. Our commitment to customer satisfaction and flexibility ensures that we meet the diverse needs of businesses, providing maximum protection and support.
-          </p>
-      
+          The chart illustrates how Cyserch Security stands out with the largest market share, driven by its diverse service offerings and technological innovation. The comparative analysis underscores the strengths of each company, highlighting Cyserch’s leadership in the industry. By examining the market share distribution, businesses can better understand the competitive dynamics and identify key players in Malaysia’s cybersecurity landscape.
+          </p>  
           <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
             Conclusion
           </h2>

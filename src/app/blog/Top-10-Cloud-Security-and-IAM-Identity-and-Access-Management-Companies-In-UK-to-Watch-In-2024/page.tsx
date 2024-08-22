@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import ContactUs from "@/app/components/home/contactus";
-import Card1 from "../../../../public/images/cloud_security_hero.webp";
+import Card1 from "../../../../public/images/Top 10 Cloud Security and IAM(Identity and Access Management) Companies in UK in 2024_11zon (1).png";
 import AWS from "../../../../public/images/AWS-01.drawio.png";
 import CloudComapny from "../../../../public/images/Top 10 Cloud companies.png";
 
@@ -72,15 +72,19 @@ export default function CloudSecurityCompaniesPage() {
           Criteria for Selecting Cloud Security Companies
         </h2>
 
-        <div className="flex justify-center mb-4 w-full">
-        <Image
-          src={AWS} 
-          width={600} 
-          height={600}
-          alt="Top 10 Cloud Security and IAM(Identity and Access Management) Companies in  UK in 2024"
-          className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
-        />
-      </div>
+        <div className="flex justify-center mb-2">
+        <div className="inline-block bg-white rounded-lg p-3">
+            <Image
+                src={AWS}
+                width={600}
+                height={600}
+                alt="Top 10 Cloud Security and IAM (Identity and Access Management) Companies in UK in 2024"
+                className="rounded-lg"
+            />
+        </div>
+    </div>
+
+
       <br/>
       <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-2">
         When selecting a cloud security provider, consider the following factors:

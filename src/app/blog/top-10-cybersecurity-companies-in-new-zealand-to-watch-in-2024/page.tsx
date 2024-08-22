@@ -25,10 +25,6 @@ export default function CybersecurityCompaniesPage() {
       <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
       Top 10 Cybersecurity Companies in New Zealand  in 2024
       </h1>
-
-      
-
-
       <div className="flex justify-center mb-4 w-full">
   <Image
     src={Card1} 
