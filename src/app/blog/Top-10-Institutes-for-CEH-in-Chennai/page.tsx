@@ -160,9 +160,9 @@ export default function CEHChennaiInstitutesPage() {
               <p className="mb-2 text-white text-sm sm:text-base md:text-lg font-light">
                 <strong>Highlights:</strong> {institute.highlights}
               </p>
-              {institute.name === "Cyserch Solutions" && (
+              {institute.name === "1. Cyserch Solutions" && (
                 <>
-                   <Course /> 
+                  <Course /> 
                   <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
                     <Link href="https://www.cyserch.com/" className="text-blue-400 hover:underline">Visit Cyserch Solutions</Link> for more information.
                   </p>     

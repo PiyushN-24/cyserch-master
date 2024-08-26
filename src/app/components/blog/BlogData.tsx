@@ -428,7 +428,7 @@ export const blogData = [
     id: 48,
     title: "Implement DevSecOps Seamlessly in Your Organization in 2024",
     category: "Top Cybersecurity Companies",
-    image: "/images/card2.png",
+    image: "/images/Implement DevSecOps Seamlessly in Your Organization in 2024_11zon.png",
     description: "Blog description here.",
     link: "Implement-DevSecOps-Seamlessly-in-Your-Organization-in-2024",
   },
@@ -512,6 +512,60 @@ export const blogData = [
     image: "/images/card2.png",
     description: "Blog description here.",
     link: "Secure-Code-Best-Practices-for-Node.js-2024",
+  },
+
+  {
+    id: 58,
+    title: "Should I Go for Penetration Testing if Having No Experience in Cybersecurity ?",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Should-I-Go-for-Penetration-Testing-if-Having-No-Experience-in-Cybersecurity.jpeg",
+    description: "Blog description here.",
+    link: "Should-I-Go-for-Penetration-Testing-if-Having-No-Experience-in-Cybersecurity",
+  },
+
+  {
+    id: 59,
+    title: "Top 10 OWASP Vulnerabilities 2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Top-10-OWASP-Vulnerability.jpeg",
+    description: "Blog description here.",
+    link: "Top-10-OWASP-Vulnerabilities-2024",
+  },
+
+  {
+    id: 60,
+    title: "Top 5 WAFs to Secure from DoS Attacks",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Top-5-WAF-to-secure-from-DOS.jpeg",
+    description: "Blog description here.",
+    link: "Top-5-WAFs-to-Secure-from-DoS-Attacks",
+  },
+
+  {
+    id: 61,
+    title: "Top-10-Azure-Security-Best-Practices-2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Top-10-Azure-Security.jpeg",
+    description: "Blog description here.",
+    link: "Top-10-Azure-Security-Best-Practices-2024",
+  },
+
+  {
+    id: 62,
+    title: "Top 10 GCP Vulnerabilities 2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Top-10-GCP-Vulnerability.jpeg",
+    description: "Blog description here.",
+    link: "Top-10-GCP-Vulnerabilities-2024",
+  },
+
+  {
+    id: 63,
+    title: "Why Penetration Testing is Important for Business ?",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Why-Penetration-Testing-Is-Important-for-Business.jpeg",
+    description: "Blog description here.",
+    link: "Why-Penetration-Testing-is-Important-for-Business",
   },
 
    

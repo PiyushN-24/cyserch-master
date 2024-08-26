@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import DevSecOps_Image from "../../../../public/images/DevSecOps1.jpg";
+import DevSecOps_Image from "../../../../public/images/Implement DevSecOps Seamlessly in Your Organization in 2024_11zon.png";
 import Link from "next/link";
 import Lifecycle_Image from "../../../../public/images/DevOps_Lifecycle.png";
 import ContactUs from "@/app/components/home/contactus";

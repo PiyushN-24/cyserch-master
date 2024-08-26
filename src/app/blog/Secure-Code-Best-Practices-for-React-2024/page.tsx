@@ -12,7 +12,7 @@ export const metadata = {
 export default function SecureReact2024Page() {
   return (
     <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
-        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+        <h1 className="flex justify-center text-white text-2xl sm:text-3xl md:text-5xl font-bold mb-4">
           Secure Code Best Practices for React 2024
         </h1>
         <div className="flex justify-center mb-4 w-full">
