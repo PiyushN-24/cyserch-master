@@ -5,20 +5,20 @@ import Logo from "./Logo";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   const [activeLink, setActiveLink] = useState<string | null>(null);
   const [showDropdown, setShowDropdown] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(false);
+  const [showResourcesDropdown, setShowResourcesDropdown] = useState(false);
 
   const handleLinkClick = (link: string) => {
     setActiveLink(link);
-    if (link.includes("/services")) {
-      setActiveDropdown(true);
-    } else {
-      setActiveDropdown(false);
-    }
     setShowDropdown(false);
+    setShowResourcesDropdown(false);
   };
 
-  const toggleDropdown = () => {
-    setShowDropdown(!showDropdown);
+  const handleMouseEnter = (setShowDropdown: React.Dispatch<React.SetStateAction<boolean>>) => {
+    setShowDropdown(true);
+  };
+
+  const handleMouseLeave = (setShowDropdown: React.Dispatch<React.SetStateAction<boolean>>) => {
+    setShowDropdown(false);
   };
 
   return (
@@ -57,81 +57,123 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                   </p>
                 </Link>
               </li>
-              <li>
-                <div className="relative">
-                  <p
-                    className={`cursor-pointer ${
-                      activeDropdown ? "text-[#19FFD8]" : ""
-                    }`}
-                    onClick={toggleDropdown}
-                  >
-                    Services
-                  </p>
-                  {showDropdown && (
-                    <ul className="absolute top-full w-[13rem] pl-4 left-0 opacity-95 bg-gray-800 text-white py-2 rounded">
-                      <li className="mb-2">
-                        <Link href="/services/cloud-security">
-                          <p
-                            className="hover:text-[#19FFDB]"
-                            onClick={() =>
-                              handleLinkClick("/services/cloud-security")
-                            }
-                          >
-                            Cloud Security
-                          </p>
-                        </Link>
-                      </li>
-                      <li className="mb-2">
-                        <Link href="/services/web-security">
-                          <p
-                            className="hover:text-[#19FFDB]"
-                            onClick={() =>
-                              handleLinkClick("/services/web-security")
-                            }
-                          >
-                            Web Security
-                          </p>
-                        </Link>
-                      </li>
-                      <li className="mb-2">
-                        <Link href="/services/api-security">
-                          <p
-                            className="hover:text-[#19FFDB]"
-                            onClick={() =>
-                              handleLinkClick("/services/api-security")
-                            }
-                          >
-                            API Security
-                          </p>
-                        </Link>
-                      </li>
-                      <li className="mb-2">
-                        <Link href="/services/mobile-security">
-                          <p
-                            className="hover:text-[#19FFDB]"
-                            onClick={() =>
-                              handleLinkClick("/services/mobile-security")
-                            }
-                          >
-                            Mobile Security
-                          </p>
-                        </Link>
-                      </li>
-                      <li className="mb-2">
-                        <Link href="/services/network-security">
-                          <p
-                            className="hover:text-[#19FFDB]"
-                            onClick={() =>
-                              handleLinkClick("/services/network-security")
-                            }
-                          >
-                            Network Security
-                          </p>
-                        </Link>
-                      </li>
-                    </ul>
-                  )}
-                </div>
+              <li
+                className="relative"
+                onMouseEnter={() => handleMouseEnter(setShowDropdown)}
+                onMouseLeave={() => handleMouseLeave(setShowDropdown)}
+              >
+                <p
+                  className={`cursor-pointer ${
+                    showDropdown ? "text-[#19FFD8]" : ""
+                  }`}
+                >
+                  Services
+                </p>
+                {showDropdown && (
+                  <ul className="absolute top-full w-[13rem] pl-4 left-0 opacity-95 bg-gray-800 text-white py-2 rounded">
+                    <li className="mb-2">
+                      <Link href="/services/cloud-security">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/cloud-security")
+                          }
+                        >
+                          Cloud Security
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/services/web-security">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/web-security")
+                          }
+                        >
+                          Web Security
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/services/api-security">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/api-security")
+                          }
+                        >
+                          API Security
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/services/mobile-security">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/mobile-security")
+                          }
+                        >
+                          Mobile Security
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/services/network-security">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/network-security")
+                          }
+                        >
+                          Network Security
+                        </p>
+                      </Link>
+                    </li>
+                  </ul>
+                )}
+              </li>
+              <li
+                className="relative"
+                onMouseEnter={() => handleMouseEnter(setShowResourcesDropdown)}
+                onMouseLeave={() => handleMouseLeave(setShowResourcesDropdown)}
+              >
+                <p
+                  className={`cursor-pointer ${
+                    showResourcesDropdown ? "text-[#19FFD8]" : ""
+                  }`}
+                >
+                  Resources
+                </p>
+                {showResourcesDropdown && (
+                  <ul className="absolute top-full w-[13rem] pl-4 left-0 opacity-95 bg-gray-800 text-white py-2 rounded">
+                    <li className="mb-2">
+                      <Link href="/resources/casestudies">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/resources/casestudies")
+                          }
+                        >
+                          Case Studies
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/resources/whitepapers">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/resources/whitepapers")
+                          }
+                        >
+                          Whitepapers
+                        </p>
+                      </Link>
+                    </li>
+                  </ul>
+                )}
               </li>
               <li>
                 <Link href="/training">
@@ -171,25 +213,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                   </p>
                 </Link>
               </li>
-              {/* <li>
-                <Link href="/contactus">
-                  <p
-                    className={
-                      activeLink === "/contactus"
-                        ? "text-[#19FFDB]"
-                        : "text-white"
-                    }
-                    onClick={() => handleLinkClick("/contactus")}
-                  >
-                    Contacts
-                  </p>
-                </Link>
-              </li> */}
-
-{/*  */}
-
-
-<li>
+              <li>
                 <Link href="/contactus">
                   <p
                     className={
@@ -201,13 +225,6 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                   </p>
                 </Link>
               </li>
-
-
-
-
-
-
-
             </ul>
           </div>
         </div>

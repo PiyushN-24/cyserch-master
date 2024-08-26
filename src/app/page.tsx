@@ -11,22 +11,10 @@ import Blog from "./components/home/blogs";
 import ContactUs from "./components/home/contactus";
 import Head from 'next/head';
 // import { metadata } from "./metadata";
-
-
- 
-
 // metadata.ts
-
-
 export default function Home() {
-
- 
-
-  
-
   return (
     <>
-        
       <div className="container mx-auto px-4">
         <Hero />
         <Clients />

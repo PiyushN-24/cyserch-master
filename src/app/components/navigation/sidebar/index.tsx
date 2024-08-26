@@ -8,11 +8,15 @@ const Sidebar = ({
   isOpen: boolean;
   toggle: () => void;
 }): JSX.Element => {
+  const [showServicesDropdown, setShowServicesDropdown] = useState(false);
+  const [showResourcesDropdown, setShowResourcesDropdown] = useState(false);
 
-  const [showDropdown, setShowDropdown] = useState(false);
+  const handleMouseEnter = (setShowDropdown: React.Dispatch<React.SetStateAction<boolean>>) => {
+    setShowDropdown(true);
+  };
 
-  const toggleDropdown = () => {
-    setShowDropdown(!showDropdown);
+  const handleMouseLeave = (setShowDropdown: React.Dispatch<React.SetStateAction<boolean>>) => {
+    setShowDropdown(false);
   };
 
   return (
@@ -48,41 +52,66 @@ const Sidebar = ({
               <span className="text-gray-800 hover:text-gray-900 cursor-pointer">About Us</span>
             </Link>
           </li>
-          <li className="mb-4">
-            <div className="relative">
-              <span className="text-gray-800 hover:text-gray-900 cursor-pointer" onClick={toggleDropdown}>
-                Services
-              </span>
-              {showDropdown && (
-                <ul className=" left-0 w-[25rem] bg-gray-100 text-gray-800 py-2 rounded z-100">
-                  <li className="px-4 py-2">
-                    <Link href="/services/cloud-security" onClick={toggle}>
-                      <span className="hover:text-[#19FFDB] cursor-pointer">Cloud Security</span>
-                    </Link>
-                  </li>
-                  <li className="px-4 py-2">
-                    <Link href="/services/web-security" onClick={toggle}>
-                      <span className="hover:text-[#19FFDB] cursor-pointer">Web Security</span>
-                    </Link>
-                  </li>
-                  <li className="px-4 py-2">
-                    <Link href="/services/api-security" onClick={toggle}>
-                      <span className="hover:text-[#19FFDB] cursor-pointer">API Security</span>
-                    </Link>
-                  </li>
-                  <li className="px-4 py-2">
-                    <Link href="/services/mobile-security" onClick={toggle}>
-                      <span className="hover:text-[#19FFDB] cursor-pointer">Mobile Security</span>
-                    </Link>
-                  </li>
-                  <li className="px-4 py-2">
-                    <Link href="/services/network-security" onClick={toggle}>
-                      <span className="hover:text-[#19FFDB] cursor-pointer">Network Security</span>
-                    </Link>
-                  </li>
-                </ul>
-              )}
-            </div>
+          <li
+            className="mb-4 relative"
+            onMouseEnter={() => handleMouseEnter(setShowServicesDropdown)}
+            onMouseLeave={() => handleMouseLeave(setShowServicesDropdown)}
+          >
+            <span className="text-gray-800 hover:text-gray-900 cursor-pointer">
+              Services
+            </span>
+            {showServicesDropdown && (
+              <ul className="absolute left-0 w-[25rem] bg-gray-100 text-gray-800 py-2 rounded z-100">
+                <li className="px-4 py-2">
+                  <Link href="/services/cloud-security" onClick={toggle}>
+                    <span className="hover:text-[#19FFDB] cursor-pointer">Cloud Security</span>
+                  </Link>
+                </li>
+                <li className="px-4 py-2">
+                  <Link href="/services/web-security" onClick={toggle}>
+                    <span className="hover:text-[#19FFDB] cursor-pointer">Web Security</span>
+                  </Link>
+                </li>
+                <li className="px-4 py-2">
+                  <Link href="/services/api-security" onClick={toggle}>
+                    <span className="hover:text-[#19FFDB] cursor-pointer">API Security</span>
+                  </Link>
+                </li>
+                <li className="px-4 py-2">
+                  <Link href="/services/mobile-security" onClick={toggle}>
+                    <span className="hover:text-[#19FFDB] cursor-pointer">Mobile Security</span>
+                  </Link>
+                </li>
+                <li className="px-4 py-2">
+                  <Link href="/services/network-security" onClick={toggle}>
+                    <span className="hover:text-[#19FFDB] cursor-pointer">Network Security</span>
+                  </Link>
+                </li>
+              </ul>
+            )}
+          </li>
+          <li
+            className="mb-4 relative"
+            onMouseEnter={() => handleMouseEnter(setShowResourcesDropdown)}
+            onMouseLeave={() => handleMouseLeave(setShowResourcesDropdown)}
+          >
+            <span className="text-gray-800 hover:text-gray-900 cursor-pointer">
+              Resources
+            </span>
+            {showResourcesDropdown && (
+              <ul className="absolute left-0 w-[25rem] bg-gray-100 text-gray-800 py-2 rounded z-100">
+                <li className="px-4 py-2">
+                  <Link href="/resources/casestudies" onClick={toggle}>
+                    <span className="hover:text-[#19FFDB] cursor-pointer">Case Studies</span>
+                  </Link>
+                </li>
+                <li className="px-4 py-2">
+                  <Link href="/resources/whitepapers" onClick={toggle}>
+                    <span className="hover:text-[#19FFDB] cursor-pointer">Whitepapers</span>
+                  </Link>
+                </li>
+              </ul>
+            )}
           </li>
           <li className="mb-4">
             <Link href="/training" onClick={toggle}>
