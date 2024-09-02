@@ -9,8 +9,10 @@ const About = () => {
     <>
       <AboutHero />
       <AboutWelcome />
-      {/* <AboutHistory />
-      <AboutFundamental /> */}
+     {/*    
+      <AboutHistory />
+      <AboutFundamental /> 
+      */}
     </>
   );
 };

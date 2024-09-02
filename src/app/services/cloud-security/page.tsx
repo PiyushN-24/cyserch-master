@@ -1,10 +1,10 @@
-import Hero from "@/app/components/services/cloud-security/hero";
-import Overview from "@/app/components/services/cloud-security/overview";
-import WhyCloudPentesting from "@/app/components/services/cloud-security/whySecurity";
-import Methodology from "@/app/components/services/cloud-security/methodology";
-import Offers from "@/app/components/services/cloud-security/offers";
-import EndBox from "@/app/components/services/cloud-security/EndBox";
-import ClinetTestimonials from "@/app/components/services/cloud-security/ClinetTestimonials";
+import Hero from "@/app/components/services/Cloud-Security/hero";
+import Overview from "@/app/components/services/Cloud-Security/overview";
+import WhyCloudPentesting from "@/app/components/services/Cloud-Security/whySecurity";
+import Methodology from "@/app/components/services/Cloud-Security/methodology";
+import Offers from "@/app/components/services/Cloud-Security/offers";
+import EndBox from "@/app/components/services/Cloud-Security/EndBox";
+import ClinetTestimonials from "@/app/components/services/Cloud-Security/ClinetTestimonials";
 
 // import Benefits from "@/app/components/services/cloud-security/benefits";
 // import Awards from "@/app/components/services/cloud-security/awards";

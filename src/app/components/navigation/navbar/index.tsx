@@ -79,7 +79,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                             handleLinkClick("/services/cloud-security")
                           }
                         >
-                          Cloud Security
+                          Cloud Penetration Testing
                         </p>
                       </Link>
                     </li>
@@ -91,7 +91,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                             handleLinkClick("/services/web-security")
                           }
                         >
-                          Web Security
+                          Web Penetration Testing
                         </p>
                       </Link>
                     </li>
@@ -103,7 +103,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                             handleLinkClick("/services/api-security")
                           }
                         >
-                          API Security
+                          API Penetration Testing
                         </p>
                       </Link>
                     </li>
@@ -115,7 +115,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                             handleLinkClick("/services/mobile-security")
                           }
                         >
-                          Mobile Security
+                          Mobile Penetration Testing
                         </p>
                       </Link>
                     </li>
@@ -127,7 +127,55 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                             handleLinkClick("/services/network-security")
                           }
                         >
-                          Network Security
+                          Network Penetration Testing
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/services/devsecops-security">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/devsecops-security")
+                          }
+                        >
+                          DevSecOps Penetration Testing
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/services/ai-ml-security">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/ai-ml-security")
+                          }
+                        >
+                          AI-ML Penetration Testing
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/services/sast">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/sast")
+                          }
+                        >
+                          SAST  
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/services/dast">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/services/dast")
+                          }
+                        >
+                          DAST
                         </p>
                       </Link>
                     </li>
@@ -161,14 +209,14 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                       </Link>
                     </li>
                     <li className="mb-2">
-                      <Link href="/resources/whitepapers">
+                      <Link href="/resources/report">
                         <p
                           className="hover:text-[#19FFDB]"
                           onClick={() =>
-                            handleLinkClick("/resources/whitepapers")
+                            handleLinkClick("/resources/report")
                           }
                         >
-                          Whitepapers
+                          Reports
                         </p>
                       </Link>
                     </li>

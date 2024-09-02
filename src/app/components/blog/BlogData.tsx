@@ -568,7 +568,128 @@ export const blogData = [
     link: "Why-Penetration-Testing-is-Important-for-Business",
   },
 
-   
+  {
+    id: 64,
+    title: "Best Corporate Cybersecurity Training Companies in the Australia in 2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Best-Corporate-Cybersecurity-Training-Companies-in-the-Australia-in-2024.jpeg",
+    description: "Blog description here.",
+    link: "Best-Corporate-Cybersecurity-Training-Companies-in-the-Australia-in-2024",
+  
+  },
+
+
+  {
+    id: 65,
+    title: "Top 10 Cybersecurity Companies in Pentest Services Hamburg",
+    category: "Top Cybersecurity Companies",
+    image: "/images/top 10 cybersecurity company in Pentest Services Hamburg_11zon.png",
+    description: "Blog description here.",
+    link: "Top-10-Cybersecurity-Companies-in-Pentest-Services-Hamburg",
+  },
+
+  {
+    id: 66,
+    title: "Cloud Security: Best Practices and Solutions for 2024",
+    category: "Top Cybersecurity Companies",
+    image: "/images/top 10 cybersecurity company in Pentest Services Hamburg_11zon.png",
+    description: "Blog description here.",
+    link: "Cloud-Security:-Best-Practices-and-Solutions-for-2024",
+  },
+
+  {
+    id: 67,
+    title: "AWS Penetration Testing: Securing Your Cloud Infrastructure",
+    category: "Top Cybersecurity Companies",
+    image: "/images/top 10 cybersecurity company in Pentest Services Hamburg_11zon.png",
+    description: "Blog description here.",
+    link: "AWS-Penetration-Testing:-Securing-Your-Cloud-Infrastructure",
+  },
+
+  {
+    id: 68,
+    title: "AWS Infrastructure: A Comprehensive Guide to Your Cloud Environment",
+    category: "Top Cybersecurity Companies",
+    image: "/images/AWS Infrastructure A Comprehensive Guide to Securing and Optimizing Your Cloud Environment_11zon.png",
+    description: "Blog description here.",
+    link: "AWS-Infrastructure:-A-Comprehensive-Guide-to-Securing-and-Optimizing-Your-Cloud-Environment",
+  },
+
+  {
+    id: 69,
+    title: "AWS Services - Unlocking the Power of Cloud Computing",
+    category: "Top Cybersecurity Companies",
+    image: "/images/AWS Services - Unlocking the Power of Cloud Computing_11zon.png",
+    description: "Blog description here.",
+    link: "AWS-Services:-Unlocking-the-Power-of-Cloud-Computing",
+  },
+
+  {
+    id: 70,
+    title: "Free Cybersecurity Courses: Your Path to Protecting the Digital World",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Free Cybersecurity Courses Your Path to Protecting the Digital World_11zon.png",
+    description: "Blog description here.",
+    link: "Free-Cybersecurity-Courses:-Your-Path-to-Protecting-the-Digital-World",
+  },
+
+  {
+    id: 71,
+    title: "Free iOS Security: Best Practices and Resources",
+    category: "Top Cybersecurity Companies",
+    image: "/images/_iOS Security Best Practices and Resources_11zon.png",
+    description: "Blog description here.",
+    link: "Free-iOS-Security:-Best-Practices-and-Resources",
+  },
+
+  {
+    id: 72,
+    title: "Free Penetration Testing Tool: Enhance Your Cybersecurity Efforts",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Free Penetration Testing Tool Enhance Your Cybersecurity Efforts_11zon.png",
+    description: "Blog description here.",
+    link: "Free-Penetration-Testing-Tool:-Enhance-Your-Cybersecurity-Efforts",
+  },
+
+  {
+    id: 73,
+    title: "Free Penetration Testing Tool: Enhance Your Cybersecurity Efforts",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Free Penetration Testing Tool Enhance Your Cybersecurity Efforts_11zon.png",
+    description: "Blog description here.",
+    link: "Free-Penetration-Testing-Tool:-Enhance-Your-Cybersecurity-Efforts",
+  },
+
+  {
+    id: 74,
+    title: "Free VAPT Tool: A Comprehensive Guide",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Free VAPT Tool - A Comprehensive Guide_11zon.png",
+    description: "Blog description here.",
+    link: "Free-VAPT-Tool:-A-Comprehensive-Guide",
+  },
+
+  {
+    id: 75,
+    title: "Free Website Scanning Tool: How to Protect Your Website from Vulnerabilities",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Free Website Scanning Tool How to Protect Your Website from Vulnerabilities_11zon.png",
+    description: "Blog description here.",
+    link: "Free-Website-Scanning-Tool:-How-to-Protect-Your-Website-from-Vulnerabilities",
+  },
+
+  {
+    id: 76,
+    title: "Free Website Scanning Tool: Safeguard Your Site with Cyserch",
+    category: "Top Cybersecurity Companies",
+    image: "/images/Free Website Scanning Tool Safeguard Your Site with Cyserch_11zon.png",
+    description: "Blog description here.",
+    link: "Free-Website-Scanning-Tool:-Safeguard-Your-Site-with-Cyserch",
+  },
+
+ 
+ 
+  
   
 ];
 

@@ -17,7 +17,7 @@ const CaseStudyCard = ({ caseStudy }: { caseStudy: any }) => {
           <div className="mb-2 text-[#A39D9D]">{caseStudy.category}</div>
           <h2 className="text-xl text-white font-bold mb-2">{caseStudy.title}</h2>
           {/* <div className="mb-4 text-slate-400">{caseStudy.description}</div> */}
-          <Link href={`/casestudies/${caseStudy.link}`}>
+          <Link href={`/resources/casestudies/${caseStudy.link}`}>
             <div className="know-more-button bg-[#19ffdb] hover:bg-transparent hover:border-[#19ffdb] hover:text-[#19ffdb] text-black font-semibold py-2 px-4 border-transparent border-2 rounded-md mt-4 cursor-pointer transition-colors duration-200">
               Read More
             </div>
