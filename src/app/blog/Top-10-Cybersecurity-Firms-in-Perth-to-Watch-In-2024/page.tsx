@@ -5,7 +5,7 @@ import CyserchImage from "../../../../public/images/blog1-topimgge.png";
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Perth from "../../../../public/images/Perth_1.png";
-
+import CEH_Image from "../../../../public/images/Top 10 Cybersecurity Firms in Perth to Watch in 2024.png";
 export const metadata = {
   title: "Cyserch | Top 10 Cybersecurity Firms in Perth to Watch in 2024",
   description: "Discover the top 10 cybersecurity firms in Perth to watch in 2024. Learn about the leading companies protecting businesses from cyber threats with cutting-edge security solutions",
@@ -18,7 +18,15 @@ export default function CybersecurityCompaniesPage() {
       <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 Cybersecurity Firms in Perth to Watch in 2024
         </h1>
-
+        <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
         {/* <div className="flex justify-center mb-4 w-full">
           <Image
             src={Card1}
@@ -61,65 +69,57 @@ export default function CybersecurityCompaniesPage() {
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
               Cyserch Security
             </h3>
-            <h3 className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
+            <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Services Offered
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="text-white grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
+                <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
                 <p className="text-sm font-light mb-2">
-                  Protecting businesses from cloud threats ensuring data integrity and compliance.
+                  At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
                 </p>
-                <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Cloud Penetration Testing
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Web Security</h3>
+                <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
                 <p className="text-sm font-light mb-2">
-                  Safeguarding websites from cyberattacks, keeping both data and users safe.
+                  Our web security services ensure comprehensive protection for your web applications and platforms.
                 </p>
-                <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Web Penetration Testing
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">API Security</h3>
+                <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
                 <p className="text-sm font-light mb-2">
-                  Protecting the communication channels that are vital for modern applications.
+                  Protect your APIs from potential threats with our advanced API security solutions.
                 </p>
-                <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about API Penetration Testing
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Network Security</h3>
+                <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
                 <p className="text-sm font-light mb-2">
-                  Providing robust defense mechanisms against internal and external threats.
+                  Ensure the security of your mobile applications and devices with our tailored mobile security services.
                 </p>
-                <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Mobile Penetration Testing
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
+                <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
                 <p className="text-sm font-light mb-2">
-                  Ensuring mobile devices and applications are secure.
+                  Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
                 </p>
-                <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
-              </div>
-              <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2">DevSecOps</h3>
-                <p className="text-sm font-light mb-2">
-                  Integrating security into the development process, ensuring security is a priority from the outset.
-                </p>
-                <a href="https://www.cyserch.com/services/devsecops" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Network Penetration Testing
+                </Link>
               </div>
             </div>
+
             <ContactUs />
           </li>
           <li>

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AWSImage from "../../../../public/images/CloudSecurity.svg"; // Update the path and image name as needed
+import AWSImage from "../../../../public/images/AWS Penetration Testing Securing Your Cloud Infrastructure_11zon (1).png"; // Update the path and image name as needed
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 
@@ -26,14 +26,14 @@ export default function AWSPenetrationTestingPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In today's digital landscape, securing cloud environments has become a critical priority for businesses, SMEs, enterprises, and IT professionals alike. With Amazon Web Services (AWS) leading the charge in cloud infrastructure, its unparalleled flexibility and scalability also introduce potential vulnerabilities. This is where AWS penetration testing plays a pivotal role. At Cyserch, we are dedicated to helping organizations like yours safeguard their AWS environments against evolving threats.
+        In todays digital landscape, securing cloud environments has become a critical priority for businesses, SMEs, enterprises, and IT professionals alike. With Amazon Web Services (AWS) leading the charge in cloud infrastructure, its unparalleled flexibility and scalability also introduce potential vulnerabilities. This is where AWS penetration testing plays a pivotal role. At Cyserch, we are dedicated to helping organizations like yours safeguard their AWS environments against evolving threats.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           What is AWS Penetration Testing?
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        AWS penetration testing involves simulating cyberattacks on your AWS infrastructure to identify and address vulnerabilities before they can be exploited. Unlike traditional IT environments, AWS presents unique challenges due to its complex architecture. By conducting a penetration test, we reveal hidden weaknesses that could be targeted by malicious actors. This proactive approach not only highlights potential security gaps but also provides actionable recommendations to fortify your defenses.
-        <Link className="text-blue-400" href="https://aws.amazon.com/security/penetration-testing/" passHref> Learn more </Link>.
+        AWS penetration testing involves simulating cyberattacks on your AWS infrastructure to identify and address vulnerabilities before they can be exploited. Unlike traditional IT environments, AWS presents unique challenges due to its complex architecture. By conducting a penetration test, we reveal hidden weaknesses that could be targeted by malicious actors. This proactive approach not only highlights potential security gaps but also provides actionable recommendations to fortify your defenses. <Link className="text-blue-400" href="https://aws.amazon.com/security/penetration-testing/" passHref> Learn more about AWS Penetration Testing Services</Link>.
+
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Key Areas of AWS Penetration Testing
@@ -45,9 +45,10 @@ export default function AWSPenetrationTestingPage() {
             </h3>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             Network security is a cornerstone of AWS penetration testing. While AWS offers a robust set of tools to protect your network, their effectiveness is contingent upon proper configuration. During our tests, we simulate attacks to uncover vulnerabilities in firewall rules, VPN settings, and network segmentation. A minor misconfiguration can lead to significant security issues, underscoring the importance of meticulous network management. Learn more about best practices for AWS network security{" "}
-              <Link className="text-blue-400" href="https://aws.amazon.com/blogs/security/" passHref>
-                here
-              </Link>.
+            <Link className="text-blue-400" href="https://aws.amazon.com/blogs/security/" passHref>
+              Visit the AWS Security Blog
+            </Link>.
+
             </p>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 mb-4">
@@ -63,7 +64,7 @@ export default function AWSPenetrationTestingPage() {
               Data Security
             </h3>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-            Data is the heartbeat of any organization. Our penetration tests scrutinize your data encryption and access controls to ensure robust protection against unauthorized access. Data breaches can inflict considerable financial damage and harm your company's reputation. Securing data is not optional; it is essential. For additional insights on AWS data security measures, refer to this{" "}
+            Data is the heartbeat of any organization. Our penetration tests scrutinize your data encryption and access controls to ensure robust protection against unauthorized access. Data breaches can inflict considerable financial damage and harm your companys reputation. Securing data is not optional; it is essential. For additional insights on AWS data security measures, refer to this{" "}
               <Link className="text-blue-400" href="https://aws.amazon.com/security/" passHref>
                 guide
               </Link>.
@@ -125,14 +126,14 @@ export default function AWSPenetrationTestingPage() {
             Contact us
           </Link>{" "}
           to discuss how we can enhance your AWS security posture. For more information, visit our{" "}
-          <Link className="text-blue-500" href="https://www.cyserch.com/services/cloud-security" passHref>
+          <Link className="text-blue-500" href="https://www.cyserch.com/services/cloud-penetration-testing" passHref>
             services page
           </Link>{" "}
           or reach out directly.
         </p>
         <div className="my-8 text-center">
-        <Link href="https://www.cyserch.com/services/cloud-security" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">
-          Discover More About Cyserch's Cloud Security Services
+        <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">
+          Discover More About Cyserchs Cloud Penetration Testing Services
         </Link>
       </div>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -167,7 +168,7 @@ export default function AWSPenetrationTestingPage() {
           Securing your AWS environment is more than a precaution—it is a necessity. With the increasing frequency of cyber threats targeting cloud infrastructures, AWS penetration testing is an indispensable tool for maintaining robust security. At Cyserch, we are committed to providing expert guidance and solutions to protect your cloud infrastructure. For more information on how we can help, explore our AWS penetration testing services and take the first step toward a more secure cloud environment.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
-          Frequently Asked Questions
+          FAQs
         </h2>
           <h3 className="text-white text-xl sm:text-xl md:text-xl font-semibold mb-2">
             Q1. Is AWS Penetration Testing Legal?

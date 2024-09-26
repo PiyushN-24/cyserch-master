@@ -2,11 +2,10 @@
 import React from "react";
 import Image from "next/image";
 import CyserchImage from "../../../../public/images/blog1-topimgge.png";
-
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Card1 from "../../../../public/images/Top 10 Cybersecurity Companies in New Zealand to Watch in 2024.png"
-
+import CEH_Image from "../../../../public/images/Top Cybersecurity Companies in UK to Watch in 2024_11zon.png";
 
 
 
@@ -20,13 +19,21 @@ export const metadata = {
     <>
     <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
       <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Top 10 Cybersecurity Companies in the UK in 2024</h1>
-
+      <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
       <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Introduction</h2>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
         In todays digital age, cybersecurity is more crucial than ever. With cyber threats constantly evolving, staying ahead of the curve is essential. As a professional deeply invested in the cybersecurity landscape, I have had the privilege of observing the industrys growth and the emergence of key players. In this blog post, I will highlight the top 10 cybersecurity companies in the UK for 2024, emphasizing their contributions and why they stand out. Of course, I will also discuss how Cyserch plays a vital role in this dynamic field, offering unparalleled services that cater to your cybersecurity needs.
       </p>
 
-      <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">1.         <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Cyserch</a></h2>
+      <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">1. Cyserch </h2>
 
       <h3 className="text-white text-xl sm:text-3xl md:text-3xl font-bold mb-4">Overview</h3>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
@@ -45,41 +52,52 @@ export const metadata = {
     </h3>
     <div className="text-white grid grid-cols-1 sm:grid-cols-2 gap-6">
       <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
+        <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
         <p className="text-sm font-light mb-2">
           At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
         </p>
-        <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
+        <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+          Learn more about Cloud Penetration Testing
+        </Link>
       </div>
       <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">Web Security</h3>
+        <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
         <p className="text-sm font-light mb-2">
           Our web security services ensure comprehensive protection for your web applications and platforms.
         </p>
-        <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
+        <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+          Learn more about Web Penetration Testing
+        </Link>
       </div>
       <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">API Security</h3>
+        <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
         <p className="text-sm font-light mb-2">
           Protect your APIs from potential threats with our advanced API security solutions.
         </p>
-        <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
+        <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+          Learn more about API Penetration Testing
+        </Link>
       </div>
       <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
+        <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
         <p className="text-sm font-light mb-2">
           Ensure the security of your mobile applications and devices with our tailored mobile security services.
         </p>
-        <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
+        <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+          Learn more about Mobile Penetration Testing
+        </Link>
       </div>
       <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">Network Security</h3>
+        <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
         <p className="text-sm font-light mb-2">
           Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
         </p>
-        <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
+        <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+          Learn more about Network Penetration Testing
+        </Link>
       </div>
     </div>
+
     <ContactUs />
 
     <br/>
@@ -205,7 +223,7 @@ export const metadata = {
    
       <br/>
 <br/>
-      <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">8. <Link href="https://www.bt.com/business/solutions/security">BT Security</Link></h2>
+      <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">8. <Link href="https://www.bt.com/exp/home">BT Security</Link></h2>
 
       <h3 className="text-white text-xl sm:text-3xl md:text-3xl font-bold mb-4">Overview</h3>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">BT Security delivers comprehensive cybersecurity services, ensuring the safety and resilience of networks and data.</p>
@@ -251,7 +269,7 @@ export const metadata = {
 <br/>
 <br/>
 
-      <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">10. <Link href="https://www.crowdstrike.com/">CrowdStrike</Link></h2>
+      <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">10. <Link href="https://www.crowdstrike.com/en-us/">CrowdStrike</Link></h2>
 
       <h3 className="text-white text-xl sm:text-3xl md:text-3xl font-bold mb-4">Overview</h3>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">CrowdStrike is renowned for its cloud-native endpoint protection platform, leveraging AI to provide real-time threat intelligence and protection.</p>
@@ -265,7 +283,7 @@ export const metadata = {
 
       
       
-      <a href="https://www.crowdsrikes.com" className="text-blue-500 hover:underline">CrowdStrikes Solutions</a>
+      <a href="https://www.crowdstrike.com/en-us/" className="text-blue-500 hover:underline">CrowdStrikes Solutions</a>
 
    
       <br/>
@@ -281,7 +299,7 @@ export const metadata = {
         <li><strong>Zero Trust Security: Moving towards a model where trust is never assumed.</strong> </li>
         <li><strong>Cloud Security: Increasing focus on securing cloud environments against sophisticated threats.</strong> </li>
       </ul>
-      <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Read More on Cyserch’s Blog</a>
+      <a href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">Read More on Cyserch’s Blog</a>
 
 <br/>
 <br/>
@@ -328,7 +346,7 @@ export const metadata = {
             <strong>A6:</strong> Our team continuously monitors industry trends and leverages cutting-edge technologies to mitigate evolving cyber risks effectively.
           </p>
           </div>
-      <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Visit Cyserch’s  Page</a>
+    
 
    
       <br/>
@@ -338,7 +356,7 @@ export const metadata = {
         In conclusion, the importance of cybersecurity cannot be overstated. As we move further into 2024, staying protected against cyber threats is more crucial than ever. I encourage you to explore Cyserch’s <Link href="https://www.cyserch.com/">comprehensive services</Link> to safeguard your business and ensure your digital assets remain secure.
       </p>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-        For more insights and the latest trends in cybersecurity, don’t hesitate to         <a href="https://www.cyserch.com/services/contactus" className="text-blue-500 hover:underline">contact us</a> or visit our         <a href="https://www.cyserch.com/services/blog" className="text-blue-500 hover:underline">blog</a>. Let’s build a safer digital future together.
+        For more insights and the latest trends in cybersecurity, don’t hesitate to         <a href="https://www.cyserch.com/contactus" className="text-blue-500 hover:underline">contact us</a> or visit our         <a href="https://www.cyserch.com/blog" className="text-blue-500 hover:underline">blog</a>. Let’s build a safer digital future together.
       </p>
     </div>
 <ContactUs/>

@@ -28,7 +28,7 @@ export default function DevSecOpsPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          In today's rapidly evolving software development landscape,
+          In todays rapidly evolving software development landscape,
           incorporating security from the outset is critical. This is where
           DevSecOps comes into play, integrating security measures from the
           very beginning of the development process. By adopting DevSecOps,
@@ -67,7 +67,7 @@ export default function DevSecOpsPage() {
             <strong>Continuous Monitoring:</strong> Proactively detecting
             threats and real-time monitoring maintain the security posture of
             applications and infrastructure. Continuous monitoring is a key
-            component of <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Cloud Security</a> and <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Network Security</a>.
+            component of <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">Cloud Penetration Testing</Link> and <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">Network Penetration Testing</Link>
           </li>
         </ul>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -78,7 +78,7 @@ export default function DevSecOpsPage() {
           throughout the development process helps catch and address
           vulnerabilities early. This proactive approach significantly reduces
           the risk of security breaches, protecting sensitive data and the
-          organization's reputation.
+          organizations reputation.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <strong>Faster Time-to-Market:</strong> DevSecOps facilitates quicker
@@ -93,8 +93,8 @@ export default function DevSecOpsPage() {
           significant cost savings. Identifying and addressing security
           vulnerabilities early in the development process helps avoid costly
           fixes and penalties associated with data breaches and compliance
-          failures. Implementing our <Link href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Cloud Security</Link>, <Link href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Web Security</Link>, <Link href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">API Security</Link>,
-          <Link href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Mobile Security</Link>, and <Link href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Network Security</Link> services can significantly.
+          failures. Implementing our <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">Cloud Penetration Testing</Link>, <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">Web Penetration Testing</Link>, <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">API Penetration Testing</Link>,
+          <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">Mobile Penetration Testing</Link>, and <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">Network Penetration Testing</Link> services can significantly.
           reduce costs.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -139,7 +139,7 @@ export default function DevSecOpsPage() {
               4. Testing
             </h3>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-              Testing is crucial for identifying security weaknesses and ensuring code integrity. Static Application Security Testing (SAST) tools like <a href="https://owasp.org/www-project-zap/" className="underline text-blue-400">OWASP ZAP</a> simulate attacks to uncover vulnerabilities in running applications. Automated testing frameworks like <a href="https://www.selenium.dev/" className="underline text-blue-400">Selenium</a> streamline the process, making security testing an integral part of the workflow.
+              Testing is crucial for identifying security weaknesses and ensuring code integrity. Static Application Security Testing (SAST) tools like <a href="https://owasp.org/www-project-developer-guide/draft/verification/tools/zed_attack_proxy/" className="underline text-blue-400">OWASP ZAP</a> simulate attacks to uncover vulnerabilities in running applications. Automated testing frameworks like <a href="https://www.selenium.dev/" className="underline text-blue-400">Selenium</a> streamline the process, making security testing an integral part of the workflow.
             </p>
           </div>
           <div className="bg-gray-700 p-4 rounded-lg">
@@ -155,7 +155,7 @@ export default function DevSecOpsPage() {
               6. Deploy
             </h3>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-              In the deployment stage, applications are moved to production environments. Tools like <a href="https://www.ansible.com/" className="underline text-blue-400">Ansible</a> for configuration management and <a href="https://docs.docker.com/bench/" className="underline text-blue-400">Docker Bench</a> for container security ensure deployments are secure, consistent, and reproducible, mitigating risks associated with manual configurations and deployment errors.
+              In the deployment stage, applications are moved to production environments. Tools like <a href="https://www.ansible.com/" className="underline text-blue-400">Ansible</a> for configuration management and <a href="https://hub.docker.com/r/docker/docker-bench-security" className="underline text-blue-400">Docker Bench</a> for container security ensure deployments are secure, consistent, and reproducible, mitigating risks associated with manual configurations and deployment errors.
             </p>
           </div>
           <div className="bg-gray-700 p-4 rounded-lg">
@@ -181,7 +181,7 @@ export default function DevSecOpsPage() {
           Conclusion
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Implementing DevSecOps can significantly enhance an organization's
+          Implementing DevSecOps can significantly enhance an organizations
           security posture. By embedding security throughout the software
           development lifecycle, organizations can deliver secure applications
           faster and more efficiently. Adopting automation, collaboration, and

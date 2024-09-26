@@ -66,50 +66,50 @@ export default function Footer() {
         </a>
 
         <a
-  href="https://twitter.com/cyserch"
-  target="_blank"
-  className="text-gray-400 hover:text-gray-200 mx-2"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="icon icon-tabler icon-tabler-brand-twitter"
-    width="35"
-    height="35"
-    viewBox="0 0 24 24"
-    strokeWidth="1"
-    stroke="#ffffff"
-    fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  >
-    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <path d="M22 4.01c-.77.35-1.6.58-2.46.69a4.27 4.27 0 0 0 1.88-2.34 8.44 8.44 0 0 1-2.72 1.04 4.23 4.23 0 0 0-7.19 3.86 12 12 0 0 1-8.75-4.44 4.23 4.23 0 0 0 1.31 5.65 4.2 4.2 0 0 1-1.92-.53v.05a4.23 4.23 0 0 0 3.39 4.14 4.26 4.26 0 0 1-1.11.15 4.18 4.18 0 0 1-.8-.08 4.24 4.24 0 0 0 3.95 2.94 8.49 8.49 0 0 1-5.24 1.8A8.57 8.57 0 0 1 2 18.8a11.94 11.94 0 0 0 6.29 1.84c7.55 0 11.68-6.25 11.68-11.68 0-.18 0-.35-.01-.53A8.3 8.3 0 0 0 22 4.01z" />
-  </svg>
-</a>
+          href="https://twitter.com/cyserch"
+          target="_blank"
+          className="text-gray-400 hover:text-gray-200 mx-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="icon icon-tabler icon-tabler-brand-twitter"
+            width="35"
+            height="35"
+            viewBox="0 0 24 24"
+            strokeWidth="1"
+            stroke="#ffffff"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M22 4.01c-.77.35-1.6.58-2.46.69a4.27 4.27 0 0 0 1.88-2.34 8.44 8.44 0 0 1-2.72 1.04 4.23 4.23 0 0 0-7.19 3.86 12 12 0 0 1-8.75-4.44 4.23 4.23 0 0 0 1.31 5.65 4.2 4.2 0 0 1-1.92-.53v.05a4.23 4.23 0 0 0 3.39 4.14 4.26 4.26 0 0 1-1.11.15 4.18 4.18 0 0 1-.8-.08 4.24 4.24 0 0 0 3.95 2.94 8.49 8.49 0 0 1-5.24 1.8A8.57 8.57 0 0 1 2 18.8a11.94 11.94 0 0 0 6.29 1.84c7.55 0 11.68-6.25 11.68-11.68 0-.18 0-.35-.01-.53A8.3 8.3 0 0 0 22 4.01z" />
+          </svg>
+        </a>
 
       
 
         <a
-  href="https://www.facebook.com/profile.php?id=61560051406592"
-  target="_blank"
-  className="text-gray-400 hover:text-gray-200 mx-2"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="icon icon-tabler icon-tabler-brand-facebook"
-    width="35"
-    height="35"
-    viewBox="0 0 24 24"
-    strokeWidth="1"
-    stroke="#ffffff"
-    fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  >
-    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <path d="M7 10v4h3v8h4v-8h3l1 -4h-4v-1a1 1 0 0 1 1 -1h3v-4h-4a5 5 0 0 0 -5 5v2h-3" />
-  </svg>
-</a>
+          href="https://www.facebook.com/profile.php?id=61560051406592"
+          target="_blank"
+          className="text-gray-400 hover:text-gray-200 mx-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="icon icon-tabler icon-tabler-brand-facebook"
+            width="35"
+            height="35"
+            viewBox="0 0 24 24"
+            strokeWidth="1"
+            stroke="#ffffff"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M7 10v4h3v8h4v-8h3l1 -4h-4v-1a1 1 0 0 1 1 -1h3v-4h-4a5 5 0 0 0 -5 5v2h-3" />
+          </svg>
+        </a>
 
       </div>
 
@@ -121,7 +121,7 @@ export default function Footer() {
           About
         </Link>
         <Link
-          href="/training"
+          href="/training/corporate"
           className="text-gray-400 hover:text-gray-200 mx-2"
         >
           Training

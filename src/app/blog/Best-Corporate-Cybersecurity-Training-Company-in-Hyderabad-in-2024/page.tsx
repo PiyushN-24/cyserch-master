@@ -3,7 +3,10 @@ import Image from "next/image";
 import TrainingImage from "../../../../public/images/Best-Corporate-Cybersecurity-Training-Company-in-Hyderabad-in-2024.jpeg"; // Replace with your actual image path
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
-import Course from "@/app/components/training/page/couse";
+import Course from "@/app/components/training/corporate/couse";
+import TrainingPage from "@/app/components/training/TrainingPage";
+import courses from "@/app/components/training/coursesData";
+import CourseCard from "@/app/components/training/CourseCard";
 
 
 export const metadata = {
@@ -27,7 +30,7 @@ export default function CybersecurityTrainingPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In today's rapidly evolving digital landscape, robust cybersecurity training has become indispensable for safeguarding your business's digital assets. With Hyderabad emerging as a major IT hub in India, numerous companies are offering specialized training to tackle the increasing cyber threats. This blog will delve into why investing in corporate cybersecurity training is crucial, outline the key criteria for choosing the best training provider, and highlight the top companies in Hyderabad for 2024.
+        In todays rapidly evolving digital landscape, robust cybersecurity training has become indispensable for safeguarding your businesss digital assets. With Hyderabad emerging as a major IT hub in India, numerous companies are offering specialized training to tackle the increasing cyber threats. This blog will delve into why investing in corporate cybersecurity training is crucial, outline the key criteria for choosing the best training provider, and highlight the top companies in Hyderabad for 2024.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Why Corporate Cybersecurity Training is Essential
@@ -36,7 +39,7 @@ export default function CybersecurityTrainingPage() {
           Understanding Corporate Cybersecurity
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Corporate cybersecurity is more than just a defense mechanism; it’s a vital component of your business's overall strategy to protect its digital infrastructure. With cyber-attacks becoming increasingly sophisticated—ranging from phishing scams to ransomware—having a knowledgeable workforce can make all the difference in your organization’s defense.
+          Corporate cybersecurity is more than just a defense mechanism; it’s a vital component of your businesss overall strategy to protect its digital infrastructure. With cyber-attacks becoming increasingly sophisticated—ranging from phishing scams to ransomware—having a knowledgeable workforce can make all the difference in your organization’s defense.
         </p>
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
           Benefits of Comprehensive Training
@@ -59,7 +62,7 @@ export default function CybersecurityTrainingPage() {
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               When selecting a cybersecurity training provider, look for those that offer courses with respected certifications such as CEH (Certified Ethical Hacker) or CISSP (Certified Information Systems Security Professional). These certifications are recognized globally and signify a high level of expertise. 
               <br/><br/>
-              For a deeper dive into these certifications, you can explore this <a href="https://www.cybersecurity-certifications.com" target="_blank" className="text-blue-300 underline">resource on cybersecurity certifications</a>.
+              For a deeper dive into these certifications, you can explore this <a href="https://www.cyserch.com/training" target="_blank" className="text-blue-300 underline">resource on cybersecurity certifications</a>.
             </p>
           </div>
           <div className="bg-gray-800 p-4 rounded-md">
@@ -69,7 +72,7 @@ export default function CybersecurityTrainingPage() {
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               The caliber of training largely depends on the expertise of the instructors. Trainers with substantial experience in the field bring invaluable insights and practical knowledge. 
               <br/><br/>
-              Learn more about what to look for in a <a href="/blog/cybersecurity-trainers" target="_blank" className="text-blue-300 underline">cybersecurity trainer</a> here.
+              Learn more about what to look for in a <a href="/training" target="_blank" className="text-blue-300 underline">cybersecurity trainer</a> here.
             </p>
           </div>
           <div className="bg-gray-800 p-4 rounded-md">
@@ -79,7 +82,7 @@ export default function CybersecurityTrainingPage() {
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               A comprehensive curriculum should encompass various critical areas, including threat analysis, risk management, and incident response. Reviewing external comparisons can help gauge the effectiveness of different training programs. 
               <br/><br/>
-              Check out this <a href="https://www.training-reviews.com" target="_blank" className="text-blue-300 underline">review on top cybersecurity training programs</a> for more insights.
+              Check out this <a href="https://www.cyserch.com/training" target="_blank" className="text-blue-300 underline">review on top cybersecurity training programs</a> for more insights.
             </p>
           </div>
           <div className="bg-gray-800 p-4 rounded-md">
@@ -89,7 +92,7 @@ export default function CybersecurityTrainingPage() {
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               Real-world examples and feedback from previous clients provide a clearer picture of how effective the training has been. Case studies can offer compelling evidence of how the training has benefited other organizations.
               <br/><br/>
-              For instance, explore how <a href="/case-studies" target="_blank" className="text-blue-300 underline">Cyserch</a> has transformed the cybersecurity landscape for its clients through tailored training programs.
+              For instance, explore how <a href="/resources/casestudies" target="_blank" className="text-blue-300 underline">Cyserch</a> has transformed the cybersecurity landscape for its clients through tailored training programs.
             </p>
           </div>
         </div>
@@ -113,17 +116,31 @@ export default function CybersecurityTrainingPage() {
               <li><strong>State-of-the-Art Facilities:</strong> Our training centers are equipped with the latest technology, including advanced simulation tools and interactive labs. This hands-on approach helps participants gain practical experience in a controlled environment, enhancing their learning outcomes.</li>
             </ul>
           </div>
-          <Course />
-          <p className="text-base font-light">
-              For more information on our comprehensive training offerings, visit our <Link href="/training" className="text-blue-400 underline">training services page</Link>.
-          </p>
+          <div id="course" className="TrainingCourse p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center text-center">
+            <span className="text-[#19FFDB] text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium mb-4 sm:mb-6 md:mb-8">
+              Our Best Course
+            </span>
+            <h3 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 sm:mb-4 md:mb-6">
+              Featured Course On This Month
+            </h3>
+        </div>
+        <div className="training-page mt-4 sm:mt-6 md:mt-8 mb-6 sm:mb-8 md:mb-10 flex flex-col justify-center sm:flex-row gap-4 sm:gap-6 md:gap-8">
+          {courses.map((course) => (
+            <CourseCard key={course.id} course={course} />
+          ))}
+        </div>
+        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
+          <Link href="https://www.cyserch.com/training" legacyBehavior>
+            <a className="text-blue-500 underline">Explore our training programs</a>
+          </Link> to learn more about what we offer.
+        </p>
           
           {/* Sumo Logic */}
           <div className="bg-gray-700 p-4 rounded-lg">
             <h2 className="text-2xl font-bold mb-2">2. Sumo Logic</h2>
             <h3 className="text-xl font-semibold mb-2">Overview and Training Highlights:</h3>
             <p className="mb-4 text-base font-light">
-              Sumo Logic is a leader in cloud-native security solutions, offering specialized training that focuses on cloud security and data analytics. Their training programs are designed to elevate skills in key areas such as threat detection, incident response, and security operations. Sumo Logic's training is particularly valuable for organizations seeking to enhance their cloud security posture and leverage data analytics for more effective threat management.
+              Sumo Logic is a leader in cloud-native security solutions, offering specialized training that focuses on cloud security and data analytics. Their training programs are designed to elevate skills in key areas such as threat detection, incident response, and security operations. Sumo Logics training is particularly valuable for organizations seeking to enhance their cloud security posture and leverage data analytics for more effective threat management.
             </p>
             <h3 className="text-xl font-semibold mb-2">Key Features:</h3>
             <ul className="list-disc list-inside mb-4 text-base font-light">
@@ -191,7 +208,7 @@ export default function CybersecurityTrainingPage() {
               Understanding Your Needs
             </h3>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-              Begin by assessing your organization’s specific requirements and select a training provider that aligns with those needs. Customization and relevance are crucial factors in ensuring that the training addresses your unique challenges and objectives. Tailoring the training to fit your organization's context will enhance its effectiveness and impact.
+              Begin by assessing your organization’s specific requirements and select a training provider that aligns with those needs. Customization and relevance are crucial factors in ensuring that the training addresses your unique challenges and objectives. Tailoring the training to fit your organizations context will enhance its effectiveness and impact.
             </p>
           </div>
           <div className="bg-gray-500 p-4 rounded-md">
@@ -199,7 +216,7 @@ export default function CybersecurityTrainingPage() {
               Evaluating Training Providers
             </h3>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-              When evaluating potential training providers, consider their credentials, course content, and client feedback. It's essential to ensure that the training program aligns with your organization's goals and security objectives. Thorough evaluation helps in selecting a provider who can deliver relevant and high-quality training that meets your specific needs.
+              When evaluating potential training providers, consider their credentials, course content, and client feedback. Its essential to ensure that the training program aligns with your organizations goals and security objectives. Thorough evaluation helps in selecting a provider who can deliver relevant and high-quality training that meets your specific needs.
             </p>
           </div>
         </div>

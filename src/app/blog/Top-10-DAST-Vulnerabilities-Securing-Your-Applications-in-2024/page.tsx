@@ -3,7 +3,8 @@ import Image from "next/image";
 import CyserchImage from "../../../../public/images/blog1-topimgge.png";
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
-import DASTImage from "../../../../public/images/card3.png"
+import CEH_Image from "../../../../public/images/Top 10 DAST Vulnerabilities  Securing Your Applications in 2024.png"
+
 
 export const metadata = {
   title: "Cyserch | Top 10 DAST Vulnerabilities: Securing Your Applications in 2024",
@@ -17,16 +18,15 @@ export default function DASTVulnerabilitiesPage() {
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 DAST Vulnerabilities: Securing Your Applications in 2024
         </h1>
-
         <div className="flex justify-center mb-4 w-full">
           <Image
-            src={DASTImage}
-            width={600}
-            height={600}
-            alt="Top 10 DAST Vulnerabilities: Securing Your Applications in 2024"
-            className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
           />
-        </div>
+          </div>
 
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           In the fast-paced world of cybersecurity, staying ahead of threats is crucial. As we delve into the Top 10 DAST Vulnerabilities of 2024, we will explore the most pressing threats that can compromise your web applications. Dynamic Application Security Testing (DAST) is vital for identifying these vulnerabilities by testing the application in its running state. Today, I will walk you through these vulnerabilities, their impacts, detection methods, and the best strategies to mitigate them. Let’s explore how <Link href="https://www.cyserch.com" legacyBehavior><a className="text-blue-500 underline">Cyserch.com</a></Link> can help you secure your applications effectively.
@@ -79,9 +79,12 @@ export default function DASTVulnerabilitiesPage() {
           The Top 10 DAST Vulnerabilities of 2024
         </h2>
 
-        <ol className="list-decimal space-y-6 mb-6 text-white">
+        <ol className=" space-y-6 mb-6 text-white">
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">SQL Injection</h3>
+          <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">1. Sql Injection</h3>
+           
+  
+
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: SQL Injection occurs when attackers manipulate SQL queries by injecting malicious code, potentially gaining unauthorized access to the database.
             </h4>
@@ -102,7 +105,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Cross-Site Scripting (XSS)</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">2.Cross-Site Scripting (XSS)</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: XSS vulnerabilities allow attackers to inject malicious scripts into web pages viewed by users, leading to session hijacking, defacement, or redirection to malicious sites.
             </h4>
@@ -123,7 +126,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Cross-Site Request Forgery (CSRF)</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">3.Cross-Site Request Forgery (CSRF)</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: CSRF tricks authenticated users into executing unwanted actions on a web application, exploiting the trust that a site has in a user’s browser.
             </h4>
@@ -144,7 +147,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Security Misconfiguration</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">4.Security Misconfiguration</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: Security misconfigurations occur when security settings are defined, implemented, or maintained incorrectly, leading to potential vulnerabilities.
             </h4>
@@ -165,7 +168,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Sensitive Data Exposure</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">5.Sensitive Data Exposure</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: Sensitive Data Exposure occurs when applications inadvertently expose sensitive data, such as passwords, credit card numbers, or personal information.
             </h4>
@@ -186,7 +189,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">XML External Entities (XXE)</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">6.XML External Entities (XXE)</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: XXE vulnerabilities occur when XML input containing references to external entities is processed by an insecurely configured XML parser.
             </h4>
@@ -207,7 +210,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Insecure Deserialization</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">7.Insecure Deserialization</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: Insecure deserialization occurs when an application deserializes untrusted data, leading to remote code execution, denial of service, or other attacks.
             </h4>
@@ -228,7 +231,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Using Components with Known Vulnerabilities</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">8.Using Components with Known Vulnerabilities</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: Using components with known vulnerabilities refers to incorporating libraries, frameworks, or other components with known security flaws into an application.
             </h4>
@@ -249,7 +252,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Broken Authentication and Session Management</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">9.Broken Authentication and Session Management</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: Broken authentication and session management occur when application functions related to authentication and session handling are implemented incorrectly, leading to unauthorized access.
             </h4>
@@ -270,7 +273,7 @@ export default function DASTVulnerabilitiesPage() {
           </li>
 
           <li>
-            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Insufficient Logging and Monitoring</h3>
+            <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">10.Insufficient Logging and Monitoring</h3>
             <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
               Description: Insufficient logging and monitoring occur when an application fails to log security-relevant events or monitor for suspicious activity, hindering the detection and response to attacks.
             </h4>
@@ -290,7 +293,7 @@ export default function DASTVulnerabilitiesPage() {
             </ul>
           </li>
         </ol>
-      </div>
+      {/* </div> */}
 
       <section>
         <h2 className="text-white text-3xl sm:text-4xl md:text-4xl font-bold mb-8">Case Studies: Real-World Examples of DAST Vulnerabilities</h2>
@@ -332,13 +335,13 @@ export default function DASTVulnerabilitiesPage() {
 
       <section className="my-8">
         <h2 className="text-white text-3xl sm:text-4xl md:text-4xl font-bold mb-8">Why Choose Cyserch.com for DAST Solutions</h2>
-        <p className="text-sm sm:text-base md:text-lg font-light mb-4">
+        <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
           Cyserch.com is a leading provider of cybersecurity solutions, specializing in DAST. Our team of experts is dedicated to helping you secure your applications by identifying and mitigating vulnerabilities. With our advanced DAST tools and comprehensive approach to security, you can rest assured that your applications are protected against the latest threats.
         </p>
-        <h4 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
+        <h4 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
           Key Benefits of Choosing Cyserch.com:
         </h4>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="text-white list-disc list-inside space-y-2">
           <li>Expertise in DAST: Our team has extensive experience in DAST, ensuring thorough and accurate vulnerability detection.</li>
           <li>Comprehensive Solutions: We offer a full suite of cybersecurity services to protect your applications and data.</li>
           <li>Proven Track Record: Our case studies and client testimonials speak to our success in enhancing application security.</li>
@@ -352,7 +355,7 @@ export default function DASTVulnerabilitiesPage() {
           <div className="bg-gray-800 p-6 rounded-lg shadow-md">
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">What is DAST?</h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-4">
-              DAST, or Dynamic Application Security Testing, is a method of testing the security of an application by examining it from the outside while it is running. It identifies vulnerabilities by simulating attacks and observing the application's behavior.
+              DAST, or Dynamic Application Security Testing, is a method of testing the security of an application by examining it from the outside while it is running. It identifies vulnerabilities by simulating attacks and observing the applications behavior.
             </p>
           </div>
 
@@ -366,24 +369,27 @@ export default function DASTVulnerabilitiesPage() {
           <div className="bg-gray-800 p-6 rounded-lg shadow-md">
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Why is DAST important for application security?</h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-4">
-              DAST is crucial for identifying and mitigating vulnerabilities in an application's runtime environment. It helps uncover security flaws that may not be apparent through static code analysis, providing a more comprehensive view of an application's security posture.
+              DAST is crucial for identifying and mitigating vulnerabilities in an applications runtime environment. It helps uncover security flaws that may not be apparent through static code analysis, providing a more comprehensive view of an applications security posture.
             </p>
           </div>
 
           <div className="bg-gray-800 p-6 rounded-lg shadow-md">
             <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">What are some common DAST tools?</h3>
             <p className="text-sm sm:text-base md:text-lg font-light mb-4">
-              Common DAST tools include OWASP ZAP, Burp Suite, Acunetix, and IBM AppScan. These tools help identify a wide range of security vulnerabilities in web applications by simulating attacks and analyzing the application's responses.
+              Common DAST tools include OWASP ZAP, Burp Suite, Acunetix, and IBM AppScan. These tools help identify a wide range of security vulnerabilities in web applications by simulating attacks and analyzing the applications responses.
             </p>
           </div>
         </div>
       </section>
 
       <footer className="my-8">
-        <p className="text-sm sm:text-base md:text-lg font-light mb-4">
-          Securing your applications is a critical aspect of maintaining your business's reputation and protecting your customers' data. At Cyserch.com, we are committed to providing top-notch DAST solutions to help you stay ahead of the latest threats. Contact us today to learn more about how we can help you secure your applications.
+        <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
+          Securing your applications is a critical aspect of maintaining your businesss reputation and protecting your customers data. At Cyserch.com, we are committed to providing top-notch DAST solutions to help you stay ahead of the latest threats. Contact us today to learn more about how we can help you secure your applications.
         </p>
       </footer>
+    </div>
+
+    <ContactUs/>
     </div>
   );
 }

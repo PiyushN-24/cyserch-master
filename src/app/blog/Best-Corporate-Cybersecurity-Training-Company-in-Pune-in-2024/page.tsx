@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import GraphImage from "../../../../public/images/Increase-in-Cyberattacks-Over-the-Past-5-Years.png";
-import SecImage from "../../../../public/images/security.png";
+import SecImage from "../../../../public/images/Best Corporate Cybersecurity Training Company in pune in 2024_11zon.png";
+import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
+import courses from "@/app/components/training/coursesData";
+import CourseCard from "@/app/components/training/CourseCard";
 
 export const metadata = {
   title: "Best Corporate Cybersecurity Training Company in Pune in 2024",
@@ -11,7 +14,8 @@ export const metadata = {
 
 export default function CybersecurityTrainingPage() {
   return (
-    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <>
+      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Best Corporate Cybersecurity Training Company in Pune in 2024
         </h1>
@@ -19,7 +23,7 @@ export default function CybersecurityTrainingPage() {
           <Image src={SecImage} width={600} height={400} alt="Increase in Cyberattacks Over the Past 5 Years" className="rounded-lg object-cover" />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          In today's rapidly evolving digital landscape, safeguarding corporate data is more crucial than ever. As we move through 2024, the importance of robust cybersecurity training for companies in Pune cannot be overstated. Having worked in the field of cybersecurity, I’ve seen firsthand how a well-structured training program can make a significant difference. In this blog, I’ll explore why corporate cybersecurity training is essential, review the top training providers in Pune, and guide you on how to choose the best one for your company. I’ll also highlight why Cyserch stands out as a top choice.
+          In todays rapidly evolving digital landscape, safeguarding corporate data is more crucial than ever. As we move through 2024, the importance of robust cybersecurity training for companies in Pune cannot be overstated. Having worked in the field of cybersecurity, I’ve seen firsthand how a well-structured training program can make a significant difference. In this blog, I’ll explore why corporate cybersecurity training is essential, review the top training providers in Pune, and guide you on how to choose the best one for your company. I’ll also highlight why Cyserch stands out as a top choice.
         </p>
 
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -62,60 +66,78 @@ export default function CybersecurityTrainingPage() {
         </p>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <li><strong>Expert Trainers:</strong> Our team comprises industry veterans with extensive experience in cybersecurity.</li>
-          <li><strong>Customized Training:</strong> We tailor our programs to fit your company's unique requirements, ensuring that the content is relevant and practical.</li>
+          <li><strong>Customized Training:</strong> We tailor our programs to fit your companys unique requirements, ensuring that the content is relevant and practical.</li>
           <li><strong>Certification:</strong> Participants receive industry-recognized certifications upon completing our training.</li>
         </ul>
+        <div id="course" className="TrainingCourse p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center text-center">
+          <span className="text-[#19FFDB] text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium mb-4 sm:mb-6 md:mb-8">
+            Our Best Course
+          </span>
+          <h3 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 sm:mb-4 md:mb-6">
+            Featured Course On This Month
+          </h3>
+        </div>
+        <div className="training-page mt-4 sm:mt-6 md:mt-8 mb-6 sm:mb-8 md:mb-10 flex flex-col justify-center sm:flex-row gap-4 sm:gap-6 md:gap-8">
+          {courses.map((course) => (
+            <CourseCard key={course.id} course={course} />
+          ))}
+        </div>
         <h3 className="text-xl sm:text-2xl md:text-2xl text-white font-semibold mb-4">
           Services Offered by Cyserch Security
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
+            <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
             </p>
-            <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Cloud Penetration Testing Services
+            </Link>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">Web Security</h3>
+            <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               Our web security services ensure comprehensive protection for your web applications and platforms.
             </p>
-            <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about our Web Penetration Testing Services
+            </Link>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">API Security</h3>
+            <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               Protect your APIs from potential threats with our advanced API security solutions.
             </p>
-            <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about our API Penetration Testing Services
+            </Link>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
+            <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               Ensure the security of your mobile applications and devices with our tailored mobile security services.
             </p>
-            <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about our Mobile Penetration Testing Services
+            </Link>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 text-white col-span-1 sm:col-span-2 sm:col-start-1 sm:col-end-3 sm:self-center">
-            <h3 className="text-xl font-semibold mb-2">Network Security</h3>
+            <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
             </p>
-            <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about our Network Penetration Testing Services
+            </Link>
           </div>
         </div>
-
-
-        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          <a href="https://www.cyserch.com/training" className="text-blue-500 underline">Explore our training programs</a>
-        </p>
-
+        <br/>
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
-          2. SecuTrain
+          2. Spoclearn
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          SecuTrain is known for its hands-on approach to training. Their programs emphasize practical exercises and real-world scenarios, helping employees apply what they learn in a tangible way.
+          CyberSecurity Academy Pune is known for its hands-on approach to training. Their programs emphasize practical exercises and real-world scenarios, helping employees apply what they learn in a tangible way.
         </p>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <li><strong>Practical Training:</strong> Focuses on hands-on exercises and simulations.</li>
@@ -123,10 +145,10 @@ export default function CybersecurityTrainingPage() {
         </ul>
 
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
-          3. CyberEdu
+          3. Operon Strategist
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          CyberEdu offers a broad range of training courses, including specialized programs for different industries. Their diverse offerings make them a versatile option for companies with specific needs.
+          Pune Cybersecurity Solutions offers a broad range of training courses, including specialized programs for different industries. Their diverse offerings make them a versatile option for companies with specific needs.
         </p>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <li><strong>Sector-Specific Courses:</strong> Tailored training for various industry sectors.</li>
@@ -134,10 +156,10 @@ export default function CybersecurityTrainingPage() {
         </ul>
 
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
-          4. InGuard Academy
+          4. Finpro Consulting
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          InGuard Academy provides comprehensive cybersecurity training with a focus on both theoretical knowledge and practical skills. Their programs are designed to address the diverse needs of modern organizations.
+          SecurePune provides comprehensive cybersecurity training with a focus on both theoretical knowledge and practical skills. Their programs are designed to address the diverse needs of modern organizations.
         </p>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <li><strong>Comprehensive Programs:</strong> Covers a wide range of cybersecurity topics.</li>
@@ -190,7 +212,9 @@ export default function CybersecurityTrainingPage() {
 
 
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-            <a href="https://www.cyserch.com/contactus" className="text-blue-500 underline">Contact us</a> today to learn more about our offerings and how we can help your organization stay secure.
+          <Link href="https://www.cyserch.com/contactus" legacyBehavior>
+            <a className="text-blue-500 underline">Contact us</a>
+          </Link> today to learn more about our offerings and how we can help your organization stay secure.
         </p>
         <div className="mb-4">
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -199,7 +223,7 @@ export default function CybersecurityTrainingPage() {
         <p className="text-white text-sm sm:text-base md:text-lg font-light">In conclusion, corporate cybersecurity training is a vital investment for any business aiming to protect its digital assets. By choosing a reputable training provider, such as Cyserch, you can ensure that your employees are well-equipped to handle the ever-evolving cyber threat landscape.</p>
         </div>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
-          FAQs 
+          FAQs About Cybersecurity Training
         </h2>
         <div className="mb-4">
           <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
@@ -228,5 +252,6 @@ export default function CybersecurityTrainingPage() {
 
         <ContactUs />
       </div>
+    </>
   );
 }

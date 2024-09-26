@@ -24,22 +24,18 @@ export default function Hero() {
               Corporate Cybersecurity Training
             
           </h1>
-          {/*<p className="discription">
+          {/* <p className="discription">
             Choose our team for trustworthy security solutions designed
             specifically for your requirements. Secure your operations and gain
             tranquility knowing we are your dedicated cybersecurity partners.
-          </p>*/}
+          </p> */}
           <Link href="/contactus">
             <button className="btn-2">Schedule a call</button>
           </Link>
         </div>
         <div className="div-box2 fadeRight">
-          <Image 
-            src={heroImg} 
-            alt="hero" 
-            decoding="async"
-            loading="lazy" 
-          />
+          <Image src={heroImg} alt="hero" decoding="async"
+  loading="lazy" />
         </div>
       </div>
     </>

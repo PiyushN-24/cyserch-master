@@ -193,7 +193,7 @@ export default function TopGCPVulnerabilitiesPage() {
             This visual representation breaks down the percentage of incidents attributed to each vulnerability type, such as insufficient IAM permissions, misconfigured storage buckets, and insecure API endpoints. By analyzing this data, organizations can prioritize remediation efforts on the most prevalent threats, thereby reducing the risk of exploitation.
           </p>
           <p className="mb-4">
-            For instance, the dominance of issues like "Insufficient IAM Permissions" and "Misconfigured Storage Buckets" highlights the critical need for strict access control and proper configuration management. These insights can guide your security strategy, ensuring that resources are allocated effectively to mitigate the most significant risks within your GCP environment.
+            For instance, the dominance of issues like Insufficient IAM Permissions and Misconfigured Storage Buckets highlights the critical need for strict access control and proper configuration management. These insights can guide your security strategy, ensuring that resources are allocated effectively to mitigate the most significant risks within your GCP environment.
           </p>
           <p className="mb-4">
             This data-driven approach not only enhances your understanding of the threat landscape but also empowers you to take proactive steps in securing your cloud infrastructure.
@@ -213,7 +213,7 @@ export default function TopGCPVulnerabilitiesPage() {
 
       <div className="my-8 text-center">
         <Link href="https://www.cyserch.com/about" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">
-          Discover More About Cyserch's Cloud Security Services
+          Discover More About Cyserchs Cloud Security Services
         </Link>
       </div>
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">

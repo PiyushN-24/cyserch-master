@@ -145,7 +145,7 @@ export default function EcommerceSecurityVulnerabilitiesPage() {
             “Broken authentication is a critical issue that can be mitigated with comprehensive authentication strategies. Regular reviews and updates are essential.” – Michael Lee, IT Security Specialist.
           </p>
           <p className="text-blue-500 underline">
-            <a href="https://owasp.org/www-community/attacks/Broken_Authentication" target="_blank" rel="noopener noreferrer">OWASP’s guide on Broken Authentication</a>
+            <a href="https://owasp.org/API-Security/editions/2023/en/0xa2-broken-authentication/" target="_blank" rel="noopener noreferrer">OWASP’s guide on Broken Authentication</a>
           </p>
           <br />
 
@@ -169,7 +169,7 @@ export default function EcommerceSecurityVulnerabilitiesPage() {
             “Data exposure is a serious issue that can be effectively managed through encryption and secure data handling practices. Regular audits can help maintain data security.” – Sarah Wilson, Data Protection Expert.
           </p>
           <p className="text-blue-500 underline">
-            <a href="https://owasp.org/www-community/vulnerabilities/Sensitive_Data_Exposure" target="_blank" rel="noopener noreferrer">OWASP’s guide on Sensitive Data Exposure</a>
+            <a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure" target="_blank" rel="noopener noreferrer">OWASP’s guide on Sensitive Data Exposure</a>
           </p>
           <br />
 
@@ -193,7 +193,7 @@ export default function EcommerceSecurityVulnerabilitiesPage() {
             “Proper configuration is crucial for security. Regular audits and adherence to best practices can help prevent misconfigurations.” – Laura Green, Cybersecurity Auditor.
           </p>
           <p className="text-blue-500 underline">
-            <a href="https://owasp.org/www-community/vulnerabilities/Security_Misconfiguration" target="_blank" rel="noopener noreferrer">OWASP’s guide on Security Misconfiguration</a>
+            <a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/" target="_blank" rel="noopener noreferrer">OWASP’s guide on Security Misconfiguration</a>
           </p>
           <br />
 
@@ -217,7 +217,7 @@ export default function EcommerceSecurityVulnerabilitiesPage() {
             “Staying current with component updates and patches is vital for minimizing risk. Regular reviews and proactive management are key.” – Daniel Thomas, Software Security Engineer.
           </p>
           <p className="text-blue-500 underline">
-            <a href="https://owasp.org/www-community/vulnerabilities/Using_Components_with_Known_Vulnerabilities" target="_blank" rel="noopener noreferrer">OWASP’s guide on Using Components with Known Vulnerabilities</a>
+            <a href="https://owasp.org/www-project-top-ten/2017/A9_2017-Using_Components_with_Known_Vulnerabilities" target="_blank" rel="noopener noreferrer">OWASP’s guide on Using Components with Known Vulnerabilities</a>
           </p>
           <br />
 
@@ -241,7 +241,7 @@ export default function EcommerceSecurityVulnerabilitiesPage() {
             “Effective logging and monitoring are essential for detecting and responding to threats quickly. Investing in these practices can greatly enhance your security posture.” – Karen Martinez, IT Security Expert.
           </p>
           <p className="text-blue-500 underline">
-            <a href="https://owasp.org/www-community/vulnerabilities/Insufficient_Logging_and_Monitoring" target="_blank" rel="noopener noreferrer">OWASP’s guide on Insufficient Logging and Monitoring</a>
+            <a href="https://owasp.org/www-project-top-ten/2017/A10_2017-Insufficient_Logging%2526Monitoring" target="_blank" rel="noopener noreferrer">OWASP’s guide on Insufficient Logging and Monitoring</a>
           </p>
           <br />
 
@@ -265,7 +265,7 @@ export default function EcommerceSecurityVulnerabilitiesPage() {
             “Business logic vulnerabilities can have significant financial impacts. Rigorous testing and validation are essential to prevent exploitation.” – Robert Johnson, Business Security Analyst.
           </p>
           <p className="text-blue-500 underline">
-            <a href="https://owasp.org/www-community/vulnerabilities/Business_Logic_Vulnerabilities" target="_blank" rel="noopener noreferrer">OWASP’s guide on Business Logic Vulnerabilities</a>
+            <a href="https://owasp.org/www-community/vulnerabilities/Business_logic_vulnerability" target="_blank" rel="noopener noreferrer">OWASP’s guide on Business Logic Vulnerabilities</a>
           </p>
           <br/>
         <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4 mt-8">

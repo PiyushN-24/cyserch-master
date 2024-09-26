@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 import AI_ML_Pentest_Image from "../../../../public/images/Best Corporate Cybersecurity Training Company in mumbai in 2024_11zon.png";
 import ContactUs from "@/app/components/home/contactus";
+import courses from "@/app/components/training/coursesData";
+import CourseCard from "@/app/components/training/CourseCard";
+import Link from "next/link";
 
 export const metadata = {
   title: "Cyserch | Best Corporate Cybersecurity Training Company in Mumbai in 2024",
@@ -34,7 +37,7 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         Cyserch.com has been a trusted name in cybersecurity solutions, known for its innovative approach and extensive experience in the field. With years of providing top-notch services and training, Cyserch.com is recognized for its excellence.
         <br/>
-        <a href="https://www.forbes.com/article-on-reputation-in-cybersecurity-training" className="text-blue-500">Forbes article on the importance of reputation in cybersecurity training</a>
+        <a href="https://www.forbes.com/councils/forbesbusinesscouncil/2023/10/06/the-importance-of-navigating-cybersecurity-compliance-for-the-c-suite/" className="text-blue-500">Forbes article on the importance of reputation in cybersecurity training</a>
       </p>
       <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
         The Scoop on What to Look For
@@ -63,44 +66,65 @@ export default function BestCorporateCybersecurityTrainingCompany() {
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
         Cyserch Security Solutions offers a range of cybersecurity training programs tailored to various industries. Their focus on practical, hands-on training makes them a popular choice among corporates.
       </p>
+      <div id="course" className="TrainingCourse p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center text-center">
+          <span className="text-[#19FFDB] text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium mb-4 sm:mb-6 md:mb-8">
+            Our Best Course
+          </span>
+          <h3 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 sm:mb-4 md:mb-6">
+            Featured Course On This Month
+          </h3>
+      </div>
+      <div className="training-page mt-4 sm:mt-6 md:mt-8 mb-6 sm:mb-8 md:mb-10 flex flex-col justify-center sm:flex-row gap-4 sm:gap-6 md:gap-8">
+        {courses.map((course) => (
+          <CourseCard key={course.id} course={course} />
+        ))}
+      </div>
+      <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
+          <Link href="https://www.cyserch.com/training" legacyBehavior>
+            <a className="text-blue-500 underline">Explore our training programs</a>
+          </Link> to learn more about what we offer.
+        </p>
       <h3 className="text-xl sm:text-2xl md:text-2xl text-white font-semibold mb-4">
           Services Offered by Cyserch Security
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
+          <div className="bg-gray-800 rounded-lg p-4 text-white">Penetration Testing
+            <h3 className="text-xl font-semibold mb-2">Cloud </h3>
             <p className="text-sm font-light mb-2">
               At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
             </p>
-            <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Cloud Penetration Testing Services
+            </Link>
+
           </div>
           <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">Web Security</h3>
+            <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               Our web security services ensure comprehensive protection for your web applications and platforms.
             </p>
-            <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">Learn more about Web Penetration Testing Services</Link>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">API Security</h3>
+            <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               Protect your APIs from potential threats with our advanced API security solutions.
             </p>
-            <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">Learn more about API Penetration Testing Services</Link>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
+            <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               Ensure the security of your mobile applications and devices with our tailored mobile security services.
             </p>
-            <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">Learn more about Mobile Penetration Testing Services</Link>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 text-white">
-            <h3 className="text-xl font-semibold mb-2">Network Security</h3>
+            <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
             </p>
-            <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">Learn more about Network Penetration Testing Services</Link>
           </div>
         </div>
         <br/>
@@ -187,7 +211,7 @@ export default function BestCorporateCybersecurityTrainingCompany() {
         <br/>
         According to a client survey, 90% of organizations reported a significant improvement in their cybersecurity posture after training with Cyserch.com (Client Survey Report).
         <br/>
-          <a href="/about" className="text-blue-500">Read Cyserch's success stories</a>
+          <a href="/about" className="text-blue-500">Read Cyserch success stories</a>
       </p>
       </div>
       <div className="bg-gray-800 rounded-lg p-4 text-white">

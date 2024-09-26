@@ -5,11 +5,12 @@ import Methodology from "@/app/components/services/SAST/methodology";
 import Offers from "@/app/components/services/SAST/offers";
 import EndBox from "@/app/components/services/SAST/EndBox";
 import ClinetTestimonials from "@/app/components/services/SAST/ClinetTestimonials";
-
+import CaseStudy from "@/app/components/services/SAST/casestudies";
+import ClientsCount from "@/app/components/services/SAST/clientsCount";
 
 export const metadata = {
-  title: "Cyserch | Trusted Web Penetration Testing Partner ",
-  description: "Identify website vulnerabilities with Cyserch's web penetration testing. Our experts simulate attacks to uncover weaknesses, providing actionable recommendations. Learn more and strengthen your cybersecurity today!"
+  title: "Cyserch | Expert SAST for Comprehensive Application Security",
+  description: "Enhance your application security with Cyserch's SAST services. Detect vulnerabilities in your code, fix issues early, and ensure robust protection with our expert solutions."
   };
 
 export default function CloudSecurityPage() {
@@ -21,10 +22,11 @@ export default function CloudSecurityPage() {
       <Overview />
       <WhyCloudPentesting />
       <Methodology />
+      <ClientsCount />
       <Offers />
-     
       <EndBox />
       <ClinetTestimonials />
+      <CaseStudy />
     </>
   );
 }

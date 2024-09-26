@@ -111,7 +111,7 @@ export default function DownloadForm() {
               />
             </div>
             <p className="text-base mb-4">
-              The Mobile Application Penetration Testing Report delves into the intricacies of securing mobile-based environments. This report reveals how Cyserch's penetration testing strategies have identified and mitigated critical vulnerabilities within leading mobile applications. Through real-world scenarios, the report showcases Cyserch's expertise in protecting mobile infrastructures from sophisticated cyber threats. It covers key aspects like security misconfigurations, unauthorized access points, and potential data breaches, emphasizing the importance of thorough testing in maintaining mobile application security.
+              The Mobile Application Penetration Testing Report delves into the intricacies of securing mobile-based environments. This report reveals how Cyserchs penetration testing strategies have identified and mitigated critical vulnerabilities within leading mobile applications. Through real-world scenarios, the report showcases Cyserchs expertise in protecting mobile infrastructures from sophisticated cyber threats. It covers key aspects like security misconfigurations, unauthorized access points, and potential data breaches, emphasizing the importance of thorough testing in maintaining mobile application security.
             </p>
             <h2 className="text-3xl mb-4">What You Will Learn,</h2>
             <ul className="list-disc pl-6 mb-4">

@@ -1,20 +1,14 @@
-import Image from "next/image";
-import Icon1 from "../../../../../public/icons/analyze.svg";
-import Applications from "../../../../../public/icons/applications.svg";
-import IAM from "../../../../../public/icons/IAM.svg";
-import group from "../../../../../public/icons/Mask-Group.svg";
+import { FaVial, FaMoneyBillWave, FaCogs, FaHeadset, FaShieldAlt, FaFileAlt, FaUsers, FaHandsHelping } from 'react-icons/fa'; // Importing icons from react-icons
 
 export default function DASTOffers() {
   return (
-    <div className="px-4 sm:px-[9rem] py-4 sm:py-[3rem]">
+    <div className="px-4 bg-[#011c3c] sm:px-[9rem] py-4 sm:py-[3rem]">
       <h2 className="text-white text-[2.18rem] font-semibold mt-3 mb-[-5rem] sm:mb-[1rem]">
         Our Deliverables
       </h2>
       <div className="cards flex flex-col sm:flex-row gap-4 sm:gap-8 p-4 sm:p-[3rem]">
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={Icon1} alt="card" className="w-14 h-14" />
-          </div>
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
+          <FaVial className="w-14 h-14 text-teal-400" /> {/* React Icon used here */}
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Comprehensive Vulnerability Assessment Report
           </h3>
@@ -23,10 +17,8 @@ export default function DASTOffers() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={Applications} alt="card" className="w-12 h-12" />
-          </div>
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
+          <FaMoneyBillWave className="w-12 h-12 text-teal-400" />
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Cost-Effective Solutions
           </h3>
@@ -35,22 +27,18 @@ export default function DASTOffers() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={IAM} alt="card" className="w-12 h-12" />
-          </div>
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
+          <FaCogs className="w-12 h-12 text-teal-400" />
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Customized Service Packages
           </h3>
           <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Choose from a range of service packages tailored to your organization's needs and budget, ensuring that you get the most value out of your investment in security testing and assessment.
+            Choose from a range of service packages tailored to your organization’s needs and budget, ensuring that you get the most value out of your investment in security testing and assessment.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={group} alt="card" className="w-12 h-12" />
-          </div>
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
+          <FaHeadset className="w-12 h-12 text-teal-400" />
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Dedicated Support Team
           </h3>
@@ -62,9 +50,7 @@ export default function DASTOffers() {
 
       <div className="cards flex flex-col sm:flex-row gap-4 sm:gap-8 p-4 sm:p-[3rem]">
         <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={Icon1} alt="card" className="w-14 h-14" />
-          </div>
+          <FaShieldAlt className="w-14 h-14 text-teal-400" />
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Full-Spectrum Evaluation
           </h3>
@@ -74,9 +60,7 @@ export default function DASTOffers() {
         </div>
 
         <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={Applications} alt="card" className="w-12 h-12" />
-          </div>
+          <FaFileAlt className="w-12 h-12 text-teal-400" />
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Detailed Analysis Report
           </h3>
@@ -86,9 +70,7 @@ export default function DASTOffers() {
         </div>
 
         <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={IAM} alt="card" className="w-12 h-12" />
-          </div>
+          <FaUsers className="w-12 h-12 text-teal-400" />
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Leadership Summary
           </h3>
@@ -98,9 +80,7 @@ export default function DASTOffers() {
         </div>
 
         <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={group} alt="card" className="w-12 h-12" />
-          </div>
+          <FaHandsHelping className="w-12 h-12 text-teal-400" />
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Ongoing Assistance
           </h3>

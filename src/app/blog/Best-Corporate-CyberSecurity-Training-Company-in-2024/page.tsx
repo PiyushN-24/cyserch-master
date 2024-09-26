@@ -1,8 +1,9 @@
 // pages/cybersecurity-companies.js
-
+import Image from "next/image";
 import React from "react";
 import Head from "next/head";
 import ContactUs from "@/app/components/home/contactus";
+import CEH_Image from "../../../../public/images/Best Corporate Cyber Security Training Company in 2024_11zon.png"
 
 // Define metadata for SEO
 export const metadata = {
@@ -14,6 +15,7 @@ export const metadata = {
 export default function CybersecurityCompaniesPage() {
   return (
     <>
+    {/*
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
@@ -23,6 +25,7 @@ export default function CybersecurityCompaniesPage() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://yourwebsite.com/cybersecurity-companies" />
       </Head>
+    */}  
       <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white mt-20 text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Best Corporate CyberSecurity Training Company in 2024
@@ -30,7 +33,15 @@ export default function CybersecurityCompaniesPage() {
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           In 2024, the cybersecurity landscape is more challenging than ever before. With an increase in cyber threats and the evolving sophistication of cyber attacks, it s essential for corporations to invest in robust cyber security training programs. As a cybersecurity professional at <a className="text-blue-500 hover:underline" href="https://www.cyserch.com/">Cyserch</a>, I ve seen firsthand the impact that comprehensive training can have on a companys security posture. In this blog, I’ll walk you through why cyber security training is crucial, what to look for in the best training programs, and why Cyserch stands out as the top choice for corporate training in 2024.
         </p>
-
+        <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
         <br/>
 
         <br/>
@@ -75,7 +86,7 @@ export default function CybersecurityCompaniesPage() {
           <li>
             <h3 className="text-white text-2xl sm:text-3xl font-bold mb-2">Flexible Learning Options</h3>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-              We understand that every corporation has unique needs and constraints. That s why we offer flexible learning options, including online, in-person, and hybrid training programs. Whether your team is spread across different locations or prefers a specific learning style, we have a solution that fits. Our customized training plans ensure that you get the most out of your investment.
+              We understand that every corporation has unique needs and constraint. That s why we offer flexible learning options, including online, in-person, and hybrid training programs. Whether your team is spread across different locations or prefers a specific learning style, we have a solution that fits. Our customized training plans ensure that you get the most out of your investment.
             </p>
           </li>
         </ul>

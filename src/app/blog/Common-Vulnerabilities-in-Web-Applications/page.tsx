@@ -6,7 +6,7 @@ import ContactUs from "@/app/components/home/contactus";
 
 export const metadata = {
   title: "Cyserch | Common Vulnerabilities in Web Applications",
-  description: "Explore common web vulnerabilities and learn how to secure your applications with Cyserch.com's top-tier security solutions.",
+  description: "Explore common web vulnerabilities and learn how to secure your applications with Cyserch.coms top-tier security solutions.",
 };
 
 export default function WebVulnerabilitiesPage() {
@@ -25,14 +25,14 @@ export default function WebVulnerabilitiesPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In today’s digital age, web applications are the lifeblood of businesses, enabling everything from e-commerce to customer relationship management. However, as reliance on online platforms grows, so does the risk of cyber threats. According to a recent report, cybercrime damages are projected to reach a staggering $6 trillion annually by 2021. This isn’t just a number; it’s a stark reminder of what’s at stake for businesses, large and small. Understanding and mitigating web vulnerabilities is not just a technical necessity—it's a business imperative.
+        In todays digital age, web applications are the lifeblood of businesses, enabling everything from e-commerce to customer relationship management. However, as reliance on online platforms grows, so does the risk of cyber threats. According to a recent report, cybercrime damages are projected to reach a staggering $6 trillion annually by 2021. This isnt just a number; its a stark reminder of whats at stake for businesses, large and small. Understanding and mitigating web vulnerabilities is not just a technical necessity—its a business imperative.
         </p>
         <div className="bg-gray-800 rounded-lg p-4">
           <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Understanding Web Vulnerabilities
           </h2>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Web vulnerabilities are like weak links in a chain. They are the flaws or weaknesses in a web application that attackers can exploit to gain unauthorized access, disrupt services, or steal sensitive data. These vulnerabilities often stem from coding errors, configuration issues, or insecure third-party components, making them a potential threat to your business's digital infrastructure.
+          Web vulnerabilities are like weak links in a chain. They are the flaws or weaknesses in a web application that attackers can exploit to gain unauthorized access, disrupt services, or steal sensitive data. These vulnerabilities often stem from coding errors, configuration issues, or insecure third-party components, making them a potential threat to your businesss digital infrastructure.
           </p>
           <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
             Common Causes of Web Vulnerabilities
@@ -53,7 +53,7 @@ export default function WebVulnerabilitiesPage() {
         The Most Common Web Vulnerabilities and How to Combat Them
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Let’s delve into some of the most common web vulnerabilities and real-world examples that highlight their impact. Understanding these can help you take proactive steps to protect your business.
+        Lets delve into some of the most common web vulnerabilities and real-world examples that highlight their impact. Understanding these can help you take proactive steps to protect your business.
           </p>
           <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
             1. SQL Injection
@@ -96,7 +96,7 @@ export default function WebVulnerabilitiesPage() {
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             Cross-Site Request Forgery (CSRF) tricks authenticated users into performing actions they did not intend to, such as unauthorized fund transfers or data changes.
             <br />
-            <strong>Real-World Example: </strong>In 2016, GitHub faced a CSRF vulnerability that allowed attackers to add new SSH keys to users' accounts without their consent.
+            <strong>Real-World Example: </strong>In 2016, GitHub faced a CSRF vulnerability that allowed attackers to add new SSH keys to users accounts without their consent.
           </p>
           <h4 className="text-white text-lg sm:text-xl md:text-xl font-semibold mb-2">
             Prevention Tips:
@@ -215,7 +215,7 @@ export default function WebVulnerabilitiesPage() {
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             Weak access controls can allow unauthorized users to access sensitive data and functions.
             <br />
-            <strong>Real-World Example: </strong>In 2020, weak access controls in Twitter's internal tools enabled attackers to compromise high-profile accounts.
+            <strong>Real-World Example: </strong>In 2020, weak access controls in Twitters internal tools enabled attackers to compromise high-profile accounts.
           </p>
           <h4 className="text-white text-lg sm:text-xl md:text-xl font-semibold mb-2">
             Prevention Tips:
@@ -226,11 +226,11 @@ export default function WebVulnerabilitiesPage() {
             <li>Use the principle of least privilege</li>
           </ul>
 
-        <h1 className="text-white text-3xl sm:text-3xl md:text-4xl font-bold mb-6">
+        <h2 className="text-white text-3xl sm:text-3xl md:text-4xl font-bold mb-6">
           Best Practices for Securing Web Applications
-        </h1>
+        </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Securing your web applications isn't a one-time task; it requires ongoing effort and vigilance. Here’s how you can fortify your defenses:            
+          Securing your web applications isnt a one-time task; it requires ongoing effort and vigilance. Heres how you can fortify your defenses:            
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
           <div className="bg-gray-800 p-4 rounded">
@@ -238,7 +238,7 @@ export default function WebVulnerabilitiesPage() {
               Regular Updates and Patches
             </h2>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-            Regularly audit your web applications to identify and address vulnerabilities. Tools like Cyserch.com's security web-audit services provide comprehensive assessments to keep your defenses strong.
+            Regularly audit your web applications to identify and address vulnerabilities. Tools like Cyserch.coms security web-audit services provide comprehensive assessments to keep your defenses strong.
               <br />
               <strong>How Cyserch Helps:</strong> At Cyserch, we offer comprehensive patch management services to ensure your devices are always up-to-date with the latest security patches.
               <br />
@@ -289,7 +289,7 @@ export default function WebVulnerabilitiesPage() {
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               <strong>Importance:</strong> Educating employees on mobile security best practices can significantly reduce the risk of security incidents. Training programs can improve awareness and response to threats.
               <br />
-              <strong>Cyserch Solutions:</strong> Our training programs are designed to enhance your team’s security knowledge and practices.
+              <strong>Cyserch Solutions:</strong> Our training programs are designed to enhance your teams security knowledge and practices.
               <br />
               {/* <Link href="#">Learn about our training programs</Link> */}
             </p>
@@ -299,7 +299,7 @@ export default function WebVulnerabilitiesPage() {
         Real-World Success Stories
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Let's look at how some businesses have turned their cybersecurity challenges into success stories.
+          Lets look at how some businesses have turned their cybersecurity challenges into success stories.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="bg-gray-800 p-4 rounded-lg">
@@ -315,7 +315,7 @@ export default function WebVulnerabilitiesPage() {
               Financial Institution: Strengthening Data Protection
             </h3>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-            A financial institution needed to fortify its data protection strategies to comply with industry regulations. Cyserch.com provided cutting-edge encryption solutions and conducted regular security assessments. The result? Zero data breaches and full compliance with industry standards, reinforcing the institution's reputation for trustworthiness.
+            A financial institution needed to fortify its data protection strategies to comply with industry regulations. Cyserch.com provided cutting-edge encryption solutions and conducted regular security assessments. The result? Zero data breaches and full compliance with industry standards, reinforcing the institutions reputation for trustworthiness.
             </p>
           </div>
         </div>
@@ -334,7 +334,7 @@ export default function WebVulnerabilitiesPage() {
           Conclusion
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Securing web applications is not just a technical challenge; it's a critical business strategy. The vulnerabilities highlighted here can have severe consequences if left unaddressed. At Cyserch.com, we're committed to providing top-tier security solutions to help you safeguard your web applications and protect your business's future.
+        Securing web applications is not just a technical challenge; its a critical business strategy. The vulnerabilities highlighted here can have severe consequences if left unaddressed. At Cyserch.com, were committed to providing top-tier security solutions to help you safeguard your web applications and protect your businesss future.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           FAQs

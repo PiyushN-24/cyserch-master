@@ -19,7 +19,7 @@ export default function WhyAIMLSecurity() {
             Model Integrity Testing
           </h3>
           <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Ensure the robustness of your AI-ML models with our Model Integrity Testing. Our experts analyze your model's architecture and data pipelines, identifying and mitigating vulnerabilities such as data poisoning, adversarial inputs, or biased decision-making.
+            Ensure the robustness of your AI-ML models with our Model Integrity Testing. Our experts analyze your models architecture and data pipelines, identifying and mitigating vulnerabilities such as data poisoning, adversarial inputs, or biased decision-making.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export default function WhyAIMLSecurity() {
             Adversarial Resilience Assessment
           </h3>
           <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Strengthen your AI-ML systems against potential threats with our Adversarial Resilience Assessment. By simulating various attack scenarios, we evaluate your models' ability to withstand adversarial attempts to manipulate outcomes or expose sensitive data.
+            Strengthen your AI-ML systems against potential threats with our Adversarial Resilience Assessment. By simulating various attack scenarios, we evaluate your models ability to withstand adversarial attempts to manipulate outcomes or expose sensitive data.
           </p>
         </div>
 

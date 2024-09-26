@@ -16,18 +16,10 @@ export default function AboutHistory() {
           Charting the Path to Digital Security Excellence
         </h3>
         <p className="text-[#A39D9D] text-[1.2rem] font-light mt-6">
-          Founded in 2024, Cyserch began with a vision to excel in the
-          burgeoning field of cybersecurity. Starting as a small, passionate
-          team, we have evolved into a globally recognized leader in digital
-          security. Our journey has been driven by a commitment to innovation,
-          excellence, and a deep understanding of our clients needs. Throughout
-          our history, we have expanded our services and expertise to
-          effectively combat the most challenging cyber threats, establishing
-          ourselves as a trusted protector in the cybersecurity realm. Today, we
-          continue to advance, empower, and secure the digital assets of
-          businesses around the world. Our legacy is marked by a relentless
-          pursuit of security solutions that are not only effective but also
-          ahead of their time.
+        Cyserch was founded in 2012 with a clear and ambitious vision: to excel in the rapidly growing field of cybersecurity. What began as a small, passionate team of security enthusiasts has evolved into a globally recognized leader in digital security. Our journey has been shaped by a steadfast commitment to innovation, excellence, and a profound understanding of the unique needs of our clients.
+        </p>
+        <p className="text-[#A39D9D] text-[1.2rem] font-light mt-6">
+        From the very beginning, we understood that the cybersecurity landscape is in a constant state of flux. Cyber threats are evolving at an unprecedented pace, and businesses need more than just reactive measures; they need proactive strategies that anticipate and mitigate risks before they become critical issues. This understanding has driven us to expand our services and expertise continuously, ensuring that we remain at the cutting edge of digital security.
         </p>
       </div>
     </div>

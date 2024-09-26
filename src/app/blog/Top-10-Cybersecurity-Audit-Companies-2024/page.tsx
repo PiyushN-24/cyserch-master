@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Card1 from "../../../../public/images/Audit_1.png";
+import CEH_Image from "../../../../public/images/Top 10 Cybersecurity Audit Companies 2024_11zon.png";
 
 export const metadata = {
   title: "Cyserch | Top 10 Cybersecurity Audit Companies 2024",
@@ -26,7 +27,15 @@ export default function CybersecurityCompaniesPage() {
           cybersecurity audit companies of 2024, highlighting their strengths, services, and what sets
           them apart.
         </p>
-
+        <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
        
 
         <ol className="list-decimal text-xl   space-y-6 mb-6 text-white">
@@ -51,23 +60,30 @@ export default function CybersecurityCompaniesPage() {
                 <p className="text-sm font-light mb-2">
                   Comprehensive evaluations of your systems to identify and address vulnerabilities.
                 </p>
-                <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">Learn more</a>
+                <Link href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
+                  Learn more about VAPT
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
                 <h3 className="text-xl font-semibold mb-2">Compliance Audits</h3>
                 <p className="text-sm font-light mb-2">
                   Ensures your organization adheres to industry regulations and standards.
                 </p>
-                <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">Learn more</a>
+                <Link href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
+                  Learn more about Compliance Audits
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
                 <h3 className="text-xl font-semibold mb-2">Incident Response and Recovery</h3>
                 <p className="text-sm font-light mb-2">
                   Provides strategies and support for responding to and recovering from security incidents.
                 </p>
-                <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">Learn more</a>
+                <Link href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
+                  Learn more about Incident Response and Recovery
+                </Link>
               </div>
             </div>
+
 
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               <strong>Why They Stand Out:</strong> Cyserch Securitys expertise in delivering tailored solutions and their

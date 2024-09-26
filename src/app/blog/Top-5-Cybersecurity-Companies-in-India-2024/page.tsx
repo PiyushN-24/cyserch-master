@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import CyserchImage from "../../../../public/images/Cyserch.png";
 import TCSImage from "../../../../public/images/TCS.png";
 import IBMImage from "../../../../public/images/IBM_New.png";
@@ -38,7 +39,7 @@ export default function CybersecurityCompaniesPage() {
         What is Cybersecurity?
       </h3>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-      Cybersecurity is the practice of safeguarding computer systems, networks, and data from unauthorized access, breaches, and attacks. It involves implementing technologies, processes, and policies designed to protect the confidentiality, integrity, and availability of information. In today’s interconnected world, cybersecurity is a critical component of business operations, ensuring that digital assets remain secure and resilient against cyber threats.
+      Cybersecurity is the practice of safeguarding computer systems, networks, and data from unauthorized access, breaches, and attacks. It involves implementing technologies, processes, and policies designed to protect the confidentiality, integrity, and availability of information. In todays interconnected world, cybersecurity is a critical component of business operations, ensuring that digital assets remain secure and resilient against cyber threats.
       </p>
       <br />
       <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
@@ -50,10 +51,10 @@ export default function CybersecurityCompaniesPage() {
         <div className="md:w-1/2">
           <h4 className="text-white text-3xl font-bold mb-4">1. Cyserch</h4>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-            At the forefront of India's cybersecurity industry, Cyserch has earned a reputation for delivering customized security solutions tailored to meet the specific needs of businesses. With a deep understanding of the evolving threat landscape, Cyserch creates comprehensive security plans that protect digital systems from the latest cyber threats.
+            At the forefront of Indias cybersecurity industry, Cyserch has earned a reputation for delivering customized security solutions tailored to meet the specific needs of businesses. With a deep understanding of the evolving threat landscape, Cyserch creates comprehensive security plans that protect digital systems from the latest cyber threats.
           </p>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-            A client once shared, "We were facing repeated phishing attacks that jeopardized our client data. Cyserch's team quickly identified the vulnerabilities and implemented a robust defense strategy that has kept us secure ever since. Their personalized approach and dedication to our security needs truly set them apart."
+            A client once shared, We were facing repeated phishing attacks that jeopardized our client data. Cyserchs team quickly identified the vulnerabilities and implemented a robust defense strategy that has kept us secure ever since. Their personalized approach and dedication to our security needs truly set them apart.
           </p>
         </div>
 
@@ -69,46 +70,57 @@ export default function CybersecurityCompaniesPage() {
       </div>
       </div>
       <div className="bg-gray-500 text-white rounded-lg p-2">
-      <h3 className="text-white text-xl sm:text-2xl md:text-3xl font-semibold mb-4 mt-8 md:mt-12">
-        Services Offered by Cyserch Security
-      </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <div className="bg-gray-700 text-white rounded-lg p-2">
-          <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
-          <p className="text-sm font-light mb-2">
-            At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
-          </p>
-          <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
+        <h3 className="text-white text-xl sm:text-2xl md:text-3xl font-semibold mb-4 mt-8 md:mt-12">
+          Services Offered by Cyserch Security
+        </h3>
+        <div className="text-white grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
+            </p>
+            <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Cloud Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Our web security services ensure comprehensive protection for your web applications and platforms.
+            </p>
+            <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Web Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Protect your APIs from potential threats with our advanced API security solutions.
+            </p>
+            <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about API Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Ensure the security of your mobile applications and devices with our tailored mobile security services.
+            </p>
+            <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Mobile Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
+            </p>
+            <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Network Penetration Testing
+            </Link>
+          </div>
         </div>
-        <div className="bg-gray-700 text-white rounded-lg p-2">
-          <h3 className="text-xl font-semibold mb-2">Web Security</h3>
-          <p className="text-sm font-light mb-2">
-            Our web security services ensure comprehensive protection for your web applications and platforms.
-          </p>
-          <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
-        </div>
-        <div className="bg-gray-700 rounded-lg text-white p-2">
-          <h3 className="text-xl font-semibold mb-2">API Security</h3>
-          <p className="text-sm font-light mb-2">
-            Protect your APIs from potential threats with our advanced API security solutions.
-          </p>
-          <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
-        </div>
-        <div className="bg-gray-700 rounded-lg text-white p-2">
-          <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
-          <p className="text-sm font-light mb-2">
-            Ensure the security of your mobile applications and devices with our tailored mobile security services.
-          </p>
-          <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
-        </div>
-        <div className="bg-gray-700 rounded-lg text-white p-2">
-          <h3 className="text-xl font-semibold mb-2">Network Security</h3>
-          <p className="text-sm font-light mb-2">
-            Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
-          </p>
-          <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
-        </div>
-      </div>
+
       </div>
       <div className="bg-gray-800 text-white rounded-lg p-2">
       <div className="flex flex-col md:flex-row items-center md:items-start justify-between mt-12">
@@ -125,14 +137,19 @@ export default function CybersecurityCompaniesPage() {
               <p className="text-sm font-light mb-2">
                 Identifying potential weaknesses in your systems before attackers can exploit them.
               </p>
-              <a href="https://www.tcs.com/services/vulnerability-assessment" className="text-blue-500 hover:underline">Learn more</a> {/* Replace the href with the correct link */}
+              <a href="https://www.tcs.com/what-we-do/services/cybersecurity/solution/enterprise-vulnerability-management-services" className="text-blue-500 hover:underline">
+                Explore TCSs Enterprise Vulnerability Management Services
+              </a>
+
             </div>
             <div className="bg-gray-600 text-white rounded-lg p-4">
               <h3 className="text-xl font-semibold mb-2">Security Audits</h3>
               <p className="text-sm font-light mb-2">
                 Comprehensive evaluations of your security measures to ensure compliance and effectiveness.
               </p>
-              <a href="https://www.tcs.com/services/security-audits" className="text-blue-500 hover:underline">Learn more</a> {/* Replace the href with the correct link */}
+              <a href="https://www.tcs.com/what-we-do/services/cybersecurity/solution/governance-risk-compliance-security-services" className="text-blue-500 hover:underline">
+                Discover TCSs Governance, Risk, and Compliance Security Services
+              </a>
             </div>
           </div>
         </div>
@@ -162,14 +179,19 @@ export default function CybersecurityCompaniesPage() {
               <p className="text-sm font-light mb-2">
                 Continuous monitoring and management of your security infrastructure.
               </p>
-              <a href="https://www.wipro.com/services/managed-security-services" className="text-blue-500 hover:underline">Learn more</a>
+              <a href="https://www.wipro.com/services/managed-security-services" className="text-blue-500 hover:underline">
+                Explore Wipros Managed Security Services
+              </a>
+
             </div>
             <div className="bg-gray-700 text-white rounded-lg p-4">
               <h3 className="text-xl font-semibold mb-2">Security Consulting</h3>
               <p className="text-sm font-light mb-2">
                 Expert advice on building and maintaining a strong security framework.
               </p>
-              <a href="https://www.wipro.com/services/security-consulting" className="text-blue-500 hover:underline">Learn more</a>
+              <a href="https://www.wipro.com/services/security-consulting" className="text-blue-500 hover:underline">
+                Discover Wipros Security Consulting Services
+              </a>
             </div>
           </div>
         </div>
@@ -199,14 +221,18 @@ export default function CybersecurityCompaniesPage() {
               <p className="text-sm font-light mb-2">
                 Stay informed about emerging threats and take action before they impact your business.
               </p>
-              <a href="https://www.ibm.com/security/threat-intelligence" className="text-blue-500 hover:underline">Learn more</a>
+              <a href="https://www.ibm.com/security/threat-intelligence" className="text-blue-500 hover:underline">
+                Explore IBMs Threat Intelligence Solutions
+              </a>
             </div>
             <div className="bg-gray-600 text-white rounded-lg p-4">
               <h3 className="text-xl font-semibold mb-2">Incident Response</h3>
               <p className="text-sm font-light mb-2">
                 Rapid and effective response to security incidents to minimize damage and downtime.
               </p>
-              <a href="https://www.ibm.com/security/incident-response" className="text-blue-500 hover:underline">Learn more</a>
+              <a href="https://www.ibm.com/security/incident-response" className="text-blue-500 hover:underline">
+                Discover IBMs Incident Response Services
+              </a>
             </div>
           </div>
         </div>
@@ -236,14 +262,18 @@ export default function CybersecurityCompaniesPage() {
               <p className="text-sm font-light mb-2">
                 Proactive measures to detect and respond to threats across your network.
               </p>
-              <a href="https://www.infosys.com/services/threat-management" className="text-blue-500 hover:underline">Learn more</a>
+              <a href="https://www.infosys.com/services/threat-management" className="text-blue-500 hover:underline">
+                Explore Infosys Threat Management Services
+              </a>
             </div>
             <div className="bg-gray-700 text-white rounded-lg p-4">
               <h3 className="text-xl font-semibold mb-2">Identity and Access Management</h3>
               <p className="text-sm font-light mb-2">
                 Ensuring that only authorized users have access to your sensitive data.
               </p>
-              <a href="https://www.infosys.com/services/identity-access-management" className="text-blue-500 hover:underline">Learn more</a>
+              <a href="https://www.infosys.com/services/identity-access-management" className="text-blue-500 hover:underline">
+                Discover Infosys Identity and Access Management Services
+              </a>
             </div>
           </div>
         </div>
@@ -286,14 +316,14 @@ export default function CybersecurityCompaniesPage() {
         Conclusion
       </h3>
       <p className="mb-4 text-white text-[1.2rem] font-light mt-2">
-      In the digital age, cybersecurity is not just an option—it’s a necessity. The top cybersecurity companies in India offer a wide range of services designed to protect businesses from evolving cyber threats. By choosing a reliable and experienced cybersecurity partner, organizations can safeguard their digital assets, maintain compliance, and build a resilient defense against cyberattacks.
+      In the digital age, cybersecurity is not just an option—its a necessity. The top cybersecurity companies in India offer a wide range of services designed to protect businesses from evolving cyber threats. By choosing a reliable and experienced cybersecurity partner, organizations can safeguard their digital assets, maintain compliance, and build a resilient defense against cyberattacks.
       </p>
       <p className="mb-4 text-white text-[1.2rem] font-light mt-2">
       When selecting a cybersecurity provider, consider factors such as expertise, experience, and the specific needs of your business. By partnering with one of the top 5 cybersecurity companies in India, you can take proactive steps to enhance your security posture and protect your business from the ever-present threat of cybercrime.
       </p>
       <br />
       <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-        FAQ’s
+        FAQs
       </h3>
       <h4 className="text-white text-xl font-bold mb-4">
         Q1. What is cyber safety?

@@ -52,7 +52,7 @@ export default function AWSInfrastructurePage() {
               One of the key components of AWS infrastructure is its compute services, particularly Amazon EC2 (Elastic Compute Cloud) and AWS Lambda. EC2 allows you to run virtual servers in the cloud, providing the computing power needed to handle your workloads. With Lambda, you can run code without provisioning or managing servers—ideal for microservices and event-driven architectures. 
               According to Statista, AWS accounts for 32% of the global cloud infrastructure market, making it the largest provider by a significant margin. 
               <br/>
-              To dive deeper into these services, you can check out AWS's official documentation on
+              To dive deeper into these services, you can check out AWSs official documentation on
               <Link className="text-blue-400" href="https://docs.aws.amazon.com/ec2/" passHref> EC2</Link> and<Link className="text-blue-400" href="https://docs.aws.amazon.com/lambda/" passHref> Lambda</Link>.
             </p>
           </div>
@@ -91,12 +91,10 @@ export default function AWSInfrastructurePage() {
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               AWS Identity and Access Management (IAM) is the first line of defense in securing your AWS environment. IAM allows you to manage access to AWS services and resources securely. You can create and manage AWS users and groups and use permissions to allow or deny access to resources.
               <br/><br/>
-              A Gartner report highlights that 95% of cloud security failures through 2025 will be due to customer misconfigurations, often related to IAM policies. This statistic underscores the importance of implementing strong IAM policies to maintain your AWS infrastructure's security.
+              A Gartner report highlights that 95% of cloud security failures through 2025 will be due to customer misconfigurations, often related to IAM policies. This statistic underscores the importance of implementing strong IAM policies to maintain your AWS infrastructures security.
               <br/><br/>
               For more insights, AWS provides a comprehensive guide on
-              <Link className="text-blue-400" href="https://aws.amazon.com/iam/" passHref>
-                IAM best practices
-              </Link>.
+              <Link className="text-blue-400" href="https://aws.amazon.com/iam/" passHref> IAM best practices</Link>.
             </p>
           </div>
           <div className="bg-gray-800 rounded-lg p-4 mb-4">
@@ -127,7 +125,7 @@ export default function AWSInfrastructurePage() {
               are invaluable tools in this regard. CloudWatch enables real-time monitoring of 
               AWS resources and applications, while CloudTrail provides a detailed audit trail of API calls made in your account.
               <br/><br/>
-              IBM's research indicates that companies with a strong monitoring and logging strategy can reduce the cost of data breaches 
+              IBMs research indicates that companies with a strong monitoring and logging strategy can reduce the cost of data breaches 
               by up to 30%. At Cyserch, we emphasize the importance of these practices to our clients, helping them detect and respond to 
               security incidents quickly.
             </p>
@@ -158,8 +156,8 @@ export default function AWSInfrastructurePage() {
           </div>
         </div>
         <div className="my-8 text-center">
-        <Link href="https://www.cyserch.com/services/cloud-security" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">
-          Discover More About Cyserch's Cloud Security Services
+        <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">
+          Discover More About Cyserchs Cloud Penetration Testing Services
         </Link>
       </div>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -215,7 +213,7 @@ export default function AWSInfrastructurePage() {
             </p>
             <h5 className="text-white text-md sm:text-lg md:text-lg font-semibold mb-1">6. How can strong monitoring and logging practices reduce the cost of data breaches?</h5>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-            Ans: According to IBM's research, companies with strong monitoring and logging practices can reduce the cost of data breaches by up to 30%. By promptly detecting and responding to security incidents, organizations can minimize the impact of breaches, protect sensitive data, and avoid costly penalties and reputational damage.
+            Ans: According to IBMs research, companies with strong monitoring and logging practices can reduce the cost of data breaches by up to 30%. By promptly detecting and responding to security incidents, organizations can minimize the impact of breaches, protect sensitive data, and avoid costly penalties and reputational damage.
             </p>
         <div className="flex justify-center mb-8">
           <ContactUs />

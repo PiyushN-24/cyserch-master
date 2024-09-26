@@ -98,7 +98,7 @@ export default function FreeCybersecurityCoursesPage() {
         How to Choose the Right Course for You
       </h2>
       <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
-      Choosing the right cybersecurity course can feel overwhelming. I've been there, scrolling through endless options, unsure where to begin. Here are some tips to help narrow down your choices:
+      Choosing the right cybersecurity course can feel overwhelming. Ive been there, scrolling through endless options, unsure where to begin. Here are some tips to help narrow down your choices:
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-2 rounded-lg">
         <div className="bg-gray-700 p-4 rounded-lg">
@@ -148,7 +148,7 @@ export default function FreeCybersecurityCoursesPage() {
         Participating in webinars and workshops can provide hands-on experience, which is crucial for applying theoretical knowledge. Many organizations, including Cyserch.com, often host free webinars on the latest cybersecurity trends and best practices. These sessions are an excellent way to stay updated on new threats, learn about cutting-edge tools, and interact with industry experts in real-time. Check out Cyserchs upcoming webinars for opportunities to expand your skills.
         <br/><br/>
         <strong>Online Communities and Forums:-</strong><br/> 
-        Joining cybersecurity communities is a great way to stay updated and engage with like-minded individuals. Forums like Reddit's <a href="https://www.reddit.com/r/cybersecurity/" target="_blank" className="text-blue-400 hover:underline">r/cybersecurity</a> and <a href="https://www.cybrary.it/forums/" target="_blank" className="text-blue-400 hover:underline">Cybrary</a> provide platforms for discussion, sharing knowledge, and getting advice from experienced professionals. These communities are invaluable for networking, finding mentorship, and staying informed about the latest security challenges and solutions.
+        Joining cybersecurity communities is a great way to stay updated and engage with like-minded individuals. Forums like Reddits <a href="https://www.reddit.com/r/cybersecurity/" target="_blank" className="text-blue-400 hover:underline">r/cybersecurity</a> and <a href="https://www.cybrary.it/forums/" target="_blank" className="text-blue-400 hover:underline">Cybrary</a> provide platforms for discussion, sharing knowledge, and getting advice from experienced professionals. These communities are invaluable for networking, finding mentorship, and staying informed about the latest security challenges and solutions.
       </p>
 
 
@@ -158,7 +158,7 @@ export default function FreeCybersecurityCoursesPage() {
       <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
         At Cyserch.com, we specialize in providing comprehensive cybersecurity solutions. From consulting to hands-on training, our mission is to equip individuals and organizations with the knowledge and tools needed to stay secure in an increasingly digital world.
         <br/><br/>
-        Explore our <a href="https://cyserch.com/training" target="_blank" className="text-blue-400 hover:underline">training programs</a> to start building your cybersecurity skills today.
+        Explore our <a href="/training" className="text-blue-400 hover:underline">training programs</a> to start building your cybersecurity skills today.
       </p>
 
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -167,7 +167,7 @@ export default function FreeCybersecurityCoursesPage() {
       <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
         Cybersecurity is no longer just a field for IT professionals. It is a necessary skill set for anyone who interacts with technology. By taking advantage of free cybersecurity courses, you can start building your knowledge base and contribute to a safer digital world.
         <br/><br/>
-        Ready to start learning? Explore the courses mentioned in this blog and begin your journey today. And if you're looking for more specialized training or consulting services, do not hesitate to contact Cyserch. We are here to help you every step of the way.
+        Ready to start learning? Explore the courses mentioned in this blog and begin your journey today. And if youre looking for more specialized training or consulting services, do not hesitate to contact Cyserch. We are here to help you every step of the way.
       </p>
       <br/>
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -175,7 +175,7 @@ export default function FreeCybersecurityCoursesPage() {
       </h2>
       <p className="text-white text-sm sm:text-base md:text-lg font-light">
         <strong>Q1. What are the benefits of taking free cybersecurity courses?</strong><br/>
-        Ans: Taking free cybersecurity courses allows you to explore the field without financial investment. It's a great way to build foundational skills and decide if a career in cybersecurity is right for you.
+        Ans: Taking free cybersecurity courses allows you to explore the field without financial investment. Its a great way to build foundational skills and decide if a career in cybersecurity is right for you.
       </p><br/>
       <p className="text-white text-sm sm:text-base md:text-lg font-light">
         <strong>Q2. Can free courses provide the same quality as paid ones?</strong><br/>
@@ -183,7 +183,7 @@ export default function FreeCybersecurityCoursesPage() {
       </p><br/>
       <p className="text-white text-sm sm:text-base md:text-lg font-light">
         <strong>Q3. How can I find more free resources for cybersecurity?</strong><br/>
-        Ans: Look for online platforms that specialize in IT and cybersecurity education, such as Coursera, edX, and Cybrary. Dont forget to check out Cyserch's blog for more insights and resources.
+        Ans: Look for online platforms that specialize in IT and cybersecurity education, such as Coursera, edX, and Cybrary. Dont forget to check out Cyserchs blog for more insights and resources.
       </p>
       <ContactUs/>
     </div>

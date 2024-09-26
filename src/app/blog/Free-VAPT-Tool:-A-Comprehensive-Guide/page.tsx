@@ -25,9 +25,9 @@ export default function FreeVAPTToolPage() {
         />
       </div>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        As someone deeply involved in cybersecurity, I've often heard one question pop up repeatedly: "Are there any reliable free VAPT tools?" This question makes a lot of sense, especially for startups and smaller companies trying to stay ahead of the cyber threats without breaking the bank. Understanding the role of Vulnerability Assessment and Penetration Testing (VAPT) is crucial for anyone who wants to protect their business from cyber threats. Today, Ill guide you through the world of free VAPT tools, their benefits, limitations, and why, sometimes, investing in a paid solution can be a smarter choice.
+        As someone deeply involved in cybersecurity, Ive often heard one question pop up repeatedly: Are there any reliable free VAPT tools? This question makes a lot of sense, especially for startups and smaller companies trying to stay ahead of the cyber threats without breaking the bank. Understanding the role of Vulnerability Assessment and Penetration Testing (VAPT) is crucial for anyone who wants to protect their business from cyber threats. Today, Ill guide you through the world of free VAPT tools, their benefits, limitations, and why, sometimes, investing in a paid solution can be a smarter choice.
         <br/><br/>
-        Before diving deep into the specifics, let's quickly define what VAPT is and why it's an indispensable part of any organization's security posture.
+        Before diving deep into the specifics, lets quickly define what VAPT is and why its an indispensable part of any organizations security posture.
       </p>
 
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -43,7 +43,7 @@ export default function FreeVAPTToolPage() {
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
         A Vulnerability Assessment is like a regular health check-up for your IT infrastructure. It involves scanning your systems to identify any known vulnerabilities that could be exploited by hackers. The goal here is to find and catalog vulnerabilities, providing a baseline of your security posture.
         <br/>
-        <a href="https://owasp.org/www-community/Vulnerability_Assessment" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+        <a href="https://owasp.org/www-community/vulnerabilities/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
           For a deeper understanding of how vulnerability assessments work, you can check out the comprehensive guide from OWASP.
         </a>
       </p>
@@ -163,7 +163,7 @@ export default function FreeVAPTToolPage() {
           </ul>
           <Link href="https://nmap.org/book/man.html" passHref>
             <span className="text-cyan-400 underline hover:text-cyan-300 cursor-pointer">
-              For businesses looking to expand beyond basic network scanning, consider Cyserch's comprehensive VAPT services.
+              For businesses looking to expand beyond basic network scanning, consider Cyserchs comprehensive VAPT services.
             </span>
           </Link>
         </div>
@@ -279,7 +279,7 @@ export default function FreeVAPTToolPage() {
       </h2>
         <h3 className="text-white text-xl font-semibold mb-2">Q1. What is a VAPT tool?</h3>
         <p className="text-white text-sm sm:text-base font-light">
-          Ans: A VAPT tool is software used for identifying, analyzing, and addressing vulnerabilities in an organization's IT infrastructure. VAPT stands for Vulnerability Assessment and Penetration Testing, a comprehensive approach to improving cybersecurity.
+          Ans: A VAPT tool is software used for identifying, analyzing, and addressing vulnerabilities in an organizations IT infrastructure. VAPT stands for Vulnerability Assessment and Penetration Testing, a comprehensive approach to improving cybersecurity.
         </p>
         <h3 className="text-white text-xl font-semibold mb-2">Q2. Are free VAPT tools reliable?</h3>
         <p className="text-white text-sm sm:text-base font-light">

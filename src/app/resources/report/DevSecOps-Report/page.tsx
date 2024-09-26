@@ -112,7 +112,7 @@ export default function DownloadForm() {
               />
             </div>
             <p className="text-base mb-4">
-              Explores how Cyserch's DevSecOps approach is reshaping the landscape of software security. Through a comprehensive analysis, the report details the integration of security practices into every phase of the software development lifecycle. Highlighting real-world scenarios, it demonstrates how businesses have leveraged DevSecOps to enhance security, reduce vulnerabilities, and accelerate development timelines. Key achievements include seamless security integration, automated compliance checks, and faster response to security threats, showcasing the transformative power of DevSecOps in building resilient software systems.
+              Explores how Cyserchs DevSecOps approach is reshaping the landscape of software security. Through a comprehensive analysis, the report details the integration of security practices into every phase of the software development lifecycle. Highlighting real-world scenarios, it demonstrates how businesses have leveraged DevSecOps to enhance security, reduce vulnerabilities, and accelerate development timelines. Key achievements include seamless security integration, automated compliance checks, and faster response to security threats, showcasing the transformative power of DevSecOps in building resilient software systems.
             </p>
             <h2 className="text-3xl mb-4"> What You Will Learn,</h2>         
             <ul className="list-disc pl-6 mb-4">

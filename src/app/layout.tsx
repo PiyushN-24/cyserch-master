@@ -1,7 +1,7 @@
 import Footer from "./components/footer/footer";
 import Navigation from "./components/navigation";
 import "./globals.css";
-//import "animate.css";
+import 'animate.css';
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import Script from "next/script";
@@ -10,8 +10,8 @@ import CyserchImage from "../../../../public/images/blog1-topimgge.png";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Top Cybersecurity Services - Web, Mobile, API, Cloud & Network Penetration Testing, Corporate Training | Cyserch",
-  description: "Cyserch offers comprehensive cybersecurity services including web, mobile, API, network, and cloud penetration testing, DevSecOps, and corporate cybersecurity training. Protect your business today."
+  title: "Top Cybersecurity Services: Web, Mobile, API, Cloud, Network Pen Testing | Cyserch",
+  description: "Cyserch: Comprehensive Web, Mobile, API, Network, and Cloud Penetration Testing, DevSecOps, and Cybersecurity Training."
 };
 
 export default function RootLayout({

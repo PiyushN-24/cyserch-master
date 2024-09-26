@@ -6,14 +6,14 @@ export default function clientsCount() {
       <div className="Industrys-boxs bg-[#011C3C] gap-20 flex p-7 px-[8rem] rounded-xl items-center justify-center mt-10 fadeInUp">
         <div>
           <h2 className="text-white text-[2rem] font-semibold fadeInUp">
-            Searching for the
-            <span className="text-[#19FFDB]"> optimal security</span> strategy
-            to safeguard your information?
+            Looking for comprehensive 
+            <span className="text-[#19FFDB]"> web penetration testing</span> 
+            to identify and eliminate vulnerabilities in your web applications?
           </h2>
         </div>
         <div>
           <Link href="/contactus">
-            <button className="btn-2">Schedule a call</button>
+            <button className="btn-2">Schedule a Consultation</button>
           </Link>
         </div>
       </div>

@@ -1,8 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import share from "../../../../public/images/Malasiya_1.png";
 import cusoter from "../../../../public/images/Malasiya_2.png";
+import CEH_Image from "../../../../public/images/Top 10 Cybersecurity Companies in Philippines to Watch in 2024.png";
 
 export const metadata = {
   title: "Cyserch | Top 10 Cybersecurity Companies in the Philippines in 2024",
@@ -15,8 +17,17 @@ export default function CybersecurityCompaniesPage() {
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 Cybersecurity Companies in the Philippines in 2024
         </h1>
+        <div className="flex justify-center mb-4 w-full">
+            <Image
+              src={CEH_Image}
+              width={600}
+              height={600}
+              alt="Top 10 Cybersecurity Companies in Singapore in 2024"
+              className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
+            />
+        </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-        In today’s hyper-connected world, cybersecurity is no longer a luxury but a necessity. This is especially true in the Philippines, where digital transformation has surged, making businesses more vulnerable to cyber threats. In 2024, the importance of robust cybersecurity cannot be overstated, as it is vital to safeguarding sensitive information and ensuring the continuity of operations.
+        In todays hyper-connected world, cybersecurity is no longer a luxury but a necessity. This is especially true in the Philippines, where digital transformation has surged, making businesses more vulnerable to cyber threats. In 2024, the importance of robust cybersecurity cannot be overstated, as it is vital to safeguarding sensitive information and ensuring the continuity of operations.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
         As the digital landscape in the Philippines evolves, so do the threats that businesses face. From phishing scams to sophisticated ransomware attacks, the need for advanced security measures has never been greater. But how do you choose the right cybersecurity partner? In this blog, we explore the top 10 cybersecurity companies in the Philippines, providing insights into their strengths, market presence, customer satisfaction, and the range of services they offer. Our goal is to help businesses, SMEs, enterprises, IT professionals, and decision-makers identify the most suitable cybersecurity solution tailored to their needs.
@@ -30,7 +41,7 @@ export default function CybersecurityCompaniesPage() {
           To evaluate these top cybersecurity companies, we consider:
           <ul className="list-disc list-inside space-y-2">
             <li>Market Share: The influence and presence of the company in the cybersecurity market.</li>
-            <li>Customer Satisfaction: Feedback and reviews from clients that reflect the company’s service quality.</li>
+            <li>Customer Satisfaction: Feedback and reviews from clients that reflect the companys service quality.</li>
             <li>Security Features: The range and effectiveness of cybersecurity solutions offered.</li>
             <li>Support Services:  The quality of customer support and additional services provided.</li>
           </ul>
@@ -48,41 +59,51 @@ export default function CybersecurityCompaniesPage() {
           <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4">
           Services Offered by Cyserch Security
         </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <div className="bg-gray-900 text-white rounded-lg p-4">
-          <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
+        <div className="text-white grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
             <p className="text-sm font-light mb-2">
               At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
             </p>
-            <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
+            <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Cloud Penetration Testing
+            </Link>
           </div>
-          <div className="bg-gray-900 text-white rounded-lg p-4">
-            <h3 className="text-xl font-semibold mb-2">Web Security</h3>
-              <p className="text-sm font-light mb-2">
-                Our web security services ensure comprehensive protection for your web applications and platforms.
-              </p>
-              <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
-            </div>
-          <div className="bg-gray-900 text-white rounded-lg p-4">
-            <h3 className="text-xl font-semibold mb-2">API Security</h3>
-              <p className="text-sm font-light mb-2">
-                Protect your APIs from potential threats with our advanced API security solutions.
-              </p>
-              <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Our web security services ensure comprehensive protection for your web applications and platforms.
+            </p>
+            <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Web Penetration Testing
+            </Link>
           </div>
-          <div className="bg-gray-900 text-white rounded-lg p-4">
-            <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
-              <p className="text-sm font-light mb-2">
-                Ensure the security of your mobile applications and devices with our tailored mobile security services.
-              </p>
-              <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Protect your APIs from potential threats with our advanced API security solutions.
+            </p>
+            <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about API Penetration Testing
+            </Link>
           </div>
-          <div className="bg-gray-900 text-white rounded-lg p-4">
-            <h3 className="text-xl font-semibold mb-2">Network Security</h3>
-              <p className="text-sm font-light mb-2">
-                Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
-              </p>
-              <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Ensure the security of your mobile applications and devices with our tailored mobile security services.
+            </p>
+            <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Mobile Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
+            </p>
+            <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Network Penetration Testing
+            </Link>
           </div>
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
@@ -103,7 +124,7 @@ export default function CybersecurityCompaniesPage() {
               3. Kaspersky
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-              Kaspersky has built a reputation for being at the forefront of cybersecurity innovation. Their solutions are known for their effectiveness and reliability. I recall a conversation with a government IT professional who emphasized that Kaspersky’s advanced threat intelligence was crucial in protecting critical infrastructure.
+              Kaspersky has built a reputation for being at the forefront of cybersecurity innovation. Their solutions are known for their effectiveness and reliability. I recall a conversation with a government IT professional who emphasized that Kasperskys advanced threat intelligence was crucial in protecting critical infrastructure.
           </p>
       </div>
       <div className="bg-gray-700 text-white rounded-lg p-4">
@@ -111,7 +132,7 @@ export default function CybersecurityCompaniesPage() {
               4. Palo Alto Networks
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-              Palo Alto Networks is synonymous with cutting-edge cybersecurity. Their next-generation firewalls are widely regarded as the gold standard in the industry. An IT director of a major telecom company once shared how Palo Alto Networks’ solutions transformed their approach to network security, providing unparalleled threat detection and response capabilities.
+              Palo Alto Networks is synonymous with cutting-edge cybersecurity. Their next-generation firewalls are widely regarded as the gold standard in the industry. An IT director of a major telecom company once shared how Palo Alto Networks solutions transformed their approach to network security, providing unparalleled threat detection and response capabilities.
           </p>
       </div>
       <div className="bg-gray-700 text-white rounded-lg p-4">
@@ -119,7 +140,7 @@ export default function CybersecurityCompaniesPage() {
               5. FireEye
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-              FireEye is known for its expertise in incident response and threat detection. When I visited a multinational corporation in Manila, the CIO explained how FireEye’s solutions were instrumental in detecting and responding to a critical security breach, saving them from potential financial and reputational damage.
+              FireEye is known for its expertise in incident response and threat detection. When I visited a multinational corporation in Manila, the CIO explained how FireEyes solutions were instrumental in detecting and responding to a critical security breach, saving them from potential financial and reputational damage.
           </p>
       </div>
       <div className="bg-gray-700 text-white rounded-lg p-4">
@@ -127,7 +148,7 @@ export default function CybersecurityCompaniesPage() {
               6. Fortinet
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-              Fortinet’s integrated security architecture is what makes them a preferred choice for enterprises of all sizes. I recall an interaction with an IT manager from a leading retail chain who praised Fortinet’s network security solutions for their ease of integration and effectiveness in preventing intrusions.
+              Fortinets integrated security architecture is what makes them a preferred choice for enterprises of all sizes. I recall an interaction with an IT manager from a leading retail chain who praised Fortinets network security solutions for their ease of integration and effectiveness in preventing intrusions.
           </p>
       </div>
       <div className="bg-gray-700 text-white rounded-lg p-4">
@@ -135,7 +156,7 @@ export default function CybersecurityCompaniesPage() {
               7. Check Point
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-              Check Point’s comprehensive cybersecurity solutions have made them a key player in the Philippines. A CTO of an SME once highlighted how Check Point’s threat prevention technologies provided them with the confidence to expand their operations without fear of cyber threats.
+              Check Points comprehensive cybersecurity solutions have made them a key player in the Philippines. A CTO of an SME once highlighted how Check Points threat prevention technologies provided them with the confidence to expand their operations without fear of cyber threats.
           </p>
       </div>
       <div className="bg-gray-700 text-white rounded-lg p-4">
@@ -143,7 +164,7 @@ export default function CybersecurityCompaniesPage() {
               8. Sophos
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-              Sophos is known for its user-friendly products and exceptional customer support. I met with a small business owner who described how Sophos’ encryption and network security solutions helped them protect sensitive customer data, ensuring compliance with data protection regulations.
+              Sophos is known for its user-friendly products and exceptional customer support. I met with a small business owner who described how Sophos encryption and network security solutions helped them protect sensitive customer data, ensuring compliance with data protection regulations.
           </p>
       </div>
       <div className="bg-gray-700 text-white rounded-lg p-4">
@@ -151,7 +172,7 @@ export default function CybersecurityCompaniesPage() {
               9. McAfee
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-              McAfee’s extensive range of cybersecurity solutions has made them a household name. An enterprise IT security manager shared with me how McAfee’s threat detection tools played a pivotal role in identifying and neutralizing threats before they could cause damage.
+              McAfees extensive range of cybersecurity solutions has made them a household name. An enterprise IT security manager shared with me how McAfees threat detection tools played a pivotal role in identifying and neutralizing threats before they could cause damage.
           </p>
       </div>
       <div className="bg-gray-700 text-white rounded-lg p-4">
@@ -159,7 +180,7 @@ export default function CybersecurityCompaniesPage() {
               10. Zix
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-              Zix specializes in email security and data loss prevention, making them a go-to provider for businesses looking to secure their communications. A compliance officer from a large financial institution emphasized how Zix’s email security solutions were vital in preventing data breaches and ensuring secure communications.
+              Zix specializes in email security and data loss prevention, making them a go-to provider for businesses looking to secure their communications. A compliance officer from a large financial institution emphasized how Zixs email security solutions were vital in preventing data breaches and ensuring secure communications.
           </p>
       </div>
     </div>
@@ -202,7 +223,7 @@ export default function CybersecurityCompaniesPage() {
       </div>
       <br/>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-        Choosing the right cybersecurity provider is more than just ticking boxes; it’s about finding a partner that understands your business’s unique challenges. The companies listed above are leaders in the industry, each bringing their own strengths to the table. Whether you prioritize market share, customer satisfaction, or cutting-edge security features, there’s a provider here that fits your needs.
+        Choosing the right cybersecurity provider is more than just ticking boxes; its about finding a partner that understands your businesss unique challenges. The companies listed above are leaders in the industry, each bringing their own strengths to the table. Whether you prioritize market share, customer satisfaction, or cutting-edge security features, theres a provider here that fits your needs.
       </p>
       <br />
       <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
@@ -238,9 +259,9 @@ export default function CybersecurityCompaniesPage() {
         <p className="text-white text-xlfont-light mb-2">
           ANS: Absolutely! Here are some valuable resources:
           <ul className="list-disc list-inside">
-                <li><a href="https://www.cyserch.com/resources/mastering-privileged-access" className="text-blue-500">Mastering Privileged Access</a></li>
-                <li><a href="https://www.cyserch.com/resources/best-cybersecurity-training-for-employees-2024" className="text-blue-500">Best Cybersecurity Training for Employees 2024</a></li>
-                <li><a href="https://www.cyserch.com/resources/best-corporate-cyber-security-training-company-2024" className="text-blue-500">Best Corporate Cyber Security Training Company 2024</a></li>
+                <li><a href="https://www.cyserch.com/blog/mastering-privileged-access" className="text-blue-500">Mastering Privileged Access</a></li>
+                <li><a href="https://www.cyserch.com/blog/best-cybersecurity-training-for-employees-2024" className="text-blue-500">Best Cybersecurity Training for Employees 2024</a></li>
+                <li><a href="https://www.cyserch.com/blog/Best-Corporate-CyberSecurity-Training-Company-in-2024" className="text-blue-500">Best Corporate Cyber Security Training Company 2024</a></li>
           </ul>
         </p>
       <ContactUs />

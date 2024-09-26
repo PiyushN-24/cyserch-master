@@ -3,7 +3,9 @@ import Image from "next/image";
 import Cybersecurity_Image from "../../../../public/images/Best-Corporate-Cybersecurity-Training-Companies-in-the-Australia-in-2024.jpeg";
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
-import Course from "@/app/components/training/page/couse";
+import Course from "@/app/components/training/corporate/couse";
+import CourseCard from "@/app/components/training/CourseCard";
+import courses from "@/app/components/training/coursesData";
 
 export const metadata = {
   title: "Cyserch | Best Corporate Cybersecurity Training Companies in Australia 2024",
@@ -26,10 +28,10 @@ export default function CorporateCybersecurityTrainingPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In the rapidly evolving digital landscape, cybersecurity has become a fundamental aspect of business operations. With cyber threats increasing year after year, it’s no longer just about having the right tools in place—it’s about ensuring that every member of your organization is prepared to face these challenges head-on. As we navigate through 2024, the importance of corporate cybersecurity training has never been more evident.
+        In the rapidly evolving digital landscape, cybersecurity has become a fundamental aspect of business operations. With cyber threats increasing year after year, its no longer just about having the right tools in place its about ensuring that every member of your organization is prepared to face these challenges head-on. As we navigate through 2024, the importance of corporate cybersecurity training has never been more evident.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        As a decision-maker, the security of your company’s data and operations should be at the forefront of your priorities. In this post, we’ll explore the top corporate cybersecurity training companies in Australia, focusing on why these organizations are leading the charge in protecting businesses from the ever-growing threat of cyberattacks.
+        As a decision-maker, the security of your companys data and operations should be at the forefront of your priorities. In this post, well explore the top corporate cybersecurity training companies in Australia, focusing on why these organizations are leading the charge in protecting businesses from the ever-growing threat of cyberattacks.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
         Why Corporate Cybersecurity Training is Essential
@@ -41,7 +43,7 @@ export default function CorporateCybersecurityTrainingPage() {
         Over the past few years, the cybersecurity landscape has transformed dramatically. In 2023 alone, cyberattacks surged by an alarming 45%, with ransomware attacks accounting for nearly a third of these incidents. These figures are not just statistics—they represent real businesses, some of which were forced to close their doors permanently due to the financial and reputational damage incurred.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        An executive from a leading Australian bank once confided during a cybersecurity summit, “It wasn’t the technology that failed us; it was our people. A single click on a phishing email cost us millions.” This story is a stark reminder that the human element is often the weakest link in cybersecurity.
+        An executive from a leading Australian bank once confided during a cybersecurity summit, “It wasnt the technology that failed us; it was our people. A single click on a phishing email cost us millions.” This story is a stark reminder that the human element is often the weakest link in cybersecurity.
         </p>
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
          Benefits of Corporate Cybersecurity Training
@@ -60,10 +62,10 @@ export default function CorporateCybersecurityTrainingPage() {
           1. Cyserch - Premier Cybersecurity Training Provider
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        At the forefront of cybersecurity training in Australia is Cyserch. What sets Cyserch apart is its commitment to providing tailored training programs that address the specific needs of businesses. Each training module is designed to align with your organization’s unique challenges, ensuring that your team is equipped to handle real-world threats.
+        At the forefront of cybersecurity training in Australia is Cyserch. What sets Cyserch apart is its commitment to providing tailored training programs that address the specific needs of businesses. Each training module is designed to align with your organizations unique challenges, ensuring that your team is equipped to handle real-world threats.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        A CIO from a prominent Melbourne-based tech firm shared, “Cyserch’s training transformed our approach to cybersecurity. The tailored modules resonated with our team, and we saw an immediate improvement in our security posture.”
+        A CIO from a prominent Melbourne-based tech firm shared, “Cyserchs training transformed our approach to cybersecurity. The tailored modules resonated with our team, and we saw an immediate improvement in our security posture.”
         </p>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <li><strong>Tailored Training Programs:</strong> We customize our training modules to address the specific challenges faced by your organization.</li>
@@ -74,13 +76,30 @@ export default function CorporateCybersecurityTrainingPage() {
           Explore our training services to see how we can help protect your business.
         </Link>
         </div>
-        <Course />
+        <div id="course" className="TrainingCourse p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center text-center">
+            <span className="text-[#19FFDB] text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium mb-4 sm:mb-6 md:mb-8">
+              Our Best Course
+            </span>
+            <h3 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 sm:mb-4 md:mb-6">
+              Featured Course On This Month
+            </h3>
+        </div>
+        <div className="training-page mt-4 sm:mt-6 md:mt-8 mb-6 sm:mb-8 md:mb-10 flex flex-col justify-center sm:flex-row gap-4 sm:gap-6 md:gap-8">
+          {courses.map((course) => (
+            <CourseCard key={course.id} course={course} />
+          ))}
+        </div>
+        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
+          <Link href="https://www.cyserch.com/training" legacyBehavior>
+            <a className="text-blue-500 underline">Explore our training programs</a>
+          </Link> to learn more about what we offer.
+        </p>
         <div className="bg-gray-800 p-4 rounded-lg">
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
           2. CyberCX - Leading Provider of Cybersecurity Solutions
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        CyberCX has earned its reputation as Australia’s largest independent cybersecurity services provider by offering practical, hands-on training that prepares participants to apply what they learn directly in their roles. Their programs are especially well-suited for large enterprises, providing in-depth knowledge and skills that are immediately actionable.
+        CyberCX has earned its reputation as Australias largest independent cybersecurity services provider by offering practical, hands-on training that prepares participants to apply what they learn directly in their roles. Their programs are especially well-suited for large enterprises, providing in-depth knowledge and skills that are immediately actionable.
         </p>
         <ul className="mb-4 list-disc list-inside text-white text-sm sm:text-base md:text-lg font-light">
           <li>Tailored programs for large enterprises.</li>
@@ -106,7 +125,7 @@ export default function CorporateCybersecurityTrainingPage() {
           4. SANS Institute - Specialists in Security Awareness Training
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        The SANS Institute is globally recognized for its security awareness training programs, which are designed to foster a culture of cybersecurity within organizations. Their engaging modules not only educate but also encourage employees to take a proactive stance in protecting the company’s assets.
+        The SANS Institute is globally recognized for its security awareness training programs, which are designed to foster a culture of cybersecurity within organizations. Their engaging modules not only educate but also encourage employees to take a proactive stance in protecting the companys assets.
         </p>
         <ul className="mb-4 list-disc list-inside text-white text-sm sm:text-base md:text-lg font-light">
           <li>Engaging security awareness programs.</li>
@@ -132,7 +151,7 @@ export default function CorporateCybersecurityTrainingPage() {
           6. DDLS - Experts in Cybersecurity Certification
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          DDLS is Australia's largest provider of corporate IT and process training and is well-known for preparing employees for industry-recognized cybersecurity certifications. Their training programs are designed to help professionals achieve certifications that enhance their credentials, such as CISSP, CISM, and CEH, among others.
+          DDLS is Australias largest provider of corporate IT and process training and is well-known for preparing employees for industry-recognized cybersecurity certifications. Their training programs are designed to help professionals achieve certifications that enhance their credentials, such as CISSP, CISM, and CEH, among others.
         </p>
         <ul className="mb-4 list-disc list-inside text-white text-sm sm:text-base md:text-lg font-light">
           <li>Comprehensive certification training programs.</li>
@@ -174,7 +193,7 @@ export default function CorporateCybersecurityTrainingPage() {
           Rhipe is known for delivering exceptional cybersecurity training programs with a strong emphasis on customer satisfaction. Their training covers a wide array of topics, from basic to advanced cybersecurity, making them a preferred choice for businesses looking for comprehensive training solutions.
         </p>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          <li><strong>Exceptional training quality and customer satisfaction:</strong> Rhipe’s commitment to high-quality training and customer satisfaction sets them apart in the industry.</li>
+          <li><strong>Exceptional training quality and customer satisfaction:</strong> Rhipes commitment to high-quality training and customer satisfaction sets them apart in the industry.</li>
           <li><strong>Wide range of training topics:</strong> They offer training on a broad spectrum of cybersecurity topics, from foundational knowledge to advanced strategies.</li>
           <li><strong>Strong focus on client needs and customization:</strong> Rhipe tailors their programs to meet the specific needs of each client, ensuring relevant and effective training.</li>
         </ul>
@@ -188,7 +207,7 @@ export default function CorporateCybersecurityTrainingPage() {
         </p>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <li><strong>Comprehensive training covering all aspects of cybersecurity:</strong> Enosys provides thorough training programs that encompass every aspect of cybersecurity, preparing businesses to tackle any challenge.</li>
-          <li><strong>Practical, relevant courses for today's challenges:</strong> Their courses are specifically designed to be applicable to real-world scenarios, making them highly effective for employees.</li>
+          <li><strong>Practical, relevant courses for todays challenges:</strong> Their courses are specifically designed to be applicable to real-world scenarios, making them highly effective for employees.</li>
           <li><strong>Industry-recognized for training excellence:</strong> Enosys is widely acknowledged in the industry for delivering top-notch cybersecurity training.</li>
         </ul>
         </div>
@@ -198,7 +217,7 @@ export default function CorporateCybersecurityTrainingPage() {
         Choosing the Right Cybersecurity Training Provider
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Selecting the right training provider is a critical decision that can significantly impact your organization’s security posture. Here are a few factors to consider:
+        Selecting the right training provider is a critical decision that can significantly impact your organizations security posture. Here are a few factors to consider:
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
         <div className="bg-gray-800 p-4 rounded-lg">
@@ -218,7 +237,7 @@ export default function CorporateCybersecurityTrainingPage() {
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <li>What are the qualifications of the trainers? Confirm their credentials and experience.</li>
           <li>Can you provide client testimonials or case studies? Look for evidence of successful training outcomes.</li>
-          <li>What types of training formats are offered (in-person, online)? Choose a format that best suits your team’s needs.</li>
+          <li>What types of training formats are offered (in-person, online)? Choose a format that best suits your teams needs.</li>
         </ul>
         </div>
         </div>
@@ -227,31 +246,31 @@ export default function CorporateCybersecurityTrainingPage() {
           Benefits of Partnering with a Top Cybersecurity Training Company
         </h3>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          <li><strong>Customized Training Programs:</strong> Tailored solutions ensure that the training addresses your organization’s specific needs and challenges.</li>
+          <li><strong>Customized Training Programs:</strong> Tailored solutions ensure that the training addresses your organizations specific needs and challenges.</li>
           <li><strong>Access to Expertise:</strong> Benefit from the knowledge of top industry experts who can provide insights into the latest threats and best practices.</li>
-          <li><strong>Enhanced Security Posture:</strong> Improve your company’s ability to handle and mitigate cybersecurity threats effectively.</li>
+          <li><strong>Enhanced Security Posture:</strong> Improve your companys ability to handle and mitigate cybersecurity threats effectively.</li>
         </ul>
         <div className="my-8 text-center">
           <Link href="https://www.cyserch.com/training" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">
-            Discover More About Cyserch's Training Program
+            Discover More About Cyserchs Training Program
           </Link>
         </div> 
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Conclusion
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Investing in top-tier cybersecurity training is no longer optional—it’s a necessity. As cyber threats continue to evolve, so must the strategies to combat them. The companies listed above are leading the way in Australia, offering training programs that not only educate but empower employees to become the first line of defense against cyber threats.
+        Investing in top-tier cybersecurity training is no longer optional—its a necessity. As cyber threats continue to evolve, so must the strategies to combat them. The companies listed above are leading the way in Australia, offering training programs that not only educate but empower employees to become the first line of defense against cyber threats.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Cyserch, with its tailored approach and expert trainers, stands out as the premier choice for organizations looking to bolster their cybersecurity defenses. By partnering with a provider like Cyserch, you’re not just investing in training—you’re investing in the future security of your business.
+        Cyserch, with its tailored approach and expert trainers, stands out as the premier choice for organizations looking to bolster their cybersecurity defenses. By partnering with a provider like Cyserch, youre not just investing in training—youre investing in the future security of your business.
         </p>
         <Link href="/training" className="underline text-blue-500">
-          Visit our training page to discover how we can help enhance your organization’s cybersecurity posture.
+          Visit our training page to discover how we can help enhance your organizations cybersecurity posture.
         </Link>
         <br/>
         <br/>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
-          FAQ's
+          FAQs
         </h2>
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
           Q1. What is corporate cybersecurity training?
@@ -266,10 +285,10 @@ export default function CorporateCybersecurityTrainingPage() {
           Ans: It is recommended to conduct cybersecurity training at least annually, with additional sessions whenever there are significant changes in the threat landscape or in company policies.
         </p>
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
-          Q3. What makes Cyserch’s training programs unique?
+          Q3. What makes Cyserchs training programs unique?
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          And: Cyserch’s training programs are tailored to address the specific needs of each organization, offering a customized approach to learning. Our expert trainers bring real-world experience, ensuring that the content is relevant and actionable.
+          And: Cyserchs training programs are tailored to address the specific needs of each organization, offering a customized approach to learning. Our expert trainers bring real-world experience, ensuring that the content is relevant and actionable.
         </p>
         <ContactUs />
       </div>

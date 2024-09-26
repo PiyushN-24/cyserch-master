@@ -122,7 +122,7 @@ export default function DownloadForm() {
               </li>
               <li className="text-base mb-2">
                 <strong className="font-bold">Testing Methodologies: </strong>
-                Understand Cyserch's approach to penetration testing in AI-ML environments, from initial threat analysis to detailed exploitation techniques.
+                Understand Cyserchs approach to penetration testing in AI-ML environments, from initial threat analysis to detailed exploitation techniques.
               </li>
               <li className="text-base mb-2">
                 <strong className="font-bold">Mitigation Strategies: </strong>

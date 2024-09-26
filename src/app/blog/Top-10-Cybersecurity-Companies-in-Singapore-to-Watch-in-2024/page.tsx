@@ -1,10 +1,11 @@
-
 import React from "react";
 import Image from "next/image";
-import Card1 from "../../../../public/images/blog1-topimgge.png";
+import CyserchImage from "../../../../public/images/blog1-topimgge.png";
+import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Sin1 from "../../../../public/images/Singapore.png";
 import Sin2 from "../../../../public/images/Singapore_2.png";
+import CEH_Image from "../../../../public/images/Top 10 Cybersecurity Companies in Singapore to Watch in 2024.png";
 
 export const metadata = {
   title: "Cyserch | Top 10 Cybersecurity Companies in Singapore to Watch in 2024",
@@ -13,13 +14,14 @@ export const metadata = {
 
 export default function CybersecurityCompaniesPage() {
   return (
-    <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
+    <>
+      <div className="px-8 sm:px-16 md:px-24 lg:px-32 xl:px-48 py-4">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 Cybersecurity Companies in Singapore in 2024
         </h1>
         <div className="flex justify-center mb-4 w-full">
             <Image
-              src={Card1}
+              src={CEH_Image}
               width={600}
               height={600}
               alt="Top 10 Cybersecurity Companies in Singapore in 2024"
@@ -34,7 +36,7 @@ export default function CybersecurityCompaniesPage() {
           Understanding Singapore’s Cybersecurity Landscape
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-        Singapore's position as a leading financial center and technology hub makes it a prime target for cyberattacks. The government's proactive stance on cybersecurity, demonstrated by initiatives like the Cybersecurity Act, reflects the country's commitment to securing its digital infrastructure. Businesses in Singapore are expected to adhere to stringent regulations, ensuring that they not only protect their own assets but also contribute to the broader cybersecurity ecosystem. 
+        Singapores position as a leading financial center and technology hub makes it a prime target for cyberattacks. The governments proactive stance on cybersecurity, demonstrated by initiatives like the Cybersecurity Act, reflects the countrys commitment to securing its digital infrastructure. Businesses in Singapore are expected to adhere to stringent regulations, ensuring that they not only protect their own assets but also contribute to the broader cybersecurity ecosystem. 
         <br/>
         For more details on Singapores cybersecurity strategies, you can visit the <a href="https://www.csa.gov.sg" className="text-blue-500">CSA website</a>.
         </p>
@@ -65,69 +67,51 @@ export default function CybersecurityCompaniesPage() {
             <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 text-white">
               Services Offered
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="text-white grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2 text-white">Cloud Security</h3>
-                <p className="text-sm font-light mb-2 text-gray-300">
-                  Comprehensive protection for cloud infrastructures to prevent unauthorized access and data breaches.
+                <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
+                <p className="text-sm font-light mb-2">
+                  At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
                 </p>
-                <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Cloud Penetration Testing
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2 text-white">Web Security</h3>
-                <p className="text-sm font-light mb-2 text-gray-300">
-                  Protect your web applications from common threats like SQL injection, cross-site scripting, and more.
+                <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
+                <p className="text-sm font-light mb-2">
+                  Our web security services ensure comprehensive protection for your web applications and platforms.
                 </p>
-                <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Web Penetration Testing
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2 text-white">API Security</h3>
-                <p className="text-sm font-light mb-2 text-gray-300">
-                  Secure your APIs from malicious attacks and ensure safe communication between services.
+                <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
+                <p className="text-sm font-light mb-2">
+                  Protect your APIs from potential threats with our advanced API security solutions.
                 </p>
-                <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about API Penetration Testing
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2 text-white">Network Security</h3>
-                <p className="text-sm font-light mb-2 text-gray-300">
-                  Protect your network infrastructure from intrusions and ensure secure data transmission.
+                <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
+                <p className="text-sm font-light mb-2">
+                  Ensure the security of your mobile applications and devices with our tailored mobile security services.
                 </p>
-                <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Mobile Penetration Testing
+                </Link>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2 text-white">Mobile Security</h3>
-                <p className="text-sm font-light mb-2 text-gray-300">
-                  Ensure the security of mobile applications and protect against threats on mobile devices.
+                <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
+                <p className="text-sm font-light mb-2">
+                  Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
                 </p>
-                <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
-              </div>
-              <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2 text-white">DevSecOps</h3>
-                <p className="text-sm font-light mb-2 text-gray-300">
-                  Integrate security into your DevOps process to ensure continuous security throughout the development lifecycle.
-                </p>
-                <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
-              </div>
-              <div className="bg-gray-800 rounded-lg p-4">
-                <h3 className="text-xl font-semibold mb-2 text-white">Cybersecurity Training</h3>
-                <p className="text-sm font-light mb-2 text-gray-300">
-                  Provide comprehensive training programs to enhance your team’s cybersecurity skills.
-                </p>
-                <a href="https://www.cyserch.com/training" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Network Penetration Testing
+                </Link>
               </div>
             </div>
             <h3 className="text-xl sm:text-2xl md:text-2xl font-semibold mb-4 mt-6 text-white">
@@ -367,20 +351,20 @@ export default function CybersecurityCompaniesPage() {
             </div>
             <br/>
             <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-                Comparative Analysis of Top Companies
+              Comparative Analysis of Top Companies
             </h2>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-               To provide a clearer picture, lets compare these companies based on their market positioning, strengths, and pricing packages. The following charts highlight how Cyserch Security stands out among its peers.
+                    To provide a clearer picture, lets compare these companies based on their market positioning, strengths, and pricing packages. The following charts highlight how Cyserch Security stands out among its peers.
             </p>
-        <div className="flex justify-center mb-4 w-full">
-        <Image
-          src={Sin1}
-          width={600}
-          height={600}
-          alt="Top 10 Cybersecurity Companies in Singapore in 2024"
-          className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
-        />
-        </div>
+            <div className="flex justify-center mb-4 w-full">
+            <Image
+              src={Sin1}
+              width={600}
+              height={400}
+              alt="Top 10 CybserSecurity Companies in the Singapore in 2024"
+              className="rounded-lg w-42 h-64 sm:h-80 md:h-96 lg:h-full object-cover"
+            />
+            </div>
         <br />
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           Chart Comparison
@@ -422,7 +406,7 @@ export default function CybersecurityCompaniesPage() {
               <li>
                 <a href="https://www.cyserch.com/contactus" className="text-blue-500 hover:underline">
                   Contact Us
-                </a>
+                </a>{" "}
                 for detailed pricing information and to get a quote tailored to your needs.
               </li>
             </ul>
@@ -534,5 +518,6 @@ export default function CybersecurityCompaniesPage() {
           </div>
           <ContactUs />
           </div>
+  </>
 );
 }

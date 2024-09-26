@@ -1,8 +1,10 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Chart from "../../../../public/images/Key Contribution of PTES Phases _.png";
+import CEH_Image from "../../../../public/images/Secrets of Penetration Testing Execution Standards(PTES) in 2024_11zon.png";
 
 export const metadata = {
   title: "Cyserch | Secrets of Penetration Testing Execution Standards(PTES)",
@@ -16,9 +18,16 @@ export default function CybersecurityCompaniesPage() {
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Secrets of Penetration Testing Execution Standards(PTES): Unlock Now!
         </h1>
-
+ <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={550}
+            height={350}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
         
-
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           In the ever-evolving world of cybersecurity, penetration testing is an indispensable practice. As someone deeply involved in this field, Ive seen firsthand how vital it is to adhere to established standards to ensure robust security. One such standard that stands out is the Penetration Testing Execution Standard (PTES). In this blog, Ill walk you through the intricacies of PTES, illustrate its importance, and highlight how <a href="https://www.cyserch.com/" className="text-blue-500">Cyserch Security</a> can be your go-to partner for top-notch penetration testing services.
         </p>
@@ -58,7 +67,7 @@ export default function CybersecurityCompaniesPage() {
                   Clearly outlining what will and won’t be tested.
                 </p>
                 <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
-                  Learn more
+                Learn more about defining the scope of testing
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
@@ -67,7 +76,7 @@ export default function CybersecurityCompaniesPage() {
                   Ensuring all necessary permissions and contracts are in place.
                 </p>
                 <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
-                  Learn more
+                Learn more about legal considerations for testing
                 </a>
               </div>
             </div>
@@ -87,7 +96,7 @@ export default function CybersecurityCompaniesPage() {
                   Using various tools to gather data about potential vulnerabilities.
                 </p>
                 <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
-                  Learn more
+                Learn more about our techniques and tools
                 </a>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
@@ -96,7 +105,7 @@ export default function CybersecurityCompaniesPage() {
                   Comprehensive reconnaissance is essential for identifying potential threats.
                 </p>
                 <a href="https://www.cyserch.com/" className="text-blue-500 hover:underline">
-                  Learn more
+                Learn more about the importance of reconnaissance
                 </a>
               </div>
             </div>
@@ -115,18 +124,19 @@ export default function CybersecurityCompaniesPage() {
                 <p className="text-sm font-light mb-2">
                   Identifying and categorizing potential threats.
                 </p>
-                <a href="https://www.cyserch.com/network-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about our Network Penetration Testing Services
+                </Link>
+
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
                 <h3 className="text-xl font-semibold mb-2">Case Studies</h3>
                 <p className="text-sm font-light mb-2">
                   Illustrating how threat modeling has helped in real-world scenarios.
                 </p>
-                <a href="https://www.cyserch.com/network-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/resources/casestudies" className="text-blue-500 hover:underline">
+                  Learn more about Network Penetration Testing Case Studies
+                </Link>
               </div>
             </div>
             <ContactUs />
@@ -144,9 +154,10 @@ export default function CybersecurityCompaniesPage() {
                 <p className="text-sm font-light mb-2">
                   Using sophisticated tools to analyze vulnerabilities.
                 </p>
-                <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Tools and Methods of API Penetration Testing Services
+                </Link>
+
               </div>
               
               <div className="bg-gray-800 rounded-lg p-4">
@@ -154,9 +165,10 @@ export default function CybersecurityCompaniesPage() {
                 <p className="text-sm font-light mb-2">
                   Accurate analysis helps in prioritizing remediation efforts.
                 </p>
-                <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">
-                  Learn more
-                </a>
+                <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+                  Learn more about Importance of API Penetration Testing Services
+                </Link>
+
                 </div>
                 <div className="bg-gray-800 rounded-lg p-4">
     <h3 className="text-xl font-semibold mb-2">Exploitation</h3>
@@ -165,9 +177,10 @@ export default function CybersecurityCompaniesPage() {
       <br />
       Using various methods to exploit vulnerabilities ethically.
     </p>
-    <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">
-      Learn more
-    </a>
+    <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+      Learn more about Exploitation in Penetration Testing Services
+    </Link>
+
   </div>
 
   {/* Post-Exploitation */}
@@ -180,8 +193,8 @@ export default function CybersecurityCompaniesPage() {
       <br />
       Maintaining Access: Evaluating the persistence of access.
     </p>
-    <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">
-      Learn more
+    <a href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+      Learn more about Post-Exploitation in Vulnerability Analysis
     </a>
   </div>
 
@@ -195,9 +208,10 @@ export default function CybersecurityCompaniesPage() {
       <br />
       Communication: Ensuring that findings and recommendations are communicated effectively.
     </p>
-    <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">
-      Learn more
-    </a>
+    <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+      Learn more about Reporting in Vulnerability Analysis
+    </Link>
+
   </div>
   </div>
   </li>
@@ -244,7 +258,7 @@ export default function CybersecurityCompaniesPage() {
         <li>Unique Methodologies: Our testing methodologies are tailored to meet the specific needs of each client.</li>
         <li>Success Stories: We have numerous success stories showcasing our expertise.</li>
       </ul>
-      For more about our services and success stories, visit <a href="https://www.cyserch.com/services" className="text-blue-500">Cyserch Securitys services page</a>.
+      For more about our services and success stories, visit <a href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500">Cyserch Securitys services page</a>.
     </p>
 
     <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Cybersecurity_Image from "../../../../public/images/Best-Corporate-Cybersecurity-Training-Companies-in-the-USA-in-2024.jpeg";
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
-import Course from "@/app/components/training/page/couse";
+import Course from "@/app/components/training/corporate/couse";
 
 export const metadata = {
   title: "Cyserch | Best Corporate Cybersecurity Training Companies in the USA 2024",
@@ -33,7 +33,7 @@ export default function CorporateCybersecurityTrainingPage() {
         The Rising Tide of Cyber Threats
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Reflecting on the trends of recent years, we see a staggering increase in cyberattacks. In 2023 alone, there was a 38% rise in cyber incidents compared to the previous year, with ransomware attacks being particularly rampant. Imagine being a CEO who gets the dreaded call—“Weve been hacked.” Its a scenario that no one wants, but far too many have faced. The reality is, the complexity and frequency of these attacks are growing. This makes corporate cybersecurity training not just an investment, but a critical necessity.
+        Reflecting on the trends of recent years, we see a staggering increase in cyberattacks. In 2023 alone, there was a 38% rise in cyber incidents compared to the previous year, with ransomware attacks being particularly rampant. Imagine being a CEO who gets the dreaded call—“We have been hacked.” Its a scenario that no one wants, but far too many have faced. The reality is, the complexity and frequency of these attacks are growing. This makes corporate cybersecurity training not just an investment, but a critical necessity.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
         One real-world example comes from a midsize financial firm in Texas. They experienced a ransomware attack that locked down their entire system. The aftermath? A week of lost productivity, a tarnished reputation, and a hefty ransom paid in Bitcoin. What could have made a difference? A well-trained team, equipped to spot the early signs of phishing and other threats.
@@ -190,14 +190,14 @@ export default function CorporateCybersecurityTrainingPage() {
         </p>
         <div className="my-8 text-center">
           <Link href="https://www.cyserch.com/training" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">
-            Discover More About Cyserch's Training Program
+            Discover More About Cyserchs Training Program
           </Link>
         </div> 
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Conclusion
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Investing in corporate cybersecurity training is not just about protecting your organization from cyber threats; it's about fostering a culture of security awareness that will benefit your company in the long run. <Link href="/https://www.cyserch.com/" className="underline text-blue-500">Cyserch</Link> offers top-notch training programs designed to meet the unique needs of your business, ensuring that your team is well-prepared to handle any cybersecurity challenge.
+          Investing in corporate cybersecurity training is not just about protecting your organization from cyber threats; its about fostering a culture of security awareness that will benefit your company in the long run. <Link href="https://www.cyserch.com/" className="underline text-blue-500">Cyserch</Link> offers top-notch training programs designed to meet the unique needs of your business, ensuring that your team is well-prepared to handle any cybersecurity challenge.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           To explore our training services and see how we can help your organization, visit our <Link href="/training" className="underline text-blue-500">training page</Link>.

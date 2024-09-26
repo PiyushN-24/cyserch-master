@@ -1,128 +1,99 @@
-import Image from "next/image";
-import Icon1 from "../../../../../public/icons/analyze.svg";
-import Applications from "../../../../../public/icons/applications.svg";
-import IAM from "../../../../../public/icons/IAM.svg";
-import group from "../../../../../public/icons/Mask-Group.svg";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { FaUserShield, FaWrench } from "react-icons/fa";
+import { MdSupportAgent } from "react-icons/md";
 
-export default function CloudSecurityOffers() {
+export default function WebPenTestOffers() {
   return (
-    <div className="bg-[#011C3C] px-4 sm:px-[9rem] py-4 sm:py-[3rem]">
-      <h2 className="text-white text-[2.18rem] font-semibold mt-3 mb-[-5rem] sm:mb-[1rem]">
-        Our deliverables
+    <div className="bg-[#011C3C] px-4 sm:px-[6rem] lg:px-[9rem] py-4 sm:py-[3rem]">
+      <h2 className="text-white text-2xl sm:text-[2.18rem] font-semibold mt-3 mb-6 text-center sm:mb-8">
+        Our Web Penetration Testing Deliverables
       </h2>
-      <div className="cards flex flex-col sm:flex-row gap-4 sm:gap-8 p-4 sm:p-[3rem]">
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={Icon1} alt="card" className="w-14 h-14" />
-          </div>
-          <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Comprehensive Vulnerability Assessment Report
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 sm:p-[3rem]">
+        {/** First Row of Cards */}
+        <div className="flex flex-col items-center justify-start w-full h-full border rounded-lg bg-[#011C3C] p-6">
+          <AiOutlineFundProjectionScreen className="w-14 h-14 text-white" />
+          <h3 className="text-white text-lg font-semibold mt-4 text-center">
+            Comprehensive Web Vulnerability Report
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-           Receive a detailed report categorizing vulnerabilities by severity with actionable recommendations for remediation, ensuring every security gap is addressed effectively.
+          <p className="text-[#a39d9d] text-base font-light leading-normal mt-4 text-center">
+            Receive a detailed assessment report categorizing web vulnerabilities like SQL Injection, Cross-Site Scripting (XSS), and CSRF, along with remediation steps to secure your web applications.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={Applications} alt="card" className="w-12 h-12" />
-          </div>
-          <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Cost-Effective Solutions
+        <div className="flex flex-col items-center justify-start w-full h-full border rounded-lg bg-[#011C3C] p-6">
+          <FaUserShield className="w-12 h-12 text-white" />
+          <h3 className="text-white text-lg font-semibold mt-4 text-center">
+            Custom Exploit Scenarios
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Receive cost-effective recommendations for addressing vulnerabilities, ensuring that security measures align with your budget constraints while maximizing protection against cyber threats.
+          <p className="text-[#a39d9d] text-base font-light leading-normal mt-4 text-center">
+            Identify how attackers could exploit your web application, testing various attack vectors like broken authentication and insecure direct object references (IDOR) to reveal the impact of vulnerabilities.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={IAM} alt="card" className="w-12 h-12" />
-          </div>
-          <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Customized Service Packages
+        <div className="flex flex-col items-center justify-start w-full h-full border rounded-lg bg-[#011C3C] p-6">
+          <FaWrench className="w-12 h-12 text-white" />
+          <h3 className="text-white text-lg font-semibold mt-4 text-center">
+            Security Best Practices
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Choose from a range of service packages tailored to your organizations needs and budget, ensuring that you get the most value out of your investment in security testing and assessment
+          <p className="text-[#a39d9d] text-base font-light leading-normal mt-4 text-center">
+            Get actionable recommendations to implement security best practices such as secure session management, proper input validation, and strengthening access control mechanisms.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={group} alt="card" className="w-12 h-12" />
-          </div>
-          <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Dedicated Support Team
+        <div className="flex flex-col items-center justify-start w-full h-full border rounded-lg bg-[#011C3C] p-6">
+          <MdSupportAgent className="w-12 h-12 text-white" />
+          <h3 className="text-white text-lg font-semibold mt-4 text-center">
+            Continuous Support
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Access a dedicated team of security experts for ongoing support and consultation, providing assistance with implementation, troubleshooting, and any security-related queries that arise post-assessment
-          </p>
-        </div>
-
-
-
-
-      </div>
-
-      <div className="cards flex flex-col sm:flex-row gap-4 sm:gap-8 p-4 sm:p-[3rem]">
-        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={Icon1} alt="card" className="w-14 h-14" />
-          </div>
-          <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Full-Spectrum Evaluation
-          </h3>
-
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Ensure comprehensive security across all operational aspects of the
-            web application to prevent unauthorized access and data breaches.
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={Applications} alt="card" className="w-12 h-12" />
-          </div>
-          <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Detailed Analysis Report
-          </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Provide developers with a developer-friendly report that details
-            each vulnerability, its potential impact, and suggested
-            remediations.
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={IAM} alt="card" className="w-12 h-12" />
-          </div>
-          <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Leadership Summary
-          </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Enable executives to understand how the application stands against
-            real-time attackers and highlight key areas needing attention.
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
-          <div className="flex gap-3 items-center">
-            <Image src={group} alt="card" className="w-12 h-12" />
-          </div>
-
-          <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Ongoing Assistance
-          </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Assist the development team in fixing vulnerabilities and
-            implementing best coding practices to prevent future security
-            issues.
+          <p className="text-[#a39d9d] text-base font-light leading-normal mt-4 text-center">
+            Access ongoing support from our security experts to help implement fixes and secure your web applications against evolving threats in the long term.
           </p>
         </div>
       </div>
 
+      {/** Second Row of Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 sm:p-[3rem]">
+        <div className="flex flex-col items-center justify-start w-full h-full border rounded-lg bg-[#011C3C] p-6">
+          <AiOutlineFundProjectionScreen className="w-14 h-14 text-white" />
+          <h3 className="text-white text-lg font-semibold mt-4 text-center">
+            Attack Simulation Report
+          </h3>
+          <p className="text-[#a39d9d] text-base font-light leading-normal mt-4 text-center">
+            Understand how your web application would perform under real-world attacks, with detailed simulation results showing potential damage and vulnerabilities.
+          </p>
+        </div>
 
+        <div className="flex flex-col items-center justify-start w-full h-full border rounded-lg bg-[#011C3C] p-6">
+          <FaUserShield className="w-12 h-12 text-white" />
+          <h3 className="text-white text-lg font-semibold mt-4 text-center">
+            Technical Analysis for Developers
+          </h3>
+          <p className="text-[#a39d9d] text-base font-light leading-normal mt-4 text-center">
+            Deliver a report customized for developers with an in-depth analysis of each vulnerability, its potential impact, and recommendations for code-level remediations.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center justify-start w-full h-full border rounded-lg bg-[#011C3C] p-6">
+          <FaWrench className="w-12 h-12 text-white" />
+          <h3 className="text-white text-lg font-semibold mt-4 text-center">
+            Executive Summary
+          </h3>
+          <p className="text-[#a39d9d] text-base font-light leading-normal mt-4 text-center">
+            Present an easy-to-understand summary for leadership teams, highlighting key vulnerabilities, their business impact, and strategic solutions.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center justify-start w-full h-full border rounded-lg bg-[#011C3C] p-6">
+          <MdSupportAgent className="w-12 h-12 text-white" />
+          <h3 className="text-white text-lg font-semibold mt-4 text-center">
+            Remediation Assistance
+          </h3>
+          <p className="text-[#a39d9d] text-base font-light leading-normal mt-4 text-center">
+            Offer hands-on assistance in fixing vulnerabilities and improving overall web application security, ensuring your application remains secure in the future.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

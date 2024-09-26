@@ -6,6 +6,7 @@ import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Card1 from "../../../../public/images/Top 10 Cybersecurity Companies in New Zealand to Watch in 2024.png";
 import Devsecops from "../../../../public/images/devsecops.png";
+import CEH_Image from "../../../../public/images/Top 10 DevSecOps Companies in UK in 2024.png"
 
 export const metadata = {
   title: "Cyserch | Top 10 DevSecOps Companies in the UK in 2024",
@@ -19,7 +20,15 @@ export default function DevSecOpsCompaniesPage() {
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Top 10 DevSecOps Companies in the UK in 2024
         </h1>
-
+        <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
         {/* <div className="flex justify-center mb-4 w-full">
           <Image
             src={Card1}
@@ -79,30 +88,30 @@ export default function DevSecOpsCompaniesPage() {
             </p>
             <ul className="list-disc list-inside space-y-2 text-white">
             <li className="mb-2">
-          <Link href="https://www.cyserch.com/services/cloud-security" legacyBehavior>
-            <a className="text-blue-500 hover:underline">Cloud Security:</a>
-          </Link> Use cutting-edge security techniques to safeguard your cloud infrastructure.
-        </li>
-        <li className="mb-2">
-          <Link href="https://www.cyserch.com/services/web-security" legacyBehavior>
-            <a className="text-blue-500 hover:underline">Web Security:</a>
-          </Link> Make sure there are no vulnerabilities in your web apps.
-        </li>
-        <li className="mb-2">
-          <Link href="https://www.cyserch.com/services/api-security" legacyBehavior>
-            <a className="text-blue-500 hover:underline">API Security:</a>
-          </Link> Use our all-inclusive security services to safeguard your APIs.
-        </li>
-        <li className="mb-2">
-          <Link href="https://www.cyserch.com/services/network-security" legacyBehavior>
-            <a className="text-blue-500 hover:underline">Network Security:</a>
-          </Link> Use our strict security procedures to keep your network secure.
-        </li>
-        <li className="mb-2">
-          <Link href="https://www.cyserch.com/services/mobile-security" legacyBehavior>
-            <a className="text-blue-500 hover:underline">Mobile Security:</a>
-          </Link> Use our specialist security services to safeguard your mobile applications.
-        </li>
+              <Link href="https://www.cyserch.com/services/cloud-penetration-testing" legacyBehavior>
+                <a className="text-blue-500 hover:underline">Cloud Penetration Testing:</a>
+              </Link> Use cutting-edge security techniques to safeguard your cloud infrastructure.
+            </li>
+            <li className="mb-2">
+              <Link href="https://www.cyserch.com/services/web-penetration-testing" legacyBehavior>
+                <a className="text-blue-500 hover:underline">Web Penetration Testing:</a>
+              </Link> Make sure there are no vulnerabilities in your web apps.
+            </li>
+            <li className="mb-2">
+              <Link href="https://www.cyserch.com/services/api-penetration-testing" legacyBehavior>
+                <a className="text-blue-500 hover:underline">API Penetration Testing:</a>
+              </Link> Use our all-inclusive security services to safeguard your APIs.
+            </li>
+            <li className="mb-2">
+              <Link href="https://www.cyserch.com/services/network-penetration-testing" legacyBehavior>
+                <a className="text-blue-500 hover:underline">Network Penetration Testing:</a>
+              </Link> Use our strict security procedures to keep your network secure.
+            </li>
+            <li className="mb-2">
+              <Link href="https://www.cyserch.com/services/mobile-penetration-testing" legacyBehavior>
+                <a className="text-blue-500 hover:underline">Mobile Penetration Testing:</a>
+              </Link> Use our specialist security services to safeguard your mobile applications.
+            </li>
             </ul>
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
               Our ability to smoothly incorporate security into their development is highly praised by our client. Check out our client testimonials.
@@ -269,7 +278,7 @@ export default function DevSecOpsCompaniesPage() {
         <section className="mt-6">
         <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">Conclusion</h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">Ensuring the security of your software development process requires careful selection of your DevSecOps partner. The businesses on this list are the greatest in the UK, providing a broad range of services and expertise to help you achieve your security objectives. Cyserch Security stands out among these leading competitors with its extensive service offerings and customer-focused philosophy.</p>
-        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">To learn more about how Cyserch Security can assist in securing your development processes, visit our <a href="https://www.cyserch.com/training" className="text-blue-500 underline">website</a> or <a href="mailto:contact@cyserch.com" className="text-blue-500 underline">contact us</a>.</p>
+        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">To learn more about how Cyserch Security can assist in securing your development processes, visit our <a href="https://www.cyserch.com/training" className="text-blue-500 underline">website</a> or <a href="https://www.cyserch.com/contactus" className="text-blue-500 underline">contact us</a>.</p>
         </section>
 
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">

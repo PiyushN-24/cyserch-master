@@ -29,7 +29,7 @@ export default function TopWAFsForDoSPage() {
         <br/><br/>
         The urgency of securing your applications cannot be overstated, especially when you consider the statistics. According to a report from Statista, the number of DoS attacks has risen by 30% globally since 2021. This alarming trend emphasizes the need for effective WAF solutions that can defend against these disruptive assaults.
         <br/><br/>
-        If you're in the market for cybersecurity tools, this blog will guide you through the best options available and how they align with your specific needs. Cyserch.com is here to support you every step of the way. With that in mind, let’s delve into the key features you should look for in a WAF.
+        If you are in the market for cybersecurity tools, this blog will guide you through the best options available and how they align with your specific needs. Cyserch.com is here to support you every step of the way. With that in mind, let’s delve into the key features you should look for in a WAF.
       </p>
 
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -43,9 +43,9 @@ export default function TopWAFsForDoSPage() {
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
         <strong className="font-bold">2. Scalability and Performance:</strong> Scalability is a critical feature, especially for businesses experiencing variable web traffic. A scalable WAF can handle fluctuating traffic levels without compromising performance, ensuring your site remains secure during peak periods. This is particularly vital for e-commerce sites or any online platform with high user engagement.
         <br/><br/>
-        I recall an instance when one of our clients at Cyserch.com encountered a massive traffic surge due to a flash sale. Their previous WAF solution struggled to scale, resulting in a temporary service outage. After transitioning to a scalable WAF solution we recommended, they managed the traffic spikes effortlessly. This experience highlights the importance of selecting a WAF that can adapt to your business's growth.
+        I recall an instance when one of our clients at Cyserch.com encountered a massive traffic surge due to a flash sale. Their previous WAF solution struggled to scale, resulting in a temporary service outage. After transitioning to a scalable WAF solution we recommended, they managed the traffic spikes effortlessly. This experience highlights the importance of selecting a WAF that can adapt to your businesss growth.
         <br/><br/>
-        For further reading on the significance of scalability in WAFs, here's a valuable resource.
+        For further reading on the significance of scalability in WAFs, heres a valuable resource.
       </p>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
         <strong className="font-bold">3. Integration with Existing Security Infrastructure:</strong> Effective integration with your existing security setup is non-negotiable. Your WAF should work harmoniously with other security tools, creating a unified defense strategy. Poor integration can lead to security gaps, which cybercriminals can easily exploit.
@@ -122,7 +122,7 @@ export default function TopWAFsForDoSPage() {
               <br/>
               <a href="https://www.akamai.com/us/en/products/security/kona-site-defender.jsp" className="text-text-white hover:underline">Akamai Kona Site Defender Datasheet</a>
               <br/>
-              <a href="https://www.akamai.com/us/en/solutions/security/customer-stories.jsp" className="text-text-white hover:underline">Akamai Customer Stories</a>
+              <a href="https://www.akamai.com/why-akamai" className="text-text-white hover:underline">Akamai Customer Stories</a>
             </p>
           </div>
         </div>
@@ -224,7 +224,7 @@ export default function TopWAFsForDoSPage() {
               <br/>
               <a href="https://sucuri.net/ddos-protection/" className="text-text-white hover:underline">Sucuri DDoS Protection</a>
               <br/>
-              <a href="https://sucuri.net/case-studies/" className="text-text-white hover:underline">Sucuri Case Studies</a>
+              <a href="https://sucuri.net/reports/" className="text-text-white hover:underline">Sucuri Reports</a>
             </p>
           </div>
         </div>

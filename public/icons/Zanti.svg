@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270pt" height="270pt" viewBox="0 0 270 270" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 27 63 L 264.464844 63 L 264.464844 257.078125 L 27 257.078125 Z M 27 63 "/>
+</clipPath>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="270" height="270" style="fill:rgb(0%,0%,0%);fill-opacity:0.399994;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip3">
+  <path d="M 0 0 L 237.464844 0 L 237.464844 194.078125 L 0 194.078125 Z M 0 0 "/>
+</clipPath>
+<clipPath id="clip2">
+  <rect width="238" height="195"/>
+</clipPath>
+<g id="surface4" clip-path="url(#clip2)">
+<g clip-path="url(#clip3)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(70.999146%,70.599365%,70.599365%);fill-opacity:1;" d="M 0 54 L 99 126 L 108 171 L 165.691406 194.078125 C 200.097656 177.789063 226.511719 147.390625 237.464844 110.347656 L 216 54 L 117 0 "/>
+</g>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(87.799072%,87.799072%,87.799072%);fill-opacity:1;" d="M 135 234 L 126 189 L 27 117 L 243 117 L 264.464844 173.347656 C 268.0625 161.191406 270 148.320313 270 135 C 270 60.441406 209.558594 0 135 0 C 60.441406 0 0 60.441406 0 135 C 0 209.558594 60.441406 270 135 270 C 155.644531 270 175.199219 265.359375 192.691406 257.078125 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(87.799072%,87.799072%,87.799072%);fill-opacity:1;" d="M 27 117 L 126 189 L 135 234 L 192.691406 257.078125 C 227.097656 240.789063 253.511719 210.390625 264.464844 173.347656 L 243 117 "/>
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<use xlink:href="#surface4" transform="matrix(1,0,0,1,27,63)" mask="url(#mask0)"/>
+</g>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(89.7995%,49.798584%,22.399902%);fill-opacity:1;" d="M 180 99 C 180 99 144 126 99 189 L 126 207 C 126 207 189 135 243 117 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(95.698547%,49.398804%,12.199402%);fill-opacity:1;" d="M 207 71 C 135 53 63 71 63 71 L 27 116 C 27 116 135 99 243 117 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(95.698547%,49.398804%,12.199402%);fill-opacity:1;" d="M 135 234 L 99 189 C 99 189 135 198 171 189 "/>
+</g>
+</svg>

@@ -48,9 +48,9 @@ export default function StudentTestimonials() {
           </div>
           <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
             The Creative Minds sessions on data privacy were enlightening. I
-            now understand the importance of robust security protocols and
-            compliance. Thanks to this course, Im better equipped to safeguard
-            sensitive information in my organization.
+            now understand the importance of robust security protocols. 
+            Thanks to this course, Im better equipped to safeguard
+            information in my organization.
           </p>
           <div className="flex items-center mt-4">
             <div className="testimonial-img"></div>
@@ -74,7 +74,7 @@ export default function StudentTestimonials() {
             The video tutorials were a game-changer for me. The detailed
             content, presented by certified experts, was easy to follow yet
             highly informative. I highly recommend this course to anyone looking
-            to enhance their cybersecurity skills.
+            to enhance their skills.
           </p>
           <div className="flex items-center mt-4">
             <div className="testimonial-img"></div>

@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Cybersecurity_Image from "../../../../public/images/security.svg";
-import Graph_Image from "../../../../public/images/Best-Corporate-Cybersecurity-Training-Company-in-Delhi-in-2024.jpeg"; // Update with the correct path to your image
+import Cybersecurity_Image from "../../../../public/images/Best-Corporate-Cybersecurity-Training-Company-in-Delhi-in-2024.jpeg";
+import Graph_Image from  "../../../../public/images/Cybercrime Cost Prediction 2024.png"; // Update with the correct path to your image
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
-import Course from "@/app/components/training/page/couse";
+import Course from "@/app/components/training/corporate/couse";
 
 
 export const metadata = {
@@ -28,7 +28,7 @@ export default function CybersecurityTrainingPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In today's digital landscape, cybersecurity is more than just an IT concern it's a vital business priority. As cyber threats become increasingly sophisticated, ensuring that your team is well-prepared is crucial. In this blog, we explore the state of corporate cybersecurity training in Delhi for 2024, highlighting what makes a training provider exceptional and why Cyserch.com is leading the pack.
+        In todays digital landscape, cybersecurity is more than just an IT concern it is a vital business priority. As cyber threats become increasingly sophisticated, ensuring that your team is well-prepared is crucial. In this blog, we explore the state of corporate cybersecurity training in Delhi for 2024, highlighting what makes a training provider exceptional and why Cyserch.com is leading the pack.
         </p>
 
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -38,7 +38,7 @@ export default function CybersecurityTrainingPage() {
         Cyber threats are no longer confined to the realm of IT departments; they impact every facet of a business. The latest Cybersecurity Ventures report predicts that cybercrime will cost the world $8 trillion in 2024 a staggering figure that underscores the need for robust security measures. Without proper training, companies risk facing significant financial losses, data breaches, and severe reputational damage
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        For instance, a recent attack on a multinational corporation exposed the company's customer data, resulting in a loss of over $100 million and damaging their reputation. This scenario highlights the critical need for comprehensive training programs to prepare employees for potential threats.
+        For instance, a recent attack on a multinational corporation exposed the companys customer data, resulting in a loss of over $100 million and damaging their reputation. This scenario highlights the critical need for comprehensive training programs to prepare employees for potential threats.
         </p>
         <div className="flex justify-center mb-4 w-full">
         <Image 
@@ -74,7 +74,7 @@ export default function CybersecurityTrainingPage() {
           3. Client Testimonials and Case Studies
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Client testimonials and case studies offer valuable insights into the effectiveness of the training. Positive feedback and documented success stories can build confidence in a provider's ability to deliver impactful training. At Cyserch, our success stories include transforming the cybersecurity posture of major enterprises and empowering small business teams with essential skills.
+        Client testimonials and case studies offer valuable insights into the effectiveness of the training. Positive feedback and documented success stories can build confidence in a providers ability to deliver impactful training. At Cyserch, our success stories include transforming the cybersecurity posture of major enterprises and empowering small business teams with essential skills.
         </p>
         <br/>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -164,7 +164,7 @@ export default function CybersecurityTrainingPage() {
           Comparing Training Providers
         </h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Investing in corporate cybersecurity training is essential for safeguarding your business in today’s digital environment. Cyserch.com offers unparalleled expertise and a customized approach to meet your training needs. By choosing the right provider, you can strengthen your company's security posture and ensure compliance with industry standards.
+        Investing in corporate cybersecurity training is essential for safeguarding your business in today’s digital environment. Cyserch.com offers unparalleled expertise and a customized approach to meet your training needs. By choosing the right provider, you can strengthen your companys security posture and ensure compliance with industry standards.
         </p>
         </div>
         </div>
@@ -173,7 +173,7 @@ export default function CybersecurityTrainingPage() {
           Conclusion
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Investing in corporate cybersecurity training is crucial for safeguarding your business. Cyserch.com offers unparalleled expertise and a customized approach to meet your training needs. By choosing the right provider, you can enhance your company's security posture and ensure compliance with industry standards.
+          Investing in corporate cybersecurity training is crucial for safeguarding your business. Cyserch.com offers unparalleled expertise and a customized approach to meet your training needs. By choosing the right provider, you can enhance your companys security posture and ensure compliance with industry standards.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           FAQs

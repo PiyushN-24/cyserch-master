@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
+import CEH_Image from "../../../../public/images/Top Cybersecurity Companies in Dubai to Watch in 2024_11zon.png"
 
 export const metadata = {
   title: "Cyserch | Top Cybersecurity Companies in Dubai to Watch in 2024",
@@ -49,7 +50,15 @@ export default function Home() {
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           As we venture further into 2024, the urgency of robust cybersecurity solutions in Dubai has never been more apparent. The city’s ambitious vision to transform into a smart city brings both incredible opportunities and significant challenges, particularly in the realm of cybersecurity. In this blog, I will explore the top cybersecurity companies in Dubai that are making substantial impacts this year. Additionally, I’ll highlight why Cyserch should be your go-to for comprehensive cybersecurity services. Let’s get started!
         </p>
-
+        <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">The Growing Need for Cybersecurity in Dubai</h2>
         <h3 className="text-white text-xl sm:text-3xl md:text-4xl font-semibold mb-4">Statistics on Cyber Threats in the Middle East</h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
@@ -73,58 +82,67 @@ export default function Home() {
         </p>
 
         <h3 className="text-white text-xl sm:text-3xl md:text-4xl font-semibold mb-4">
-      Services Offered by Cyserch Security
-    </h3>
-    <div className="text-white  grid grid-cols-1 sm:grid-cols-2 gap-6">
-      <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
-        <p className="text-sm font-light mb-2">
-          At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
-        </p>
-        <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
-      </div>
-      <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">Web Security</h3>
-        <p className="text-sm font-light mb-2">
-          Our web security services ensure comprehensive protection for your web applications and platforms.
-        </p>
-        <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
-      </div>
-      <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">API Security</h3>
-        <p className="text-sm font-light mb-2">
-          Protect your APIs from potential threats with our advanced API security solutions.
-        </p>
-        <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
-      </div>
-      <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
-        <p className="text-sm font-light mb-2">
-          Ensure the security of your mobile applications and devices with our tailored mobile security services.
-        </p>
-        <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
-      </div>
-      <div className="bg-gray-800 rounded-lg p-4">
-        <h3 className="text-xl font-semibold mb-2">Network Security</h3>
-        <p className="text-sm font-light mb-2">
-          Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
-        </p>
-        <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
-      </div>
-    </div>
-    <ContactUs />
-
+          Services Offered by Cyserch Security
+        </h3>
+        <div className="text-white grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
+            </p>
+            <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Cloud Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Our web security services ensure comprehensive protection for your web applications and platforms.
+            </p>
+            <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Web Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Protect your APIs from potential threats with our advanced API security solutions.
+            </p>
+            <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about API Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Ensure the security of your mobile applications and devices with our tailored mobile security services.
+            </p>
+            <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Mobile Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
+            </p>
+            <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Network Penetration Testing
+            </Link>
+          </div>
+        </div>
+        <ContactUs />
         <h3 className="text-white text-xl sm:text-3xl md:text-4xl font-semibold mb-4">2. DarkMatter</h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           DarkMatter is another prominent cybersecurity firm in Dubai. Known for its expertise in cybersecurity consulting, managed security services, and threat intelligence, DarkMatter has made significant contributions to the region’s cybersecurity landscape. The company has been involved in several high-profile projects and partnerships, reinforcing its position as a cybersecurity leader.
         </p>
-        <a href="https://darkmatter.ae" className="text-blue-500 mb-4 block">Visit DarkMatter’s official website</a>
+        <a href="https://darkmatter-llc.com/" className="text-blue-500 mb-4 block">Visit DarkMatter’s official website</a>
 
         <h3 className="text-white text-xl sm:text-3xl md:text-4xl font-semibold mb-4">3. UAE Cyber Security Council</h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           The UAE Cyber Security Council plays a crucial role in promoting cybersecurity across the country. It spearheads key initiatives and projects aimed at enhancing the nation’s cyber defenses. The council’s efforts are pivotal in creating a secure digital environment in Dubai.
         </p>
-        <a href="https://www.uaecybersecurity.ae" className="text-blue-500 mb-4 block">Learn more about the UAE Cyber Security Council</a>
+        <a href="https://www.cybersecurityintelligence.com/cyber-security-council-uae-9648.html" className="text-blue-500 mb-4 block">Learn more about the UAE Cyber Security Council</a>
 
         <h3 className="text-white text-xl sm:text-3xl md:text-4xl font-semibold mb-4">4. Help AG</h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
@@ -197,8 +215,7 @@ export default function Home() {
     <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">References</h2>
     <ul className="list-disc list-inside mb-4">
       <li><a href="https://cybersecurityventures.com" className="text-blue-500">Cybersecurity Ventures</a></li>
-      <li><a href="https://darkmatter.ae" className="text-blue-500">DarkMatter</a></li>
-      <li><a href="https://www.uaecybersecurity.ae" className="text-blue-500">UAE Cyber Security Council</a></li>
+      <li><a href="https://darkmatter-llc.com/" className="text-blue-500">DarkMatter</a></li>
       <li><a href="https://www.helpag.com" className="text-blue-500">Help AG</a></li>
       <li><a href="https://www.securetech.ae" className="text-blue-500">SecureTech</a></li>
       <li><a href="https://www.sophos.com/en-us/company/contact/dubai.aspx" className="text-blue-500">Sophos</a></li>

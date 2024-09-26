@@ -1,7 +1,6 @@
 import React from "react";
 import AboutHero from "../components/contactus/hero";
 import AboutWelcome from "../components/contactus/welcome";
-import AboutHistory from "../components/about/history";
 import AboutFundamental from "../components/about/fundamental";
 
 const About = () => {
@@ -9,10 +8,7 @@ const About = () => {
     <>
       <AboutHero />
       <AboutWelcome />
-     {/*    
-      <AboutHistory />
-      <AboutFundamental /> 
-      */}
+      <AboutFundamental />
     </>
   );
 };

@@ -6,11 +6,13 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
   const [activeLink, setActiveLink] = useState<string | null>(null);
   const [showDropdown, setShowDropdown] = useState(false);
   const [showResourcesDropdown, setShowResourcesDropdown] = useState(false);
+  const [showTrainingDropdown, setShowTrainingDropdown] = useState(false);
 
   const handleLinkClick = (link: string) => {
     setActiveLink(link);
     setShowDropdown(false);
     setShowResourcesDropdown(false);
+    setShowTrainingDropdown(false);
   };
 
   const handleMouseEnter = (setShowDropdown: React.Dispatch<React.SetStateAction<boolean>>) => {
@@ -72,11 +74,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 {showDropdown && (
                   <ul className="absolute top-full w-[13rem] pl-4 left-0 opacity-95 bg-gray-800 text-white py-2 rounded">
                     <li className="mb-2">
-                      <Link href="/services/cloud-security">
+                      <Link href="/services/cloud-penetration-testing">
                         <p
                           className="hover:text-[#19FFDB]"
                           onClick={() =>
-                            handleLinkClick("/services/cloud-security")
+                            handleLinkClick("/services/cloud-penetration-testing")
                           }
                         >
                           Cloud Penetration Testing
@@ -84,11 +86,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                       </Link>
                     </li>
                     <li className="mb-2">
-                      <Link href="/services/web-security">
+                      <Link href="/services/web-penetration-testing">
                         <p
                           className="hover:text-[#19FFDB]"
                           onClick={() =>
-                            handleLinkClick("/services/web-security")
+                            handleLinkClick("/services/web-penetration-testing")
                           }
                         >
                           Web Penetration Testing
@@ -96,11 +98,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                       </Link>
                     </li>
                     <li className="mb-2">
-                      <Link href="/services/api-security">
+                      <Link href="/services/api-penetration-testing">
                         <p
                           className="hover:text-[#19FFDB]"
                           onClick={() =>
-                            handleLinkClick("/services/api-security")
+                            handleLinkClick("/services/api-penetration-testing")
                           }
                         >
                           API Penetration Testing
@@ -108,11 +110,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                       </Link>
                     </li>
                     <li className="mb-2">
-                      <Link href="/services/mobile-security">
+                      <Link href="/services/mobile-penetration-testing">
                         <p
                           className="hover:text-[#19FFDB]"
                           onClick={() =>
-                            handleLinkClick("/services/mobile-security")
+                            handleLinkClick("/services/mobile-penetration-testing")
                           }
                         >
                           Mobile Penetration Testing
@@ -120,11 +122,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                       </Link>
                     </li>
                     <li className="mb-2">
-                      <Link href="/services/network-security">
+                      <Link href="/services/network-penetration-testing">
                         <p
                           className="hover:text-[#19FFDB]"
                           onClick={() =>
-                            handleLinkClick("/services/network-security")
+                            handleLinkClick("/services/network-penetration-testing")
                           }
                         >
                           Network Penetration Testing
@@ -132,23 +134,23 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                       </Link>
                     </li>
                     <li className="mb-2">
-                      <Link href="/services/devsecops-security">
+                      <Link href="/services/devsecops">
                         <p
                           className="hover:text-[#19FFDB]"
                           onClick={() =>
-                            handleLinkClick("/services/devsecops-security")
+                            handleLinkClick("/services/devsecops")
                           }
                         >
-                          DevSecOps Penetration Testing
+                          DevSecOps
                         </p>
                       </Link>
                     </li>
                     <li className="mb-2">
-                      <Link href="/services/ai-ml-security">
+                      <Link href="/services/ai-ml-penetration-testing">
                         <p
                           className="hover:text-[#19FFDB]"
                           onClick={() =>
-                            handleLinkClick("/services/ai-ml-security")
+                            handleLinkClick("/services/ai-ml-penetration-testing")
                           }
                         >
                           AI-ML Penetration Testing
@@ -227,9 +229,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 <Link href="/training">
                   <p
                     className={
-                      activeLink === "/training"
-                        ? "text-[#19FFDB]"
-                        : "text-white"
+                      activeLink === "/training" ? "text-[#19FFDB]" : "text-white"
                     }
                     onClick={() => handleLinkClick("/training")}
                   >
@@ -237,6 +237,49 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                   </p>
                 </Link>
               </li>
+          {/*
+              <li
+                className="relative"
+                onMouseEnter={() => handleMouseEnter(setShowTrainingDropdown)}
+                onMouseLeave={() => handleMouseLeave(setShowTrainingDropdown)}
+              >
+                <p
+                  className={`cursor-pointer ${
+                    showTrainingDropdown ? "text-[#19FFD8]" : ""
+                  }`}
+                >
+                  Training
+                </p>
+                {showTrainingDropdown && (
+                  <ul className="absolute top-full w-[13rem] pl-4 left-0 opacity-95 bg-gray-800 text-white py-2 rounded">
+                    <li className="mb-2">
+                      <Link href="/training/corporate">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/training/corporate")
+                          }
+                        >
+                          For Corporate Training
+                        </p>
+                      </Link>
+                    </li>
+                    <li className="mb-2">
+                      <Link href="/training/students">
+                        <p
+                          className="hover:text-[#19FFDB]"
+                          onClick={() =>
+                            handleLinkClick("/training/students")
+                          }
+                        >
+                          For Students Training
+                        </p>
+                      </Link>
+                    </li>
+                  </ul>
+                )}
+              </li>
+            */}  
               <li>
                 <Link href="/about">
                   <p

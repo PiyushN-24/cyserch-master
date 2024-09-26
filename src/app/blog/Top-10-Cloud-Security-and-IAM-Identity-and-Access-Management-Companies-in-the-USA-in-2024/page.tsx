@@ -6,6 +6,7 @@ import CyserchImage from "../../../../public/images/blog1-topimgge.png";
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import USA from "../../../../public/images/Comparative Analysis of Company.png";
+import CEH_Image from "../../../../public/images/Top 10 Cloud Security and IAM(Identity and Access Management) Companies in the USA in 2024_11zon copy.png";
 
 export const metadata = {
   title: "Cyserch | Top 10 Cloud Security and IAM(Identity and Access Management) Companies in the USA in 2024",
@@ -22,7 +23,16 @@ export default function CybersecurityCompaniesPage() {
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           In 2024, cloud security is more critical than ever. As businesses increasingly rely on cloud services, protecting sensitive data becomes paramount. This blog highlights the top 10 cloud security companies in the US, focusing on AWS and IAM services. Ill show you why <a href="https://www.cyserch.com/" className="text-blue-500">Cyserch Security</a> is the leader in this field and how we can help secure your business.
         </p>
-        
+        <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
+
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Cyserch Security - Leading the Way in Cloud Security</h2>
         <h3 className="text-white text-xl sm:text-3xl md:text-3xl font-semibold mb-4">Overview of Cyserch Security</h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
@@ -39,7 +49,7 @@ export default function CybersecurityCompaniesPage() {
 
         <h3 className="text-white text-xl sm:text-3xl md:text-3xl font-semibold mb-4">Why Choose Cyserch Security?</h3>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          We have a proven track record of success. Our clients include Fortune 500 companies and startups alike, all benefiting from our expertise and innovative approach. But dont just take my word for it—check out our <a href="https://www.cyserch.com/" className="text-blue-500">case studies</a> and <a href="https://www.cyserch.com/" className="text-blue-500">client testimonials</a>. We pride ourselves on providing customized solutions and exceptional customer support.
+          We have a proven track record of success. Our clients include Fortune 500 companies and startups alike, all benefiting from our expertise and innovative approach. But dont just take my word for it—check out our <a href="https://www.cyserch.com/resources/casestudies" className="text-blue-500">case studies</a> and <a href="https://www.cyserch.com/about/" className="text-blue-500">client testimonials</a>. We pride ourselves on providing customized solutions and exceptional customer support.
         </p>
 
         <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Importance of AWS and IAM in Cloud Security</h2>
@@ -126,21 +136,15 @@ export default function CybersecurityCompaniesPage() {
         </ul>
 
         <h3 className="text-white text-xl sm:text-3xl md:text-3xl font-semibold mb-4">8. Check Point Software Technologies</h3>
-        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">   Fortinet’s FortiGate VM offers robust cloud security solutions. Their IAM capabilities are crucial for managing user access. FortiGate VM provides advanced threat protection, VPN, and secure access solutions, ensuring comprehensive security for cloud environments.
-              </p>
+        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">   Fortinet’s FortiGate VM offers robust cloud security solutions. Their IAM capabilities are crucial for managing user access. FortiGate VM provides advanced threat protection, VPN, and secure access solutions, ensuring comprehensive security for cloud environments.</p>
               <ul className="text-white list-disc list-inside text-sm sm:text-lg font-light mb-2">
                 <li>FortiGate VM: Comprehensive cloud security solutions.</li>
                 <li>IAM Capabilities: Efficient user access management.</li>
                 <li>Threat Detection: Advanced threat prevention.</li>
               </ul>
-              <a href="https://www.fortinet.com/products/virtualized-next-generation-firewall/fortigate-vm" className="text-blue-500">Learn more</a>
-            
-          
-
-        
-
-        <h3 className="text-white text-lg font-medium mb-2">9. Cisco</h3>
-        <p className="text-white text-sm font-light mb-4">
+              
+        <h3 className="text-white text-xl sm:text-3xl md:text-3xl font-semibold mb-4">9. Cisco</h3>
+        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           Cisco Umbrella provides extensive cloud security services. Their IAM integration enhances security management. Umbrella offers threat intelligence, secure web gateway, and DNS-layer security, providing a multi-layered approach to cloud security.
         </p>
         <ul className="text-white list-disc list-inside mb-4">
@@ -149,8 +153,8 @@ export default function CybersecurityCompaniesPage() {
           <li>Threat Intelligence: Continuous monitoring and threat intelligence.</li>
         </ul>
 
-        <h3 className="text-white text-lg font-medium mb-2">10. IBM Security</h3>
-        <p className="text-white text-sm font-light mb-4">
+        <h3 className="text-white text-xl sm:text-3xl md:text-3xl font-semibold mb-4">10. IBM Security</h3>
+        <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
           IBM Cloud Security offers comprehensive cloud security solutions. Their IAM services are essential for access control. IBM Cloud Security provides data protection, threat management, and compliance support, ensuring that cloud environments remain secure and compliant.
         </p>
         <ul className=" text-white list-disc list-inside mb-4">
@@ -299,7 +303,7 @@ export default function CybersecurityCompaniesPage() {
     <ul className="text-white list-disc list-inside mb-4">
       <li><a href="https://www.cyserch.com/blog/mastering-privileged-access" className="text-blue-500">Mastering Privileged Access</a></li>
       <li><a href="https://www.cyserch.com/blog/best-cybersecurity-training-for-employees-2024" className="text-blue-500">Best Cybersecurity Training for Employees 2024</a></li>
-      <li><a href="https://www.cyserch.com/blog/best-corporate-cyber-security-training-company-2024" className="text-blue-500">Best Corporate Cyber Security Training Company 2024</a></li>
+      <li><a href="https://www.cyserch.com/blog/Best-Corporate-CyberSecurity-Training-Company-in-2024" className="text-blue-500">Best Corporate Cyber Security Training Company 2024</a></li>
     </ul>
 
     <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Relevant External Resources</h2>

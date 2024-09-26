@@ -1,8 +1,11 @@
 
 import React from "react";
 import Image from "next/image";
+import CyserchImage from "../../../../public/images/blog1-topimgge.png";
+import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Card1 from "../../../../public/images/Comparative Analysis of Company.png";
+import CEH_Image from "../../../../public/images/Top VAPT-Services Companies in India By Industry Experts 2024_11zon.png";
 
 export const metadata = {
   title: "Cyserch | Top VAPT-Services Companies in India: By Industry Experts",
@@ -28,6 +31,15 @@ export default function CybersecurityCompaniesPage() {
         </p>
 
         <br />
+        <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={550}
+            height={350}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
 
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           Understanding VAPT-Services: What It Is and Why It Matters?

@@ -25,7 +25,7 @@ export default function FreePenTestingToolsPage() {
         />
       </div>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In today's digital world, cybersecurity is not a luxury but a necessity. Cyber threats are becoming more sophisticated, and businesses, both large and small, must take proactive steps to protect their assets. One of the most effective ways to do this is through penetration testing. In this blog, we will explore free penetration testing tools that can help you strengthen your cybersecurity defenses. Whether you are a beginner or an experienced IT professional, these tools can provide valuable insights into your system's vulnerabilities.
+        In todays digital world, cybersecurity is not a luxury but a necessity. Cyber threats are becoming more sophisticated, and businesses, both large and small, must take proactive steps to protect their assets. One of the most effective ways to do this is through penetration testing. In this blog, we will explore free penetration testing tools that can help you strengthen your cybersecurity defenses. Whether you are a beginner or an experienced IT professional, these tools can provide valuable insights into your systems vulnerabilities.
       </p>
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
         What is Penetration Testing?
@@ -34,7 +34,7 @@ export default function FreePenTestingToolsPage() {
         Understanding Penetration Testing
       </h2>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Penetration testing, often referred to as "pen testing," is a simulated cyberattack on your computer system, network, or web application. The purpose of penetration testing is to identify vulnerabilities that could be exploited by hackers. Think of it as a safety check for your digital infrastructure.
+        Penetration testing, often referred to as pen testing, is a simulated cyberattack on your computer system, network, or web application. The purpose of penetration testing is to identify vulnerabilities that could be exploited by hackers. Think of it as a safety check for your digital infrastructure.
         <br/><br/>
         Unlike a vulnerability assessment, which merely identifies potential weaknesses, penetration testing involves actively attempting to exploit these vulnerabilities. This proactive approach can reveal the extent to which an attacker could gain unauthorized access and what damage could be done. 
         <br/>
@@ -76,7 +76,7 @@ export default function FreePenTestingToolsPage() {
             Flexibility
           </h2>
           <p className="text-white text-sm sm:text-base md:text-lg font-light">
-            With a wide range of free tools available, users have the flexibility to choose tools that best fit their needs. Whether you want to scan your network for vulnerabilities, test web applications, or analyze network traffic, there's likely a free tool available to help you.
+            With a wide range of free tools available, users have the flexibility to choose tools that best fit their needs. Whether you want to scan your network for vulnerabilities, test web applications, or analyze network traffic, theres likely a free tool available to help you.
           </p>
         </div>
       </div>
@@ -103,7 +103,7 @@ export default function FreePenTestingToolsPage() {
         <div className="bg-gray-800 p-4 rounded-md">
           <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
             <strong className="font-bold">2. Metasploit Framework:</strong><br/> 
-            Metasploit is another popular free penetration testing tool that focuses on exploiting vulnerabilities. It's an open-source framework that provides a range of tools to help you find, exploit, and validate vulnerabilities. Metasploit is known for its extensive database of exploits, making it a valuable resource for penetration testers. 
+            Metasploit is another popular free penetration testing tool that focuses on exploiting vulnerabilities. Its an open-source framework that provides a range of tools to help you find, exploit, and validate vulnerabilities. Metasploit is known for its extensive database of exploits, making it a valuable resource for penetration testers. 
             <br/>
             <Link href="https://www.metasploit.com/download">
               <span className="text-cyan-400 underline"> Download Metasploit here.</span>
@@ -113,7 +113,7 @@ export default function FreePenTestingToolsPage() {
         <div className="bg-gray-800 p-4 rounded-md">
           <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
             <strong className="font-bold">3. Wireshark:</strong><br/> 
-            Wireshark is a network protocol analyzer that allows you to capture and interactively browse the traffic running on a computer network. It's an invaluable tool for network troubleshooting and analysis. Wireshark can help you identify suspicious activities on your network and is commonly used by both penetration testers and network administrators. 
+            Wireshark is a network protocol analyzer that allows you to capture and interactively browse the traffic running on a computer network. Its an invaluable tool for network troubleshooting and analysis. Wireshark can help you identify suspicious activities on your network and is commonly used by both penetration testers and network administrators. 
             <br/>
             <Link href="https://www.wireshark.org/download.html">
               <span className="text-cyan-400 underline"> Download Wireshark here.</span>
@@ -212,14 +212,14 @@ export default function FreePenTestingToolsPage() {
       </h2>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
         Enhance Your Security Posture with Free Penetration Testing Tools
-        Penetration testing is a critical component of any robust cybersecurity strategy. By leveraging free penetration testing tools, you can identify vulnerabilities and take proactive steps to protect your systems. Whether you're a small business looking to improve your security on a budget or an individual interested in learning more about cybersecurity, these tools can provide valuable insights.
+        Penetration testing is a critical component of any robust cybersecurity strategy. By leveraging free penetration testing tools, you can identify vulnerabilities and take proactive steps to protect your systems. Whether youre a small business looking to improve your security on a budget or an individual interested in learning more about cybersecurity, these tools can provide valuable insights.
         <br/><br/>
         Remember, while free tools are a great starting point, they may not be enough to address all your security needs. For comprehensive protection, consider partnering with a trusted cybersecurity provider like Cyserch. We offer a wide range of cybersecurity services, including penetration testing, to help you stay ahead of cyber threats.
         <br/><br/>
         Visit <Link href="https://www.cyserch.com"><span className="text-cyan-400 underline"> Cyserch.com</span></Link> today to learn more about how we can help you enhance your cybersecurity efforts.
       </p>
       <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
-        FAQ's
+        FAQs
       </h2>
       <h4 className="text-white text-md sm:text-md md:text-lg font-semibold mb-2">
         Q1. What is penetration testing?

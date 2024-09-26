@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import AI_ML_Pentest_Image from "../../../../public/images/Best-Corporate-Cybersecurity-Training-Company-in-Chennai-in-2024.jpeg";
 import ContactUs from "@/app/components/home/contactus";
-import Course from "@/app/components/training/page/couse";
+import Course from "@/app/components/training/corporate/couse";
 
 export const metadata = {
   title: "Cyserch | Best Corporate Cybersecurity Training Company in Chennai in 2024",
@@ -77,7 +77,7 @@ export default function CybersecurityTrainingChennaiPage() {
             <li>Comprehensive Resources: Access a wealth of materials, including online resources and interactive sessions.</li>
           </ul>
           <p className="mt-2 text-white text-sm sm:text-base md:text-lg font-light">
-            For more details, visit our <a href="https://www.cyserch.com/training" className="text-blue-400 underline">training services page</a>.
+            For more details, visit our <a href="https://www.cyserch.com/training" className="text-blue-400 underline">training page</a>.
           </p>
         </div>
         <Course /> 

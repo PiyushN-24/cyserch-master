@@ -6,7 +6,7 @@ export default function CloudSecurityHero() {
   return (
     <div className="div-boxs">
       <div className="div-box1 pr-4 fadeLeft">
-        <h1 className="title">AL-ML Security</h1>
+        <h1 className="title">AL-ML Penetration Testing</h1>
         <p className="discription">
         Strengthens the integrity of artificial intelligence and machine learning systems by securing data pipelines, protecting model confidentiality, and mitigating risks from adversarial attacks.
         </p>

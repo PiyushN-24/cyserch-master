@@ -25,7 +25,7 @@ export default function OWASPTop10Page() {
         />
       </div>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        When it comes to web application security, the OWASP Top 10 is a crucial resource. As a cybersecurity professional, I’ve often relied on this list to stay ahead of potential threats and guide organizations toward better security practices. OWASP, or the Open Web Application Security Project, is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. The OWASP Top 10 is a standard awareness document for developers and web application security, representing a broad consensus about the most critical security risks to web applications.
+        When it comes to web application security, the OWASP Top 10 is a crucial resource. As a cybersecurity professional, Ive often relied on this list to stay ahead of potential threats and guide organizations toward better security practices. OWASP, or the Open Web Application Security Project, is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. The OWASP Top 10 is a standard awareness document for developers and web application security, representing a broad consensus about the most critical security risks to web applications.
       </p>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
       At <Link href="https://www.cyserch.com/" className="text-blue-500">Cyserch.com</Link>, we recognize the importance of the OWASP Top 10 and are committed to guiding organizations through these vulnerabilities. This blog post will delve into the OWASP Top 10 vulnerabilities for 2024, offering insights and practical advice on how to protect your organization from these critical threats.
@@ -214,7 +214,7 @@ export default function OWASPTop10Page() {
         Understanding and addressing the OWASP Top 10 vulnerabilities is crucial for maintaining secure web applications. At <Link href="https://www.cyserch.com/" className="text-blue-500">Cyserch.com</Link>, we are committed to helping organizations protect their applications from these critical threats. Whether you need secure coding training, penetration testing, or continuous monitoring, we have the expertise to safeguard your digital assets.
       </p>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Don’t leave your web applications vulnerable. <Link href="https://www.cyserch.com/" className="text-blue-500">Contact us today</Link> to learn how we can help you secure your applications against the OWASP Top 10 vulnerabilities.
+        Dont leave your web applications vulnerable. <Link href="https://www.cyserch.com/" className="text-blue-500">Contact us today</Link> to learn how we can help you secure your applications against the OWASP Top 10 vulnerabilities.
       </p>
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
         FAQs

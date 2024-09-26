@@ -26,22 +26,22 @@ export default function NodeJSSecureCodePage() {
         </div>
 
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In my journey as a software developer, one of the most crucial lessons I've learned is the importance of secure coding practices. With Node.js revolutionizing the way we build web applications, offering unmatched flexibility and power, it's easy to get lost in the excitement of development. But in 2024, the stakes are higher than ever. The security landscape is evolving rapidly, and as businesses, it's our responsibility to stay ahead of potential threats.
+        In my journey as a software developer, one of the most crucial lessons I have learned is the importance of secure coding practices. With Node.js revolutionizing the way we build web applications, offering unmatched flexibility and power, it is easy to get lost in the excitement of development. But in 2024, the stakes are higher than ever. The security landscape is evolving rapidly, and as businesses, it is our responsibility to stay ahead of potential threats.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Understanding Node.js Security Landscape in 2024
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        The sophistication of cyber threats has grown exponentially over the years. Zero-day vulnerabilities, advanced persistent threats (APTs), and attacks on third-party modules are no longer rare occurrences—they're part of the daily reality. For instance, last year, I worked with a financial services company that fell victim to an injection attack due to improper input validation. The aftermath was a stark reminder of how easily an oversight can lead to significant financial and reputational damage.
+        The sophistication of cyber threats has grown exponentially over the years. Zero-day vulnerabilities, advanced persistent threats (APTs), and attacks on third-party modules are no longer rare occurrences theyre part of the daily reality. For instance, last year, I worked with a financial services company that fell victim to an injection attack due to improper input validation. The aftermath was a stark reminder of how easily an oversight can lead to significant financial and reputational damage.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        At Cyserch Security, we've seen firsthand how the absence of secure coding practices can expose businesses to such risks. As an software developer at Cyserch, I’ve spent the last five years helping companies navigate these challenges, and the need for robust, secure coding practices has never been clearer.
+        At Cyserch Security, weve seen firsthand how the absence of secure coding practices can expose businesses to such risks. As an software developer at Cyserch, I’ve spent the last five years helping companies navigate these challenges, and the need for robust, secure coding practices has never been clearer.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Best Practices for Writing Secure Node.js Code
         </h2>
         <h2 className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        To protect your Node.js applications in this complex environment, adopting a set of best practices is not just recommended it's essential. Here's how you can start:
+        To protect your Node.js applications in this complex environment, adopting a set of best practices is not just recommended its essential. Heres how you can start:
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 rounded-lg">
           <div className="bg-gray-700 p-4 rounded-lg">
@@ -110,7 +110,7 @@ export default function NodeJSSecureCodePage() {
         </ul>
 
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          By partnering with Cyserch Security, you can trust that your Node.js application is protected by a team with over five years of experience in the field. For more information, <Link href="/services/api-security" className="underline text-blue-500">explore our services</Link> or <Link href="/contactus" className="underline text-blue-500">contact us today</Link>.
+          By partnering with Cyserch Security, you can trust that your Node.js application is protected by a team with over five years of experience in the field. For more information, <Link href="/services/api-penetration-testing" className="underline text-blue-500">explore our services</Link> or <Link href="/contactus" className="underline text-blue-500">contact us today</Link>.
         </p>
 
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -136,14 +136,14 @@ export default function NodeJSSecureCodePage() {
         </p>
         <div className="my-8 text-center">
           <Link href="https://www.cyserch.com/about" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700">
-            Discover More About Cyserch's 
+            Discover More About Cyserchs 
           </Link>
         </div> 
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Conclusion
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Secure coding is no longer optional; it's a necessity. By following these best practices, you can protect your Node.js applications from emerging threats and ensure they remain secure in 2024 and beyond. And remember, you don’t have to navigate this alone—Cyserch Security is here to help.
+        Secure coding is no longer optional; its a necessity. By following these best practices, you can protect your Node.js applications from emerging threats and ensure they remain secure in 2024 and beyond. And remember, you don’t have to navigate this alone—Cyserch Security is here to help.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           Cyserch Security is here to support you on this journey. With our expertise and dedication, we can help you navigate the complexities of Node.js security and safeguard your applications. For more details on how we can assist you, <Link href="/contactus" className="underline text-blue-500">get in touch with us today</Link>.

@@ -5,6 +5,7 @@ import StudentStatictics from "../components/training/page/studentStatictic";
 import TrainingCards from "../components/training/page/cards";
 import WhyChooseUs from "../components/training/page/whyUs";
 import Course from "../components/training/page/couse";
+import TrainingPage from "../components/training/page/TrainingPage";
 import StudentTestimonials from "../components/training/page/StudentTestimonials";
 import ContactUs from "../components/home/contactus";
 
@@ -17,13 +18,16 @@ const training = () => {
   return (
     <div>
       <Hero />
-      <Clients />
+      <TrainingPage />
+      <Clients /> 
+      {/*     
       <StudentStatictics />
       <WhyChooseUs />
       <TrainingCards />
       <Course />
       <StudentTestimonials />
       <ContactUs />
+      */}
     </div>
   );
 };

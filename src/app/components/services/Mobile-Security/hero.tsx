@@ -6,7 +6,7 @@ export default function CloudSecurityHero() {
   return (
     <div className="div-boxs">
       <div className="div-box1 pr-4 fadeLeft">
-        <h1 className="title">Mobile Application Security</h1>
+        <h1 className="title">Mobile Application Penetration Testing</h1>
         <p className="discription">
           Mobile application security focuses on protecting apps from
           unauthorized access and data theft through practices like encryption,

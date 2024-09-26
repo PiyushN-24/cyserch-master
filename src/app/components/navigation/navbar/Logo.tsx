@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const Logo = () => {
-  //update the size of the logo when the size of the screen changes
+  // Update the size of the logo when the screen size changes
   const [width, setWidth] = useState(0);
 
   const updateWidth = () => {
@@ -15,9 +15,10 @@ const Logo = () => {
   useEffect(() => {
     window.addEventListener("resize", updateWidth);
     updateWidth();
+    return () => window.removeEventListener("resize", updateWidth);
   }, []);
 
-  // change between the logo and the button when the user scrolls
+  // Change between the logo and the button when the user scrolls
   const [showButton, setShowButton] = useState(false);
 
   const changeNavButton = () => {
@@ -30,19 +31,37 @@ const Logo = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", changeNavButton);
+    return () => window.removeEventListener("scroll", changeNavButton);
   }, []);
 
   return (
     <>
-      <Link href="/" style={{ display: showButton ? "none" : "block" }}>
-        {/* <Image
-          src="/images/logo.png"
-          alt="Logo"
-          width={width < 1024 ? "150" : "250"}
-          height={width < 1024 ? "45" : "74"}
-          className="relative"
-        /> */}
-        <span className="text-white text-[2rem] font-bold logo">Cyserch</span>
+      <Link
+        href="/"
+        style={{ 
+          display: showButton ? "none" : "flex", 
+          alignItems: "center", 
+          justifyContent: "center",
+          height: "100%" // Ensure the logo container takes full height
+        }}
+      >
+        <div 
+          style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            height: '100%', // Ensure the logo container takes full height
+            marginTop: '0' // Remove marginTop as it might misalign the logo
+          }}
+        >
+          <Image
+            src="/Cyserch_logo.png"
+            alt="Logo"
+            width={width < 1024 ? 120 : 150} // Adjust the width as needed
+            height={width < 1024 ? 30 : 40} // Adjust the height to fit the navigation bar
+            layout="fixed" // Ensure fixed dimensions
+            className="relative"
+          />
+        </div>
       </Link>
       <div
         style={{

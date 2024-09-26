@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CloudSecurityImage from "../../../../public/images/CloudSecurity.svg"; // Update the path and image name as needed
+import CloudSecurityImage from "../../../../public/images/Cloud Security Best Practices and Solutions for 2024_11zon.png"; // Update the path and image name as needed
 import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 
@@ -26,7 +26,7 @@ export default function CloudSecurityPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          In today's digital landscape, cloud security is a critical concern for businesses of all sizes. With the increasing adoption of cloud services, safeguarding data and applications in the cloud has become more important than ever. At Cyserch, we understand the complexities of cloud security and are committed to helping organizations navigate these challenges with our comprehensive solutions. In this blog, I’ll walk you through the essentials of cloud security, highlight key challenges, and share best practices and tools to ensure your cloud environment remains secure. Let’s dive in.
+          In todays digital landscape, cloud security is a critical concern for businesses of all sizes. With the increasing adoption of cloud services, safeguarding data and applications in the cloud has become more important than ever. At Cyserch, we understand the complexities of cloud security and are committed to helping organizations navigate these challenges with our comprehensive solutions. In this blog, I’ll walk you through the essentials of cloud security, highlight key challenges, and share best practices and tools to ensure your cloud environment remains secure. Let’s dive in.
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Introduction to Cloud Security
@@ -183,7 +183,7 @@ export default function CloudSecurityPage() {
             <p className="mb-2 text-white text-sm sm:text-base md:text-lg font-light">
               <strong className="font-semibold">Background</strong>: A large e-commerce company faced challenges with data protection and compliance.
               <br />
-              <strong className="font-semibold">Solution</strong>: By implementing Cyserch's cloud security solutions, including MFA, continuous monitoring, and encryption, the company significantly improved its security posture.
+              <strong className="font-semibold">Solution</strong>: By implementing Cyserchs cloud security solutions, including MFA, continuous monitoring, and encryption, the company significantly improved its security posture.
               <br />
               <strong className="font-semibold">Outcome</strong>: The company achieved compliance with GDPR and reduced security incidents by 50%.
             </p>
@@ -198,7 +198,7 @@ export default function CloudSecurityPage() {
             <p className="mb-2 text-white text-sm sm:text-base md:text-lg font-light">
               <strong className="font-semibold">Background</strong>: A financial services firm experienced a significant data breach due to misconfigured cloud settings.
               <br />
-              <strong className="font-semibold">Solution</strong>: After the breach, the firm adopted Cyserch's comprehensive security assessment services and improved its cloud configurations and monitoring practices.
+              <strong className="font-semibold">Solution</strong>: After the breach, the firm adopted Cyserchs comprehensive security assessment services and improved its cloud configurations and monitoring practices.
               <br />
               <strong className="font-semibold">Outcome</strong>: The firm mitigated further risks and enhanced its overall security strategy.
             </p>
@@ -221,7 +221,7 @@ export default function CloudSecurityPage() {
             <strong className="font-semibold">AI and ML</strong>: These technologies are used for predictive analytics, threat detection, and automated response.
           </p>
           <p className="text-white text-sm sm:text-base md:text-lg font-light">
-            For insights into how these technologies are shaping the future of cloud security, check out our <a href="/future-trends" className="text-blue-400 hover:underline">Cyserch blog on future trends</a>.
+            For insights into how these technologies are shaping the future of cloud security, check out our <a href="/blog" className="text-blue-400 hover:underline">Cyserch blog on future trends</a>.
           </p>
         </div>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">

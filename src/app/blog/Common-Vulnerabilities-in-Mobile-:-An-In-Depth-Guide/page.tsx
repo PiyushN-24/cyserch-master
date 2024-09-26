@@ -24,12 +24,12 @@ export default function MobileVulnerabilitiesPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In today’s fast-paced digital world, mobile devices have become an integral part of both personal and professional life. Whether managing personal finances, accessing corporate networks, or communicating on the go, our reliance on mobile devices is undeniable. However, with convenience comes risk. Mobile devices are not just tools of productivity; they are also prime targets for cybercriminals seeking to exploit vulnerabilities. Having spent years in the field of mobile security, I’ve seen firsthand how these vulnerabilities can disrupt operations and compromise sensitive data. In this guide, I’ll share some of the most common mobile vulnerabilities, provide practical solutions, and explain how Cyserch.com can help safeguard your mobile environment.
+        In todays fast-paced digital world, mobile devices have become an integral part of both personal and professional life. Whether managing personal finances, accessing corporate networks, or communicating on the go, our reliance on mobile devices is undeniable. However, with convenience comes risk. Mobile devices are not just tools of productivity; they are also prime targets for cybercriminals seeking to exploit vulnerabilities. Having spent years in the field of mobile security, Ive seen firsthand how these vulnerabilities can disrupt operations and compromise sensitive data. In this guide, Ill share some of the most common mobile vulnerabilities, provide practical solutions, and explain how Cyserch.com can help safeguard your mobile environment.
         </p>
-        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+        <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           Common Mobile Vulnerabilities
-        </h1>
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        </h2>
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           1. Unpatched Mobile Operating Systems: A Silent Threat
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -42,11 +42,11 @@ export default function MobileVulnerabilitiesPage() {
           <li>Regular Updates: Ensure that mobile devices receive updates as soon as they are available. Automating this process can significantly reduce risks.</li>
           <li>Automated Update Systems: Implementing automated update systems in your organization ensures that no device is left vulnerable for too long.</li>
         </ul>
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           2. Insecure Mobile Apps: The Hidden Dangers
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Mobile apps are the heart of our digital experience. However, poorly coded apps or those lacking robust security measures can become significant risks. For instance, in 2022, a popular weather app was found to have insecure data storage, exposing millions of users’ location data.
+          Mobile apps are the heart of our digital experience. However, poorly coded apps or those lacking robust security measures can become significant risks. For instance, in 2022, a popular weather app was found to have insecure data storage, exposing millions of users location data.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Solution:</strong>
@@ -55,7 +55,7 @@ export default function MobileVulnerabilitiesPage() {
           <li>App Security Reviews: Regularly review and test the security of your mobile apps.</li>
           <li>Secure Coding Practices: Encourage developers to follow best practices in app development to avoid introducing vulnerabilities.</li>
         </ul>
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           3. Weak Authentication Mechanisms: An Open Door
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -69,7 +69,7 @@ export default function MobileVulnerabilitiesPage() {
           <li>Strong Password Policies: Enforce the use of complex, unique passwords across all devices.</li>
         </ul>
 
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           4. Data Leakage: When Information Slips Through the Cracks
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -83,7 +83,7 @@ export default function MobileVulnerabilitiesPage() {
           <li>Secure Storage Practices: Ensure that sensitive data is stored securely, following industry best practices.</li>
         </ul>
 
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           5. Insecure Communication Channels: Vulnerabilities in Transit
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -97,7 +97,7 @@ export default function MobileVulnerabilitiesPage() {
           <li>Encrypted Messaging: Ensure that messaging apps use end-to-end encryption to protect your conversations.</li>
         </ul>
 
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           6. Malware and Mobile Viruses: The Silent Invaders
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -111,7 +111,7 @@ export default function MobileVulnerabilitiesPage() {
           <li>Regular Scans and Updates: Conduct regular scans and keep your anti-malware software updated.</li>
         </ul>
 
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           7. Phishing Attacks: The Human Element
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -125,7 +125,7 @@ export default function MobileVulnerabilitiesPage() {
           <li>Anti-Phishing Tools: Utilize tools that detect and block phishing attempts before they reach the user.</li>
         </ul>
 
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           8. Insecure Mobile Device Management (MDM): A Weak Link
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -139,7 +139,7 @@ export default function MobileVulnerabilitiesPage() {
           <li>Robust MDM Solutions: Implement comprehensive MDM solutions with strong security features.</li>
         </ul>
 
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           9. Physical Device Theft: The Risk of Losing More Than a Device
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -153,18 +153,18 @@ export default function MobileVulnerabilitiesPage() {
           <li>Remote Wipe Capabilities: Utilize remote wipe features to erase data if a device is lost or stolen.</li>
         </ul>
 
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-white text-xl sm:text-2xl md:text-2xl font-bold mb-4">
           10. Inadequate App Permissions: The Trojan Horse
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Apps that request excessive or unnecessary permissions can pose security risks, including unauthorized data access. In 2023, a fitness app was found to request access to users’ contact lists without justification, leading to privacy concerns.
+          Apps that request excessive or unnecessary permissions can pose security risks, including unauthorized data access. In 2023, a fitness app was found to request access to users contact lists without justification, leading to privacy concerns.
         </p>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <strong>Solution:</strong>
         </p>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
           <li>Review App Permissions: Regularly review and manage app permissions.</li>
-          <li>Limit Permissions: Only grant permissions that are necessary for the app's functionality.</li>
+          <li>Limit Permissions: Only grant permissions that are necessary for the apps functionality.</li>
         </ul>
 
 
@@ -231,7 +231,7 @@ export default function MobileVulnerabilitiesPage() {
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               <strong>Importance:</strong> Educating employees on mobile security best practices can significantly reduce the risk of security incidents. Training programs can improve awareness and response to threats.
               <br />
-              <strong>Cyserch Solutions:</strong> Our training programs are designed to enhance your team’s security knowledge and practices.
+              <strong>Cyserch Solutions:</strong> Our training programs are designed to enhance your teams security knowledge and practices.
               <br />
               {/* <Link href="#">Learn about our training programs</Link> */}
             </p>
@@ -242,7 +242,7 @@ export default function MobileVulnerabilitiesPage() {
           How Cyserch Can Help ?
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          At Cyserch.com, we understand the complexities of mobile security and the unique challenges faced by businesses, SMEs, and enterprises. Our team of experts is dedicated to providing tailored solutions that address the specific needs of your organization. From patch management to advanced authentication and secure communication solutions, we’ve got you covered. We also offer employee training programs to ensure that your team is well-equipped to handle potential threats.
+          At Cyserch.com, we understand the complexities of mobile security and the unique challenges faced by businesses, SMEs, and enterprises. Our team of experts is dedicated to providing tailored solutions that address the specific needs of your organization. From patch management to advanced authentication and secure communication solutions, weve got you covered. We also offer employee training programs to ensure that your team is well-equipped to handle potential threats.
         </p>
 
 

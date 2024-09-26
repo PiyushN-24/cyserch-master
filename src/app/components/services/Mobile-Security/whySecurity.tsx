@@ -1,129 +1,110 @@
-import Image from "next/image";
-import Icon1 from "../../../../../public/icons/analyze.svg";
-import Applications from "../../../../../public/icons/applications.svg";
-import IAM from "../../../../../public/icons/IAM.svg";
-import group from "../../../../../public/icons/Mask-Group.svg";
+import { FaSearch, FaMobileAlt, FaLock, FaBug, FaFileAlt, FaChartBar, FaTools, FaShieldAlt } from "react-icons/fa";
 
-export default function WhyCloudSecurity() {
-  
+export default function MobilePenetrationTesting() {
   return (
     <div className="bg-[#011C3C] px-4 sm:px-[9rem] py-4 sm:py-[3rem]">
       <h2 className="text-white text-[2.18rem] font-semibold mt-3 mb-[-5rem] sm:mb-[1rem]">
-        Our deliverables
+        Mobile Penetration Testing Deliverables
       </h2>
       <div className="cards flex flex-col sm:flex-row gap-4 sm:gap-8 p-4 sm:p-[3rem]">
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg  p-4">
           <div className="flex gap-3 items-center">
-            <Image src={Icon1} alt="card" className="w-14 h-14" />
+            <FaSearch className="text-cyan-500 text-4xl" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Comprehensive Vulnerability Assessment Report
+            Comprehensive Vulnerability Assessment
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-           Receive a detailed report categorizing vulnerabilities by severity with actionable recommendations for remediation, ensuring every security gap is addressed effectively.
+          <p className="text-[#CCCCCC] text-lg font-light leading-normal mt-3 mb-2">
+            Conduct a thorough assessment, identifying vulnerabilities across mobile platforms and applications with actionable remediation steps.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg  p-4">
           <div className="flex gap-3 items-center">
-            <Image src={Applications} alt="card" className="w-12 h-12" />
+            <FaMobileAlt className="text-cyan-500 text-4xl" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Cost-Effective Solutions
+            Mobile-Specific Exploitation
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Receive cost-effective recommendations for addressing vulnerabilities, ensuring that security measures align with your budget constraints while maximizing protection against cyber threats.
+          <p className="text-[#CCCCCC] text-lg font-light leading-normal mt-3 mb-2">
+            Tailored testing targeting mobile-specific issues like insecure data storage, weak server-side controls, and improper session handling.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg  p-4">
           <div className="flex gap-3 items-center">
-            <Image src={IAM} alt="card" className="w-12 h-12" />
+            <FaLock className="text-cyan-500 text-4xl" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Customized Service Packages
+            Secure Authentication Testing
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Choose from a range of service packages tailored to your organizations needs and budget, ensuring that you get the most value out of your investment in security testing and assessment
+          <p className="text-[#CCCCCC] text-lg font-light leading-normal mt-3 mb-2">
+            Ensure that secure authentication mechanisms are enforced, preventing unauthorized access to sensitive data and services.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-1/4 h-[27rem] border rounded-lg bg-[#011c3c] p-4">
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg  p-4">
           <div className="flex gap-3 items-center">
-            <Image src={group} alt="card" className="w-12 h-12" />
+            <FaBug className="text-cyan-500 text-4xl" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Dedicated Support Team
+            Vulnerability Exploitation
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Access a dedicated team of security experts for ongoing support and consultation, providing assistance with implementation, troubleshooting, and any security-related queries that arise post-assessment
+          <p className="text-[#CCCCCC] text-lg font-light leading-normal mt-3 mb-2">
+            Exploit discovered vulnerabilities to validate their severity and understand their real-world impact on your mobile applications.
           </p>
         </div>
-
-
-
-
       </div>
 
       <div className="cards flex flex-col sm:flex-row gap-4 sm:gap-8 p-4 sm:p-[3rem]">
-        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg  p-4">
           <div className="flex gap-3 items-center">
-            <Image src={Icon1} alt="card" className="w-14 h-14" />
+            <FaFileAlt className="text-cyan-500 text-4xl" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Full-Spectrum Evaluation
+            Detailed Report
           </h3>
-
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Ensure comprehensive security across all operational aspects of the
-            web application to prevent unauthorized access and data breaches.
+          <p className="text-[#CCCCCC] text-lg font-light leading-normal mt-3 mb-2">
+            Receive a comprehensive report with in-depth vulnerability analysis, potential impacts, and step-by-step recommendations for remediation.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg  p-4">
           <div className="flex gap-3 items-center">
-            <Image src={Applications} alt="card" className="w-12 h-12" />
+            <FaChartBar className="text-cyan-500 text-4xl" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Detailed Analysis Report
+            Risk-Based Prioritization
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Provide developers with a developer-friendly report that details
-            each vulnerability, its potential impact, and suggested
-            remediations.
+          <p className="text-[#CCCCCC] text-lg font-light leading-normal mt-3 mb-2">
+            Identify and prioritize the most critical vulnerabilities based on the potential impact to your organizations mobile security posture.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg  p-4">
           <div className="flex gap-3 items-center">
-            <Image src={IAM} alt="card" className="w-12 h-12" />
+            <FaTools className="text-cyan-500 text-4xl" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Leadership Summary
+            Post-Test Support
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Enable executives to understand how the application stands against
-            real-time attackers and highlight key areas needing attention.
+          <p className="text-[#CCCCCC] text-lg font-light leading-normal mt-3 mb-2">
+            Benefit from ongoing support to resolve identified vulnerabilities and implement long-term mobile security strategies.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg bg-[#011c3c] p-4">
+        <div className="flex flex-col items-center justify-start w-full sm:w-96 h-[22rem] border rounded-lg  p-4">
           <div className="flex gap-3 items-center">
-            <Image src={group} alt="card" className="w-12 h-12" />
+            <FaShieldAlt className="text-cyan-500 text-4xl" />
           </div>
-
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
-            Ongoing Assistance
+            Continuous Monitoring
           </h3>
-          <p className="text-[#a39d9d] text-lg font-light leading-normal mt-3 mb-2">
-            Assist the development team in fixing vulnerabilities and
-            implementing best coding practices to prevent future security
-            issues.
+          <p className="text-[#CCCCCC] text-lg font-light leading-normal mt-3 mb-2">
+            Ensure your mobile applications remain secure through continuous monitoring and proactive threat detection post-assessment.
           </p>
         </div>
       </div>
-
-
     </div>
   );
 }

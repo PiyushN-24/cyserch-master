@@ -116,7 +116,7 @@ export default function DownloadForm() {
               />
             </div>
             <p className="text-base mb-4">
-              The Cloud Application Penetration Testing Report delves into the intricacies of securing cloud-based environments. This report reveals how Cyserch's penetration testing strategies have identified and mitigated critical vulnerabilities within leading cloud applications. Through real-world scenarios, the report showcases Cyserch's expertise in protecting cloud infrastructures from sophisticated cyber threats. It covers key aspects like security misconfigurations, unauthorized access points, and potential data breaches, emphasizing the importance of thorough testing in maintaining cloud security.
+              The Cloud Application Penetration Testing Report delves into the intricacies of securing cloud-based environments. This report reveals how Cyserchs penetration testing strategies have identified and mitigated critical vulnerabilities within leading cloud applications. Through real-world scenarios, the report showcases Cyserchs expertise in protecting cloud infrastructures from sophisticated cyber threats. It covers key aspects like security misconfigurations, unauthorized access points, and potential data breaches, emphasizing the importance of thorough testing in maintaining cloud security.
             </p>
             <h2 className="text-3xl mb-4">What You Will Learn,</h2>
             <ul className="list-disc pl-6 mb-4">

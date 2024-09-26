@@ -1,6 +1,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import ContactUs from "@/app/components/home/contactus";
 import Card1 from "../../../../public/images/Top 10 Cloud Security and IAM(Identity and Access Management) Companies in UK in 2024_11zon (1).png";
 import AWS from "../../../../public/images/AWS-01.drawio.png";
@@ -29,13 +30,13 @@ export default function CloudSecurityCompaniesPage() {
           />
         </div>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          Hey there! If you’re a tech-savvy teen or just curious about how your favorite apps and online games stay safe, you’ve probably heard a lot about cloud security. As 2024 unfolds, making sure your data is protected in the cloud is more crucial than ever. Let’s dive into the top cloud security and IAM (Identity and Access Management) companies in the UK, with a special spotlight on why Cyserch Security is leading the way.
+          Hey there! If youre a tech-savvy or just curious about how your favorite apps and online games stay safe, youve probably heard a lot about cloud security. As 2024 unfolds, making sure your data is protected in the cloud is more crucial than ever. Lets dive into the top cloud security and IAM (Identity and Access Management) companies in the UK, with a special spotlight on why Cyserch Security is leading the way.
         </p>
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
-          What’s the Deal with Cloud Security?
+          Whats the Deal with Cloud Security?
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          Imagine the cloud as a super high-tech storage space where your data lives. But, just like you wouldn’t leave your house unlocked, you don’t want your digital data to be unprotected. Cloud security is like the digital lock that keeps your information safe from hackers and other threats.
+          Imagine the cloud as a super high-tech storage space where your data lives. But, just like you wouldnt leave your house unlocked, you dont want your digital data to be unprotected. Cloud security is like the digital lock that keeps your information safe from hackers and other threats.
         </p>
         <h2 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
           AWS: The Cloud Security Giant
@@ -47,7 +48,7 @@ export default function CloudSecurityCompaniesPage() {
           AWS Security Features
         </h3>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          <li><strong>Encryption:</strong> Think of it as a secret code that makes your data unreadable to anyone who doesn’t have the key.</li>
+          <li><strong>Encryption:</strong> Think of it as a secret code that makes your data unreadable to anyone who doesnt have the key.</li>
           <li><strong>Monitoring:</strong> AWS keeps an eye on everything happening in the cloud, just like a security camera.</li>
           <li><strong>Compliance:</strong> It makes sure everything follows important rules and regulations to keep your data safe.</li>
         </ul>
@@ -55,7 +56,7 @@ export default function CloudSecurityCompaniesPage() {
           Identity and Access Management (IAM)
         </h3>
         <ul className="list-disc list-inside mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          <li><strong>User and Group Management:</strong> It’s like creating guest lists for a party—only the people you invite can get in.</li>
+          <li><strong>User and Group Management:</strong> Its like creating guest lists for a party—only the people you invite can get in.</li>
           <li><strong>Policies and Permissions:</strong> You can decide who gets to do what with your data.</li>
           <li><strong>Multi-Factor Authentication (MFA):</strong> This is like having a double lock on your door, adding extra security by requiring two forms of identification.</li>
         </ul>
@@ -64,7 +65,7 @@ export default function CloudSecurityCompaniesPage() {
           Real-Life Example:
         </h3>
         <p className="text-white text-sm sm:text-base md:text-lg font-light inline ml-1">
-          A UK-based fintech company used AWS IAM to boost its security, leading to a 30% drop in security breaches. That’s a huge win!
+          A UK-based fintech company used AWS IAM to boost its security, leading to a 30% drop in security breaches. Thats a huge win!
         </p>
       </div>
         <br/>
@@ -100,7 +101,7 @@ export default function CloudSecurityCompaniesPage() {
           Top 10 Cloud Security Companies in the UK (2024)
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light mt-2">
-          Here’s a rundown of the best cloud security companies in the UK that are making waves this year:
+          Heres a rundown of the best cloud security companies in the UK that are making waves this year:
         </p>
         <div className="text-white">
         <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">1. Cyserch Security</h3>
@@ -113,47 +114,57 @@ export default function CloudSecurityCompaniesPage() {
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>Advanced IAM Integration: Cyserch excels in fine-tuning access control and implementing multi-factor authentication (MFA) to ensure that only authorized users can access sensitive data.</li>
             <li>AI-driven Threat Detection: Their AI technology proactively identifies and mitigates potential threats before they escalate into full-blown security incidents.</li>
-            <li>Comprehensive Cloud Security: Cyserch’s security solutions cover all aspects of cloud security, from data encryption to vulnerability management.</li>
+            <li>Comprehensive Cloud Security: Cyserchs security solutions cover all aspects of cloud security, from data encryption to vulnerability management.</li>
             <li>Full-Spectrum Protection: With robust protection for web, API, mobile, and network security, Cyserch provides an all-encompassing shield against cyber threats.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Notable Achievement:</strong> Cyserch Security has been recognized as a leader in the cloud security industry for its innovative approach to IAM and AI-driven threat detection.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="text-white grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
+              <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
               <p className="text-sm font-light mb-2">
                 At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
               </p>
-              <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
+              <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+                Learn more about Cloud Penetration Testing
+              </Link>
             </div>
             <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Web Security</h3>
+              <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
               <p className="text-sm font-light mb-2">
                 Our web security services ensure comprehensive protection for your web applications and platforms.
               </p>
-              <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
+              <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+                Learn more about Web Penetration Testing
+              </Link>
             </div>
             <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">API Security</h3>
+              <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
               <p className="text-sm font-light mb-2">
                 Protect your APIs from potential threats with our advanced API security solutions.
               </p>
-              <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
+              <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+                Learn more about API Penetration Testing
+              </Link>
             </div>
             <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
+              <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
               <p className="text-sm font-light mb-2">
                 Ensure the security of your mobile applications and devices with our tailored mobile security services.
               </p>
-              <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
+              <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+                Learn more about Mobile Penetration Testing
+              </Link>
             </div>
             <div className="bg-gray-800 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Network Security</h3>
+              <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
               <p className="text-sm font-light mb-2">
                 Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
               </p>
-              <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
+              <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+                Learn more about Network Penetration Testing
+              </Link>
             </div>
           </div>
           <br/>
@@ -167,7 +178,7 @@ export default function CloudSecurityCompaniesPage() {
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>AI and Machine Learning: Sophos leverages AI and machine learning algorithms to detect and respond to threats in real-time, ensuring that your systems are always secure.</li>
             <li>Endpoint Protection: Their comprehensive endpoint protection services secure all devices connected to your network, safeguarding against malware, ransomware, and other cyber threats.</li>
-            <li>Synchronized Security: Sophos’ unique synchronized security system allows for automated responses to threats, making their security measures both proactive and reactive.</li>
+            <li>Synchronized Security: Sophos unique synchronized security system allows for automated responses to threats, making their security measures both proactive and reactive.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Notable Achievement:</strong> Sophos has consistently ranked among the top cybersecurity firms globally, with a strong presence in the UK market.
@@ -183,7 +194,7 @@ export default function CloudSecurityCompaniesPage() {
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>Hybrid Cloud Protection: Trend Micro offers advanced protection for hybrid cloud environments, ensuring that both cloud-based and on-premises data are secure.</li>
             <li>Detailed Monitoring: Their solutions include real-time monitoring and alerting, helping businesses maintain compliance and quickly address potential security issues.</li>
-            <li>Intrusion Prevention: Trend Micro’s intrusion prevention systems (IPS) add an extra layer of defense against unauthorized access and data breaches.</li>
+            <li>Intrusion Prevention: Trend Micros intrusion prevention systems (IPS) add an extra layer of defense against unauthorized access and data breaches.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Notable Achievement:</strong> Trend Micro is widely recognized for its leadership in cloud security, with a particular focus on protecting hybrid cloud environments.
@@ -199,7 +210,7 @@ export default function CloudSecurityCompaniesPage() {
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>Threat Prevention Technologies: Check Point utilizes a range of advanced techniques, including sandboxing and anti-ransomware, to prevent threats before they can cause harm.</li>
             <li>Comprehensive Cloud Security: Their cloud security solutions are designed to provide end-to-end protection, covering everything from data encryption to secure cloud access.</li>
-            <li>Multi-Layered Security: Check Point’s multi-layered approach ensures that all potential entry points are secured, reducing the risk of a successful cyber attack.</li>
+            <li>Multi-Layered Security: Check Points multi-layered approach ensures that all potential entry points are secured, reducing the risk of a successful cyber attack.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Notable Achievement:</strong> Check Point has been a consistent innovator in the cybersecurity space, with a strong focus on preventing threats before they materialize.
@@ -214,7 +225,7 @@ export default function CloudSecurityCompaniesPage() {
           </p>
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>AI and Machine Learning: Their AI-driven security solutions are designed to identify and mitigate threats with minimal human intervention, making security more efficient and effective.</li>
-            <li>Automation-focused IAM: Palo Alto Networks’ IAM solutions are highly automated, reducing the complexity of managing identities and access rights.</li>
+            <li>Automation-focused IAM: Palo Alto Networks IAM solutions are highly automated, reducing the complexity of managing identities and access rights.</li>
             <li>Zero Trust Architecture: Palo Alto Networks employs a Zero Trust approach, ensuring that all users and devices are continuously verified before being granted access.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -231,7 +242,7 @@ export default function CloudSecurityCompaniesPage() {
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>AI-driven IAM: Darktrace uses self-learning AI to continuously adapt to new threats, providing a dynamic approach to identity and access management.</li>
             <li>Autonomous Response: Their AI can autonomously respond to threats, neutralizing them before they can cause damage.</li>
-            <li>Threat Visualization: Darktrace’s advanced threat visualization tools allow businesses to see and understand potential threats in real-time.</li>
+            <li>Threat Visualization: Darktraces advanced threat visualization tools allow businesses to see and understand potential threats in real-time.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Notable Achievement:</strong> Darktrace has been recognized for its groundbreaking use of AI in cybersecurity, particularly in its autonomous threat response capabilities.
@@ -239,7 +250,7 @@ export default function CloudSecurityCompaniesPage() {
 
           <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">7. Mimecast</h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-            Mimecast specializes in protecting businesses from email and web-based threats, offering robust solutions for today’s digital world.
+            Mimecast specializes in protecting businesses from email and web-based threats, offering robust solutions for todays digital world.
           </p>
           <p className="mb-2 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Key Features:</strong>
@@ -247,7 +258,7 @@ export default function CloudSecurityCompaniesPage() {
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>Email and Web Security: Mimecast provides advanced protection against email-borne threats such as phishing, malware, and spam, as well as comprehensive web security solutions.</li>
             <li>Advanced Threat Protection: Their advanced threat protection (ATP) services include targeted threat intelligence and real-time monitoring.</li>
-            <li>Data Loss Prevention: Mimecast’s DLP services help prevent sensitive data from being leaked or stolen, adding an extra layer of security for businesses.</li>
+            <li>Data Loss Prevention: Mimecasts DLP services help prevent sensitive data from being leaked or stolen, adding an extra layer of security for businesses.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Notable Achievement:</strong> Mimecast has been a leader in email and web security, with a strong focus on preventing data loss and protecting against advanced threats.
@@ -263,7 +274,7 @@ export default function CloudSecurityCompaniesPage() {
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>Customizable Solutions: BT Security offers a range of customizable cybersecurity solutions, allowing businesses to tailor their security strategies to their specific needs.</li>
             <li>Managed Security Services: Their managed security services (MSS) provide continuous monitoring and management of security operations, ensuring that businesses are always protected.</li>
-            <li>Incident Response: BT Security’s incident response services are designed to quickly address and mitigate security incidents, minimizing damage and downtime.</li>
+            <li>Incident Response: BT Securitys incident response services are designed to quickly address and mitigate security incidents, minimizing damage and downtime.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Notable Achievement:</strong> BT Security has a strong reputation for providing enterprise-level security services, with a focus on customizable and managed solutions.
@@ -271,14 +282,14 @@ export default function CloudSecurityCompaniesPage() {
 
           <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">9. Kaspersky Lab</h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-            Kaspersky Lab is a global leader in cybersecurity, offering a wide range of security solutions to protect against today’s most advanced threats.
+            Kaspersky Lab is a global leader in cybersecurity, offering a wide range of security solutions to protect against todays most advanced threats.
           </p>
           <p className="mb-2 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Key Features:</strong>
           </p>
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
-            <li>Advanced Threat Detection: Kaspersky’s advanced threat detection technologies are designed to identify and neutralize threats before they can cause harm.</li>
-            <li>Endpoint Security: Their endpoint security solutions provide comprehensive protection for all devices connected to a business’s network.</li>
+            <li>Advanced Threat Detection: Kasperskys advanced threat detection technologies are designed to identify and neutralize threats before they can cause harm.</li>
+            <li>Endpoint Security: Their endpoint security solutions provide comprehensive protection for all devices connected to a businesss network.</li>
             <li>Cloud Security: Kaspersky offers robust cloud security solutions, ensuring that data stored in the cloud is always secure and protected from threats.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -295,7 +306,7 @@ export default function CloudSecurityCompaniesPage() {
           <ul className="list-disc mb-4 pl-5 text-white text-sm sm:text-base md:text-lg font-light">
             <li>Integrated Security Solutions: Cisco offers a range of integrated security solutions that work together to provide comprehensive protection for businesses of all sizes.</li>
             <li>Advanced Threat Protection: Their advanced threat protection services include real-time monitoring, threat intelligence, and rapid incident response.</li>
-            <li>Cloud Security: Cisco’s cloud security solutions provide robust protection for data and applications in the cloud, ensuring that businesses can operate securely in the digital age.</li>
+            <li>Cloud Security: Ciscos cloud security solutions provide robust protection for data and applications in the cloud, ensuring that businesses can operate securely in the digital age.</li>
           </ul>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             <strong>Notable Achievement:</strong> Cisco Security is recognized as a global leader in cybersecurity, with a strong focus on integrated security solutions and advanced threat protection.

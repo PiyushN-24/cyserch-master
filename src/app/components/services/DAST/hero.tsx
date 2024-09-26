@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import Heroimg from "../../../../../public/images/DAST.png";
+import Heroimg from "../../../../../public/images/DAST_Thumb.png";
 
 export default function DASTHero() {
   return (
-    <div className="div-boxs">
-      <div className="div-box1 pr-4 fadeLeft">
+    <div className="div-boxs" style={{ display: 'flex', gap: '3px' }}>
+      <div className="div-box1  fadeLeft">
         <h1 className="title">Dynamic Application Security Testing (DAST)</h1>
         <p className="text-[#A39D9D] text-base sm:text-lg md:text-[1.2rem] font-light mt-4">
           Uncover vulnerabilities in your applications by simulating real-world attacks to enhance security and safeguard your business data.
@@ -20,8 +20,8 @@ export default function DASTHero() {
         <Image 
           alt="DAST security" 
           src={Heroimg} 
-          width={700}  // Adjust width as needed
-          height={300} // Adjust height as needed
+          width={500}  // Adjust width as needed
+          height={250} // Adjust height as needed
           className="rounded-lg" />
       </div>
     </div>

@@ -26,7 +26,7 @@ export default function NetworkVulnerabilitiesPage() {
         </div>
         <br/>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        In today's hyper-connected world, network security is the backbone of any organization, regardless of size. From small startups to global enterprises, the risks associated with network vulnerabilities are real and growing. Understanding these vulnerabilities and how to mitigate them is not just a technical necessity; it's a business imperative. In this guide, we'll explore some of the most common network vulnerabilities, share actionable insights on how to address them, and demonstrate how Cyserch.com can be your trusted partner in securing your network.
+        In todays hyper-connected world, network security is the backbone of any organization, regardless of size. From small startups to global enterprises, the risks associated with network vulnerabilities are real and growing. Understanding these vulnerabilities and how to mitigate them is not just a technical necessity; its a business imperative. In this guide, well explore some of the most common network vulnerabilities, share actionable insights on how to address them, and demonstrate how Cyserch.com can be your trusted partner in securing your network.
         </p>
         
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
@@ -51,7 +51,7 @@ export default function NetworkVulnerabilitiesPage() {
           Top Common Vulnerabilities in Networks
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          Let's dive into some of the most common vulnerabilities that can compromise network security and explore how they can be mitigated.
+          Lets dive into some of the most common vulnerabilities that can compromise network security and explore how they can be mitigated.
         </p>
           
             <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
@@ -77,7 +77,7 @@ export default function NetworkVulnerabilitiesPage() {
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             Weak authentication protocols make it easy for attackers to bypass security measures. Weak or outdated authentication methods can expose your network to unauthorized access.
             <br />
-            Real-World Example: In 2019, a vulnerability in the Universal Plug and Play (UPnP) protocol allowed attackers to gain control of devices on a network.  <br />Source: <a href="https://www.kb.cert.org/vuls/id/469716" className="text-blue-400 hover:underline">CERT Coordination Center</a>.
+            Real-World Example: In 2019, a vulnerability in the Universal Plug and Play (UPnP) protocol allowed attackers to gain control of devices on a network.  <br />Source: <a href="https://www.kb.cert.org/vuls/" className="text-blue-400 hover:underline">CERT Coordination Center</a>.
           </p>
           <h4 className="text-white text-lg sm:text-xl md:text-xl font-semibold mb-2">
             Prevention Techniques:
@@ -130,7 +130,7 @@ export default function NetworkVulnerabilitiesPage() {
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             Insufficient network segmentation can allow attackers to move laterally across your network once they gain access. Proper segmentation can limit the spread of attacks.
             <br />
-            Real-World Example: The Target data breach in 2013 was exacerbated by insufficient network segmentation, which allowed attackers to access sensitive data.  <br />Source: <a href="https://www.target.com/cybersecurity-breach-report" className="text-blue-400 hover:underline">Target Data Breach Investigation</a>.
+            Real-World Example: The Target data breach in 2013 was exacerbated by insufficient network segmentation, which allowed attackers to access sensitive data.  <br />Source: <a href="https://coverlink.com/cyber-liability-insurance/target-data-breach/" className="text-blue-400 hover:underline">Target Data Breach Investigation</a>.
           </p>
           <h4 className="text-white text-lg sm:text-xl md:text-xl font-semibold mb-2">
             Prevention Techniques:
@@ -148,7 +148,7 @@ export default function NetworkVulnerabilitiesPage() {
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             Inadequate Intrusion Detection Systems (IDS) can fail to detect or respond to suspicious activities effectively, leaving your network vulnerable to attacks.
             <br />
-            Real-World Example: The Equifax breach in 2017 highlighted the importance of effective IDS, as inadequate monitoring allowed attackers to exploit a vulnerability undetected.  <br />Source: <a href="https://www.equifax.com/data-breach" className="text-blue-400 hover:underline">Equifax Data Breach Report</a>.
+            Real-World Example: The Equifax breach in 2017 highlighted the importance of effective IDS, as inadequate monitoring allowed attackers to exploit a vulnerability undetected.  <br />Source: <a href="https://www.equifaxbreachsettlement.com/" className="text-blue-400 hover:underline">Equifax Data Breach Report</a>.
           </p>
           <h4 className="text-white text-lg sm:text-xl md:text-xl font-semibold mb-2">
             Prevention Techniques:
@@ -164,7 +164,7 @@ export default function NetworkVulnerabilitiesPage() {
             7. DDoS (Distributed Denial of Service) Attacks
           </h3>
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-            DDoS attacks aim to overwhelm network resources, causing service disruptions and downtime. These attacks can cripple an organization’s operations.
+            DDoS attacks aim to overwhelm network resources, causing service disruptions and downtime. These attacks can cripple an organizations operations.
             <br />
             Real-World Example: In 2016, the Dyn DNS DDoS attack caused widespread internet outages by targeting DNS servers.  <br />Source: <a href="https://dyn.com/blog/dns-ddos-attack-analysis" className="text-blue-400 hover:underline">Dyn DDoS Attack Analysis</a>.
           </p>
@@ -184,7 +184,7 @@ export default function NetworkVulnerabilitiesPage() {
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             Man-in-the-Middle (MITM) attacks occur when attackers intercept and potentially alter communications between two parties. This can compromise sensitive data and communications.
             <br />
-            Real-World Example: The attack on the UAE’s telecommunications network in 2019 involved MITM attacks to intercept sensitive communications.  <br />Source: <a href="https://www.cnbc.com/2019/06/12/uae-telecom-network-hacked.html" className="text-blue-400 hover:underline">MITM Attack Case Study</a>.
+            Real-World Example: The attack on the UAEs telecommunications network in 2019 involved MITM attacks to intercept sensitive communications.  
           </p>
           <h4 className="text-white text-lg sm:text-xl md:text-xl font-semibold mb-2">
             Prevention Techniques:
@@ -250,6 +250,7 @@ export default function NetworkVulnerabilitiesPage() {
               {/* <Link href="#">Explore our patch management services</Link> */}
             </p>
           </div>
+
           <div className="bg-gray-800 p-4 rounded">
             <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
               Strong Authentication Methods
@@ -262,6 +263,7 @@ export default function NetworkVulnerabilitiesPage() {
               {/* <Link href="#">Learn more about our authentication solutions</Link> */}
             </p>
           </div>
+
           <div className="bg-gray-800 p-4 rounded">
             <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
               Data Encryption
@@ -274,6 +276,7 @@ export default function NetworkVulnerabilitiesPage() {
               {/* <Link href="#">Discover our data protection services</Link> */}
             </p>
           </div>
+
           <div className="bg-gray-800 p-4 rounded">
             <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
               Secure Communication
@@ -294,31 +297,29 @@ export default function NetworkVulnerabilitiesPage() {
             <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
               <strong>Importance:</strong> Educating employees on mobile security best practices can significantly reduce the risk of security incidents. Training programs can improve awareness and response to threats.
               <br />
-              <strong>Cyserch Solutions:</strong> Our training programs are designed to enhance your team’s security knowledge and practices.
+              <strong>Cyserch Solutions:</strong> Our training programs are designed to enhance your teams security knowledge and practices.
               <br />
               {/* <Link href="#">Learn about our training programs</Link> */}
             </p>
         </div>  
         </div>  
-
-        
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           How Cyserch.com Can Assist
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        At Cyserch.com, we understand that every business has unique security needs. That's why we offer a range of network security solutions tailored to your specific requirements. From patch management and firewall configuration to remote access solutions and advanced intrusion detection systems, we have the expertise to help you secure your network.
+        At Cyserch.com, we understand that every business has unique security needs. Thats why we offer a range of network security solutions tailored to your specific requirements. From patch management and firewall configuration to remote access solutions and advanced intrusion detection systems, we have the expertise to help you secure your network.
           <br/><br/>
-          <strong>Expert Quote: </strong>“In today’s digital landscape, network security isn’t just about technology—it’s about foresight, strategy, and staying one step ahead of the threats,” says, Chief Security Officer at Cyserch.com.
+          <strong>Expert Quote: </strong>“In todays digital landscape, network security isnt just about technology—its about foresight, strategy, and staying one step ahead of the threats,” says, Chief Security Officer at Cyserch.com.
           <br/>
-          <Link href="/services/network-security" className="text-blue-400 hover:underline">Learn more about our network security services here.</Link>
+          <Link href="/services/network-penetration-testing" className="text-blue-400 hover:underline">Learn more about our network security services here.</Link>
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           Conclusion
         </h2>
         <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-          In this blog, we’ve covered some of the most common vulnerabilities in networks and provided practical advice on how to address them. Network security is a critical aspect of safeguarding your business, and staying informed about these vulnerabilities is key to maintaining a secure environment.
+          In this blog, weve covered some of the most common vulnerabilities in networks and provided practical advice on how to address them. Network security is a critical aspect of safeguarding your business, and staying informed about these vulnerabilities is key to maintaining a secure environment.
           <br />
-          <Link href="https://www.cyserch.com/" className="text-blue-400 hover:underline">Contact us today to learn how Cyserch.com can help you enhance your network security.</Link>
+          <Link href="/contactus" className="text-blue-400 hover:underline">Contact us today to learn how Cyserch.com can help you enhance your network security.</Link>
         </p>
         <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
           FAQs

@@ -107,7 +107,7 @@ export default function DownloadForm() {
               />
             </div>
             <p className="text-base mb-4">
-              The Static Application Security Testing (SAST) Report dives deep into the world of source code security, revealing how Cyserch’s advanced testing methods identify and mitigate vulnerabilities during the software development lifecycle. This report highlights Cyserch's expertise in enhancing software security through early detection of flaws, ensuring code robustness, and protecting applications from potential exploits. With real-world examples and detailed analysis, the report underscores the importance of integrating SAST into the development process to minimize risks and ensure compliance with security standards.
+              The Static Application Security Testing (SAST) Report dives deep into the world of source code security, revealing how Cyserchs advanced testing methods identify and mitigate vulnerabilities during the software development lifecycle. This report highlights Cyserchs expertise in enhancing software security through early detection of flaws, ensuring code robustness, and protecting applications from potential exploits. With real-world examples and detailed analysis, the report underscores the importance of integrating SAST into the development process to minimize risks and ensure compliance with security standards.
             </p>
             <h2 className="text-3xl mb-4">What You Will Learn,</h2>
             <ul className="list-disc pl-6 mb-4">

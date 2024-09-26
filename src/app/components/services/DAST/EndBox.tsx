@@ -16,7 +16,7 @@ export default function DASTSection() {
         </div>
         <div>
           <Link href="/contactus">
-            <button className="btn-2">Learn More</button>
+            <button className="btn-2">Schedule Now</button>
           </Link>
         </div>
       </div>

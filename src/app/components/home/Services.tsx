@@ -19,7 +19,7 @@ export default function Services() {
         <div className="services-card">
           <Image width={73} height={73} src={CloudSecurity} alt="Protection" />
           <h3 className="text-white text-[2.18rem] font-semibold mt-3">
-            Cloud Security
+            Cloud Penetation Testing
           </h3>
           <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
             Defend your cloud environment and data with our extensive cloud
@@ -29,14 +29,14 @@ export default function Services() {
             cloud infrastructure.
           </p>
           <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
-            <Link href="/services/cloud-security">READ MORE {"->"}</Link>
+            <Link href="/services/cloud-penetration-testing">READ MORE {"->"}</Link>
           </span>
         </div>
 
         <div className="services-card">
           <Image width={73} height={73} src={WebSecurity} alt="Protection" />
           <h3 className="text-white text-[2.18rem] font-semibold mt-3">
-            Web Security
+            Web Penetation Testing
           </h3>
           <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
             Protect your websites and web applications from cyber threats using
@@ -46,7 +46,62 @@ export default function Services() {
             are safe and sound.
           </p>
           <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
-            <Link href="/services/web-security">READ MORE {"->"}</Link>
+            <Link href="/services/web-penetration-testing">READ MORE {"->"}</Link>
+          </span>
+        </div>
+
+        <div className="services-card">
+          <Image
+            width={73}
+            height={73}
+            src={NetworkSecurity}
+            alt="Protection"
+          />
+          <h3 className="text-white text-[2.18rem] font-semibold mt-3">
+            Network Penetation Testing
+          </h3>
+          <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
+            Defend your organization’s digital infrastructure with our thorough
+            network security services. Featuring advanced firewall setups,
+            intrusion detection systems, and continuous network monitoring, we
+            keep your network secure from unauthorized access and harmful
+            attacks.
+          </p>
+          <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
+            <Link href="/services/network-penetration-testing">READ MORE {"->"}</Link>
+          </span>
+        </div>
+
+        <div className="services-card">
+          <Image width={73} height={73} src={APISecurity} alt="Protection" />
+          <h3 className="text-white text-[2.18rem] font-semibold mt-3">
+            API Penetation Testing
+          </h3>
+          <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
+            Ensure the integrity and safety of your APIs with our targeted API
+            security solutions. We offer comprehensive API vulnerability
+            assessments, robust authentication and authorization processes, and
+            real-time threat intelligence to prevent API exploitation.
+          </p>
+          <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
+            <Link href="/services/api-penetration-testing">READ MORE {"->"}</Link>
+          </span>
+        </div>
+
+        <div className="services-card">
+          <Image width={73} height={73} src={MobileSecurity} alt="Protection" />
+          <h3 className="text-white text-[2.18rem] font-semibold mt-3">
+            Mobile Penetation Testing
+          </h3>
+          <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
+            Secure your mobile applications and devices against cyber threats
+            with our all-encompassing mobile security strategies. From secure
+            development practices for mobile apps and device management
+            to threat detection and response, we safeguard your mobile
+            environment against malware.
+          </p>
+          <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
+            <Link href="/services/mobile-penetration-testing">READ MORE {"->"}</Link>
           </span>
         </div>
 
@@ -66,60 +121,7 @@ export default function Services() {
           </span>
         </div>
 
-        <div className="services-card">
-          <Image width={73} height={73} src={APISecurity} alt="Protection" />
-          <h3 className="text-white text-[2.18rem] font-semibold mt-3">
-            API Security
-          </h3>
-          <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
-            Ensure the integrity and safety of your APIs with our targeted API
-            security solutions. We offer comprehensive API vulnerability
-            assessments, robust authentication and authorization processes, and
-            real-time threat intelligence to prevent API exploitation.
-          </p>
-          <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
-            <Link href="/services/api-security">READ MORE {"->"}</Link>
-          </span>
-        </div>
-
-        <div className="services-card">
-          <Image width={73} height={73} src={MobileSecurity} alt="Protection" />
-          <h3 className="text-white text-[2.18rem] font-semibold mt-3">
-            Mobile Security
-          </h3>
-          <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
-            Secure your mobile applications and devices against cyber threats
-            with our all-encompassing mobile security strategies. From secure
-            development practices for mobile apps and mobile device management
-            to threat detection and response, we safeguard your mobile
-            environment against malware and breaches.
-          </p>
-          <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
-            <Link href="/services/mobile-security">READ MORE {"->"}</Link>
-          </span>
-        </div>
-
-        <div className="services-card">
-          <Image
-            width={73}
-            height={73}
-            src={NetworkSecurity}
-            alt="Protection"
-          />
-          <h3 className="text-white text-[2.18rem] font-semibold mt-3">
-            Network Security
-          </h3>
-          <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
-            Defend your organization’s digital infrastructure with our thorough
-            network security services. Featuring advanced firewall setups,
-            intrusion detection systems, and continuous network monitoring, we
-            keep your network secure from unauthorized access and harmful
-            attacks.
-          </p>
-          <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
-            <Link href="/services/network-security">READ MORE {"->"}</Link>
-          </span>
-        </div>
+        
       </div>
     </div>
   );

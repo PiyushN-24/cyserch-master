@@ -100,6 +100,7 @@ export default function DownloadForm() {
           Case Studies on Cyberattack Prevention
         </p>
       </div>
+
       <div className="w-full px-4 py-8 rounded-lg shadow-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="p-6 rounded-lg text-white order-1 md:order-1">
@@ -115,7 +116,7 @@ export default function DownloadForm() {
               />
             </div>
             <p className="text-base mb-4">
-                Discover how <strong className="font-bold">Cyserch </strong>protects businesses from modern cyber threats. Our latest case study explores the growing threat landscape of cyberattacks, including cybercrime, hacktivism, cyber espionage, and cyber warfare. Learn how Cyserch’s cutting-edge solutions in cloud, web, API, mobile, and network security effectively address these challenges. Gain insights into our tailored strategies, expert cybersecurity services, and how our proactive approach helps businesses stay secure.
+                Discover how <strong className="font-bold">Cyserch</strong> protects businesses from a wide range of modern cyber threats. Our latest case study delves into the expanding and evolving threat landscape, which includes cybercrime, hacktivism, cyber espionage, and cyber warfare. Learn how Cyserch’s state-of-the-art solutions in cloud, web, API, mobile, and network security are expertly designed to effectively address these complex challenges. Gain valuable insights into our customized strategies, advanced cybersecurity services, and how our proactive approach ensures businesses remain secure and resilient against emerging threats.
             </p>
             <h2 className="text-3xl mb-4"> What You Will Learn,</h2>         
             <ul className="list-disc pl-6 mb-4">

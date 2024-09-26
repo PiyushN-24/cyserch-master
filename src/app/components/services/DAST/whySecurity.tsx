@@ -1,7 +1,4 @@
-import Image from "next/image";
-import Monitoring from "../../../../../public/icons/Free access to the PTaaS platform.svg";
-import Scanning from "../../../../../public/icons/application-security.svg";
-import Reporting from "../../../../../public/icons/applications.svg";
+import { FaEye, FaSearch, FaClipboardList } from "react-icons/fa";
 
 export default function DASTServices() {
   return (
@@ -11,9 +8,10 @@ export default function DASTServices() {
       </h2>
 
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 p-4 sm:p-[3rem]">
+        {/* Continuous Monitoring */}
         <div className="flex flex-col items-center justify-start w-full sm:w-1/3 h-[25rem] sm:h-[22rem] rounded-lg bg-[#011c3c] p-4">
           <div className="flex gap-3 items-center">
-            <Image src={Monitoring} alt="DAST Monitoring" className="w-12 h-12" />
+            <FaEye className="text-teal-500 w-12 h-12" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Continuous Monitoring
@@ -25,9 +23,10 @@ export default function DASTServices() {
           </p>
         </div>
 
+        {/* Automated Scanning */}
         <div className="flex flex-col items-center justify-start w-full sm:w-1/3 h-[25rem] sm:h-[22rem] rounded-lg bg-[#011c3c] p-4">
           <div className="flex gap-3 items-center">
-            <Image src={Scanning} alt="DAST Scanning" className="w-12 h-12" />
+            <FaSearch className="text-teal-500 w-12 h-12" />
           </div>
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">
             Automated Scanning
@@ -39,9 +38,10 @@ export default function DASTServices() {
           </p>
         </div>
 
+        {/* Detailed Reporting */}
         <div className="flex flex-col items-center justify-start w-full sm:w-1/3 h-[25rem] sm:h-[22rem] rounded-lg bg-[#011c3c] p-4">
           <div className="flex gap-3 items-center">
-            <Image src={Reporting} alt="DAST Reporting" className="w-12 h-12" />
+            <FaClipboardList className="text-teal-500 w-12 h-12" />
           </div>
 
           <h3 className="text-white text-[1.1rem] font-semibold mt-3">

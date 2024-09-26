@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Card1 from "../../../../public/images/blog1.webp";
 import ContactUs from "@/app/components/home/contactus";
+import CEH_Image from "../../../../public/images/Mastering Privileged Access Best Practices and Strategies for IT Professionals and Students_11zon.png"
 
 
 
@@ -20,16 +20,16 @@ export default function CoursePage() {
         Mastering Privileged Access: Best Practices and Strategies for IT
         Professionals and Students
       </h1>
-      <div className="mb-4 w-full">
-        <Image
-          src={Card1}
-          alt="Random Image"
-          className="rounded-lg w-full h-64 sm:h-80 md:h-96 lg:h-128 object-cover"
-        />
-        {/* <p className="mb-4 text-[#A39D9D] text-center text-sm sm:text-base md:text-lg font-light mt-2">
-          image name
-        </p> */}
-      </div>
+      <div className="flex justify-center mb-4 w-full">
+          <Image
+            src={CEH_Image}
+            width={650}
+            height={450}
+            alt="CEH_Image"
+            className="rounded-lg object-cover"
+          />
+          </div>
+    
       <h3 className="text-white text-2xl sm:text-3xl md:text-3xl font-bold mb-4">
         Introduction
       </h3>

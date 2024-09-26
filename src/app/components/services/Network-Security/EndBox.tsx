@@ -5,11 +5,11 @@ export default function clientsCount() {
     <div className="text-center sm:mt-[0rem] md:mt[0rem]">
       <div className="Industrys-boxs bg-[#011C3C] gap-20 flex p-7 px-[8rem] rounded-xl items-center justify-center mt-10 fadeInUp">
         <div>
-          <h1 className="text-white text-[2rem] font-semibold fadeInUp">
+          <h2 className="text-white text-[2rem] font-semibold fadeInUp">
             Allow our
             <span className="text-[#19FFDB]"> proficiency </span>to strengthen
             your network security measures
-          </h1>
+          </h2>
         </div>
         <div>
           <Link href="/contactus">

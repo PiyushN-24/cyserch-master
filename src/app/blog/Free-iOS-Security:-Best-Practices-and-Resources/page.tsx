@@ -26,15 +26,15 @@ export default function FreeIOSSecurityPage() {
           />
       </div>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        Securing your iOS device doesnt have to be an expensive endeavor. In fact, there are numerous free tools and resources available that can significantly bolster your device's security. In this blog, Ill walk you through the essentials of iOS security, highlight some of the best free tools and resources, and share best practices to keep your device secure. By the end of this post, you'll have a comprehensive understanding of how to protect your iPhone or iPad without breaking the bank and why Cyserch is your go-to partner for all things cybersecurity.
+        Securing your iOS device doesnt have to be an expensive endeavor. In fact, there are numerous free tools and resources available that can significantly bolster your devices security. In this blog, Ill walk you through the essentials of iOS security, highlight some of the best free tools and resources, and share best practices to keep your device secure. By the end of this post, youll have a comprehensive understanding of how to protect your iPhone or iPad without breaking the bank and why Cyserch is your go-to partner for all things cybersecurity.
       </p>
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
         Understanding iOS Security
       </h2>
       <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
-        When we talk about iOS security, it's important to first recognize the robust security features that Apple has built into its devices. From the secure enclave to advanced encryption, Apple has consistently prioritized user privacy and data security. But did you know that despite these strong in-built features, there are still vulnerabilities that could expose your device to risk?
+        When we talk about iOS security, its important to first recognize the robust security features that Apple has built into its devices. From the secure enclave to advanced encryption, Apple has consistently prioritized user privacy and data security. But did you know that despite these strong in-built features, there are still vulnerabilities that could expose your device to risk?
         <br/><br/>
-        Apple's security measures are only as strong as the weakest link. According to a 2024 report by Cyserch, nearly 40% of iOS users have experienced some form of security breach due to outdated software or poor security practices. This is why its critical to stay informed and utilize additional tools and resources to protect your device.
+        Apples security measures are only as strong as the weakest link. According to a 2024 report by Cyserch, nearly 40% of iOS users have experienced some form of security breach due to outdated software or poor security practices. This is why its critical to stay informed and utilize additional tools and resources to protect your device.
       </p>
       <div className="flex flex-col md:flex-row items-center md:items-start mb-8">
         <div className="md:w-1/2 md:pr-8">
@@ -44,7 +44,7 @@ export default function FreeIOSSecurityPage() {
           <p className="mb-4 text-white text-sm sm:text-base md:text-lg font-light">
             Even with Apples stringent security protocols, iOS devices are not immune to threats. Common threats include phishing attacks, malware, and man-in-the-middle attacks. For instance, the 2023 Mobile Threat Report highlighted that phishing attacks targeting iOS users have increased by 25% over the previous year. This underscores the importance of being proactive in securing your device.
             <br/><br/>
-            In my experience, the most common threat is phishing—where attackers pose as legitimate entities to steal your personal information. I've encountered countless iOS users who were unaware of how easy it is to fall victim to these types of attacks. Thats why staying vigilant and using the right tools is essential.
+            In my experience, the most common threat is phishing—where attackers pose as legitimate entities to steal your personal information. Ive encountered countless iOS users who were unaware of how easy it is to fall victim to these types of attacks. Thats why staying vigilant and using the right tools is essential.
           </p>
         </div>
         <div className="md:w-1/2 flex justify-center">
@@ -73,7 +73,7 @@ export default function FreeIOSSecurityPage() {
         <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
           <strong>Lookout Mobile Security:</strong><br/> 
           This app offers a robust set of features including identity theft protection and system security analysis. The app is free, though premium features are available for those who want additional coverage. You can learn more about Lookout Mobile Security 
-          <Link href="https://www.lookout.com/products/personal/free">
+          <Link href="https://www.lookout.com/tags/mobile-security">
             <span className="text-cyan-400 underline"> here.</span>
           </Link>
         </p>  
@@ -83,7 +83,7 @@ export default function FreeIOSSecurityPage() {
         <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
           <strong>Avira Mobile Security:</strong><br/> 
           Another great option that includes a VPN, anti-theft tools, and a spam call blocker. The best part? Its completely free for basic protection. Check out 
-          <Link href="https://www.avira.com/en/avira-mobile-security">
+          <Link href="https://www.avira.com/en/free-antivirus-android?srsltid=AfmBOorZxhvSmWhybWmcp1JZntaOdWTGqnI97Zz4cKq3JOXedDGtzwwg">
             <span className="text-cyan-400 underline"> Avira Mobile Security.</span>
           </Link>
         </p>  
@@ -114,7 +114,7 @@ export default function FreeIOSSecurityPage() {
         <div className="bg-gray-800 p-4 rounded-md">
           <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
             <strong>Have I Been Pwned?:</strong><br/>
-            This tool lets you check if your email or phone number has been involved in a data breach. It's an excellent way to stay informed about potential risks to your personal information. Check your data here: 
+            This tool lets you check if your email or phone number has been involved in a data breach. Its an excellent way to stay informed about potential risks to your personal information. Check your data here: 
             <Link href="https://haveibeenpwned.com/">
               <span className="text-cyan-400 underline"> Have I Been Pwned?</span>
             </Link>.
@@ -154,7 +154,7 @@ export default function FreeIOSSecurityPage() {
       </div>
       <br/>
       <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
-        Educating yourself on these topics is crucial, but it's also important to have a reliable partner to guide you. That's where Cyserch comes in. We offer a range of services that can help you implement the best practices you learn from these resources.
+        Educating yourself on these topics is crucial, but its also important to have a reliable partner to guide you. Thats where Cyserch comes in. We offer a range of services that can help you implement the best practices you learn from these resources.
       </p>
 
       <h2 className="text-white text-2xl sm:text-2xl md:text-3xl font-bold mb-4">
@@ -168,12 +168,6 @@ export default function FreeIOSSecurityPage() {
       </p>
       <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
         Ive seen many cases where users fail to update their devices, leaving them vulnerable to attacks. For example, a 2023 study found that 30% of iOS users were running outdated software, which made them easy targets for hackers. Dont be part of this statistic—always ensure your device is running the latest version of iOS.
-      </p>
-      <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
-        For more detailed guidance on updating your software, visit our 
-        <Link href="https://www.cyserch.com/blog/software-updates">
-          <span className="text-cyan-400 underline"> Cyserch blog on software updates.</span>
-        </Link>
       </p>
       <h3 className="text-white text-xl sm:text-2xl md:text-2xl font-semibold mb-2">
         2. Secure Password Management
@@ -252,13 +246,13 @@ export default function FreeIOSSecurityPage() {
         Conclusion
       </h3>
       <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
-        Securing your iOS device doesnt have to be expensive or complicated. By utilizing the free tools and resources available, staying educated on best practices, and avoiding common pitfalls, you can significantly enhance your device's security. 
+        Securing your iOS device doesnt have to be expensive or complicated. By utilizing the free tools and resources available, staying educated on best practices, and avoiding common pitfalls, you can significantly enhance your devices security. 
       </p>
       <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
         However, for those who want to ensure that their security is airtight, partnering with a professional service like Cyserch is the way to go. We offer a range of services tailored to meet the unique needs of iOS users, from vulnerability assessments to comprehensive security audits.
       </p>
       <p className="text-white text-sm sm:text-base md:text-lg font-light mb-4">
-        Whether you're an individual looking to secure your personal device or a business needing enterprise-level protection, Cyserch has the expertise and tools to keep you safe.
+        Whether youre an individual looking to secure your personal device or a business needing enterprise-level protection, Cyserch has the expertise and tools to keep you safe.
       </p>
       <h3 className="text-white text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
         FAQ

@@ -69,48 +69,53 @@ export default function CybersecurityCompaniesPage() {
           <p className="text-base mb-2"><strong>Notable Clients:</strong> Leading financial institutions, major tech companies, and government agencies.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Innovative Technology: Utilizes the latest advancements in cybersecurity. Comprehensive Coverage: Offers end-to-end solutions tailored to various business needs.</p>
           <h4 className="text-md sm:text-lg font-semibold mb-2">Notable services offered by Cyserch are, </h4>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="bg-gray-700 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Cloud Security</h3>
-              <p className="text-sm font-light mb-2">
-                At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
-              </p>
-              <a href="https://www.cyserch.com/services/cloud-security" className="text-blue-500 hover:underline">Learn more</a>
-            </div>
-            <div className="bg-gray-700 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Web Security</h3>
-              <p className="text-sm font-light mb-2">
-                Our web security services ensure comprehensive protection for your web applications and platforms.
-              </p>
-              <a href="https://www.cyserch.com/services/web-security" className="text-blue-500 hover:underline">Learn more</a>
-            </div>
-            <div className="bg-gray-700 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">API Security</h3>
-              <p className="text-sm font-light mb-2">
-                Protect your APIs from potential threats with our advanced API security solutions.
-              </p>
-              <a href="https://www.cyserch.com/services/api-security" className="text-blue-500 hover:underline">Learn more</a>
-            </div>
-            <div className="bg-gray-700 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Mobile Security</h3>
-              <p className="text-sm font-light mb-2">
-                Ensure the security of your mobile applications and devices with our tailored mobile security services.
-              </p>
-              <a href="https://www.cyserch.com/services/mobile-security" className="text-blue-500 hover:underline">Learn more</a>
-            </div>
-            <div className="bg-gray-700 rounded-lg p-4">
-              <h3 className="text-xl font-semibold mb-2">Network Security</h3>
-              <p className="text-sm font-light mb-2">
-                Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
-              </p>
-              <a href="https://www.cyserch.com/services/network-security" className="text-blue-500 hover:underline">Learn more</a>
-            </div>
+          <div className="text-white grid grid-cols-1 sm:grid-cols-5 gap-6">
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Cloud Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              At Cyserch Security, we provide robust cloud security solutions to protect your digital assets in the cloud environment.
+            </p>
+            <Link href="https://www.cyserch.com/services/cloud-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Cloud Penetration Testing
+            </Link>
           </div>
-          <br/>
-          <Link href="https://www.cyserch.com" passHref>
-            <span className="text-blue-400 hover:underline">Learn more about Cyserch</span>
-          </Link>
-          <br/>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Web Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Our web security services ensure comprehensive protection for your web applications and platforms.
+            </p>
+            <Link href="https://www.cyserch.com/services/web-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Web Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">API Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Protect your APIs from potential threats with our advanced API security solutions.
+            </p>
+            <Link href="https://www.cyserch.com/services/api-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about API Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Mobile Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Ensure the security of your mobile applications and devices with our tailored mobile security services.
+            </p>
+            <Link href="https://www.cyserch.com/services/mobile-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Mobile Penetration Testing
+            </Link>
+          </div>
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-xl font-semibold mb-2">Network Penetration Testing</h3>
+            <p className="text-sm font-light mb-2">
+              Secure your network infrastructure against cyber threats with our comprehensive network security solutions.
+            </p>
+            <Link href="https://www.cyserch.com/services/network-penetration-testing" className="text-blue-500 hover:underline">
+              Learn more about Network Penetration Testing
+            </Link>
+          </div>
+        </div>
         </div>
 
         <div className="bg-gray-800 p-4 rounded-lg shadow-md">
@@ -125,9 +130,8 @@ export default function CybersecurityCompaniesPage() {
             <li>Incident Response: Rapid response to mitigate damage from security breaches.</li>
             <li>Managed Security Services: Continuous monitoring and protection.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Major banks, healthcare providers.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Major banks, healthcare providers.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Comprehensive Threat Intelligence: Excellent at providing actionable insights. Effective Incident Response: Proven track record in managing security incidents.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Premium Pricing: May be cost-prohibitive for smaller businesses.</p>
         </div>
 
         {/* Company 3: TechSecure Canada */}
@@ -143,9 +147,8 @@ export default function CybersecurityCompaniesPage() {
             <li>Network Security: Safeguard your entire network infrastructure.</li>
             <li>Cloud Security: Protect your cloud-based assets.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Technology firms, retail chains.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Technology firms, retail chains.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> High Detection Rates: Known for effective threat detection. User-Friendly Interface: Easy-to-use solutions.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Occasional False Positives: Some users report occasional issues with false alerts.</p>
         </div>
 
         {/* Company 4: SafeNet Solutions */}
@@ -161,9 +164,8 @@ export default function CybersecurityCompaniesPage() {
             <li>Compliance Consulting: Help with meeting regulatory standards.</li>
             <li>Risk Management: Identify and mitigate potential risks.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Government bodies, large enterprises.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Government bodies, large enterprises.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Expert Compliance Consulting: Strong focus on regulatory adherence. Effective Risk Management: Helps businesses understand and manage their security risks.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Limited Managed Services: Primarily focused on consulting rather than ongoing managed services.</p>
         </div>
 
         {/* Company 5: SecureNet Technologies */}
@@ -179,9 +181,8 @@ export default function CybersecurityCompaniesPage() {
             <li>Vulnerability Management: Identify and address security weaknesses.</li>
             <li>Security Automation: Streamline security processes through automation.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Healthcare, financial services.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Healthcare, financial services.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Strong Automation: Effective in automating security tasks. Expert Vulnerability Management: Proactive in identifying and mitigating vulnerabilities.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Integration Challenges: May face issues integrating with legacy systems.</p>
         </div>
 
         {/* Company 6: AI Security Innovations */}
@@ -197,9 +198,8 @@ export default function CybersecurityCompaniesPage() {
             <li>Incident Response: Quick action to address security incidents.</li>
             <li>Data Encryption: Protect sensitive data through encryption.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Tech startups, e-commerce platforms.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Tech startups, e-commerce platforms.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Advanced AI Technology: High detection rates and proactive threat management. Innovative Solutions: Leading-edge technology for modern threats.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Higher Initial Setup Costs: Higher upfront investment required.</p>
         </div>
 
         {/* Company 7: Guardian Cybersecurity */}
@@ -215,9 +215,8 @@ export default function CybersecurityCompaniesPage() {
             <li>DDoS Protection: Safeguard against Distributed Denial of Service attacks.</li>
             <li>Security Monitoring: Ongoing monitoring of security events.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Telecom companies, educational institutions.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Telecom companies, educational institutions.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Comprehensive Monitoring: Extensive monitoring services. Proactive Threat Management: Effective in managing and mitigating threats.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Limited Advanced Analytics: May lack in-depth analytical tools.</p>
         </div>
 
         {/* Company 8: NetworkDefend Solutions */}
@@ -233,9 +232,8 @@ export default function CybersecurityCompaniesPage() {
             <li>VPN Solutions: Secure remote access to networks.</li>
             <li>Security Architecture: Design and implement secure network structures.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Manufacturing firms, logistics companies.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Manufacturing firms, logistics companies.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Strong Network Security Focus: Specializes in network protection. Effective VPN Solutions: Ensures secure remote access.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Limited Cloud Security Services: Not as focused on cloud solutions.</p>
         </div>
 
         {/* Company 9: CyberSafe Solutions */}
@@ -251,9 +249,8 @@ export default function CybersecurityCompaniesPage() {
             <li>Cybersecurity Training: Educate employees on security best practices.</li>
             <li>Threat Hunting: Proactively search for potential threats.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Small businesses, mid-sized enterprises.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Small businesses, mid-sized enterprises.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Excellent Customer Support: Known for strong support and training programs. Tailored Solutions: Services are well-suited for mid-sized businesses.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Best Suited for Mid-Sized Businesses: May not scale well for larger enterprises.</p>
         </div>
 
         {/* Company 10: QuantumGuard Cybersecurity */}
@@ -269,9 +266,8 @@ export default function CybersecurityCompaniesPage() {
             <li>Blockchain Security: Specialized solutions for blockchain technologies.</li>
             <li>Security Consulting: Expert advice on improving security measures.</li>
           </ul>
-          <p className="text-base mb-2">Notable Clients: Financial institutions, technology firms.</p>
+          <p className="text-base mb-2"><strong>Notable Clients:</strong> Financial institutions, technology firms.</p>
           <p className="text-base mb-2"><strong>Strengths:</strong> Strong Research Capabilities: Backed by solid research and innovative solutions. Specialized in Blockchain: Expertise in emerging technologies.</p>
-          <p className="text-base mb-2"><strong>Weaknesses:</strong> Higher Costs for Smaller Projects: May be more expensive for small-scale needs.</p>
         </div>
       </div>
       <br/>  
@@ -279,7 +275,7 @@ export default function CybersecurityCompaniesPage() {
           How to Select the Right Cybersecurity Partner ?
         </h2>
         <p className="mb-4 text-base sm:text-lg md:text-xl font-light">
-        Choosing the right cybersecurity partner is essential for protecting your business. Here’s what to consider:
+        Choosing the right cybersecurity partner is essential for protecting your business. Here is what to consider:
           <ul className="list-disc list-inside space-y-2 mt-2">
             <li><strong className="font-bold text-lg">Assess Your Needs:</strong> Identify whether you need threat detection, compliance support, or comprehensive security solutions.</li>
             <li><strong className="font-bold text-lg">Evaluate Expertise and Reputation:</strong> Look for companies with a proven track record and strong industry reputation.</li>
@@ -326,7 +322,7 @@ export default function CybersecurityCompaniesPage() {
           <p>Ans.: Evaluate their track record, client feedback, and case studies.</p>
           <p><strong>Q3. What should be the budget for cybersecurity services?</strong></p>
           <p>Ans.: Cybersecurity budgets vary widely. Typically, budgets range from $300/month for small businesses to $2000/month for larger enterprises.</p>
-          <p><strong>Q4 How important is the company’s customer support?</strong></p>
+          <p><strong>Q4 How important is the companys customer support?</strong></p>
           <p>Ans.: Customer support is crucial for timely assistance and resolution of security issues. Ensure the company offers 24/7 support and proactive monitoring.</p>
           <p><strong>Q5. Can cybersecurity companies help with compliance requirements?</strong></p>
           <p>Ans.: Yes, many cybersecurity companies provide compliance consulting and solutions tailored to meet specific regulatory requirements.</p>
